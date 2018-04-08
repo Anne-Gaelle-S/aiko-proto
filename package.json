@@ -1,0 +1,22 @@
+{
+  "name": "aiko-proto",
+  "version": "1.0.0",
+  "description": "Aiko prototype, bot discord",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krysthalia/Aiko-proto.git"
+  },
+  "author": "Krysthalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krysthalia/Aiko-proto/issues"
+  },
+  "homepage": "https://github.com/Krysthalia/Aiko-proto#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
