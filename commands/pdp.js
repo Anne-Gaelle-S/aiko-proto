@@ -1,7 +1,8 @@
 module.exports = {
     name: 'pdp',
-    usage: '-pdp <user>',
-    description: 'Affiche la photo de profil de l\'utilisateur',
+    aliases: ['icon', 'avatar'],
+    usage: `<user>`,
+    description: 'affiche la photo de profil de l\'utilisateur',
     execute(message, args) {
         if (!message.mentions.users.size) {
 			return message.channel.send(`Ta photo de profil: ${message.author.displayAvatarURL}`);
