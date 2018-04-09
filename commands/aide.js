@@ -1,7 +1,7 @@
 
 module.exports = {
     name: 'aide',
-    aliases: ['help', 'infos', 'commands', 'commandes'],
+    aliases: ['help', 'infos', 'commands', 'commandes', 'command', 'info'],
     description: 'liste toutes les commandes',
     usage: '[nom de la commande]',
     cooldown: 2,
