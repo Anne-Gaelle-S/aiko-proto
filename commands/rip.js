@@ -3,7 +3,7 @@ module.exports = {
     name: 'rip',
     aliases: ['rep'],
     usage: `<user>`,
-    description: 'rip',
+    description: 'rip...',
     execute(message, args) {
         let alea = parseInt(Math.random() * 3); 
         let rare = parseInt(Math.random() * 100);
