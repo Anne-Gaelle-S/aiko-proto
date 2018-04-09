@@ -1,6 +1,6 @@
 const fs = require('fs');
 const Discord = require('discord.js'); // require the discord.js module
-const { prefix, token } = require('./config.json');
+//const { prefix, token } = require('./config.json');
 
 const client = new Discord.Client(); // create a new Discord client
 client.commands = new Discord.Collection();
