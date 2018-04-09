@@ -12,7 +12,11 @@ module.exports = {
         messageRip.push(`Rest in peace... `);
        
         if (!message.mentions.users.size) {
-            return message.channel.send(messageRip[alea]+` 🙏 💐 <:cercueil:432934894071709709>`);
+            let msg = `${messageRip[alea]} 🙏 💐 <:cercueil:432934894071709709>`;
+            if(rare == 0){
+                msg+=` ............. ou pas 🖕`;
+            } 
+            return message.channel.send(msg);
         }
 
         const avatarList = message.mentions.users.map(user => {
