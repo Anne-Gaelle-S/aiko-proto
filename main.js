@@ -19,7 +19,8 @@ const cooldowns = new Discord.Collection();
 // - finishes logging in
 // - reconnects after disconnecting
 client.on('ready', () => { 
-    console.log('Ready!');
+    console.log('Prête!');
+    client.user.setActivity(`se créer. (-aide)`);
 });
 
 client.on('message', message => {
