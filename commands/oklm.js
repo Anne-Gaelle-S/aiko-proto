@@ -1,4 +1,3 @@
-const { prefix } = require('../config.json');
 module.exports = {
     name: 'oklm',
     aliases: ['aucalme', 'tranquille', 'pepere', 'sanspression'],

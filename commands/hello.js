@@ -1,4 +1,3 @@
-const { prefix } = require('../config.json');
 module.exports = {
     name: 'hello',
     aliases: ['coucou', 'salut', 'plop', 'hoy', 'lu', 'hi', 'bonjour', 'hey', 'plop', 

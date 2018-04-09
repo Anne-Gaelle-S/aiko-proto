@@ -1,4 +1,3 @@
-
 module.exports = {
     name: 'aide',
     aliases: ['help', 'infos', 'commands', 'commandes', 'command', 'info'],
