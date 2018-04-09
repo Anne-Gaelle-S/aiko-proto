@@ -8,7 +8,7 @@ module.exports = {
         let rare = parseInt(Math.random() * 100);
 
         let messageRip = [`Requiescat in pace... `];
-        messageRip.push(`Reste en paix... `);
+        messageRip.push(`Repose en paix... `);
         messageRip.push(`Rest in peace... `);
        
         if (!message.mentions.users.size) {
