@@ -4,6 +4,10 @@ module.exports = {
     usage: ``,
     description: 'c\'était trop simple...',
     execute(message, args) {
-		message.channel.send('/img/ez.gif');
+
+		message.channel.send('Simple.', {
+            file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif"
+        });
+
     },
 };
