@@ -4,7 +4,7 @@ module.exports = {
     usage: ``,
     description: `merci l\'Internet.`,
     execute(message, args) {
-      let alea = parseInt(Math.random() * 5);
+      let alea = parseInt(Math.random() * 21);
       
     	let possibilites = [['Level up!',`https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/0.gif`]];
     	possibilites.push(['C\'est donc à ça que les jambes servent ... ', 
