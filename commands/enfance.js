@@ -2,7 +2,7 @@ module.exports = {
     name: 'enfance',
     aliases: ['wtfg', 'wtfgif', 'wtf'],
     usage: ``,
-    description: 'merci l'Internet.',
+    description: `merci l\'Internet.`,
     execute(message, args) {
       let alea = parseInt(Math.random() * 5);
       
