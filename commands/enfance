@@ -1,0 +1,20 @@
+module.exports = {
+    name: 'enfance',
+    aliases: ['wtfg', 'wtfgif', 'wtf'],
+    usage: ``,
+    description: 'merci l'Internet.',
+    execute(message, args) {
+      let alea = parseInt(Math.random() * 5);
+      
+    	let possibilites = [`https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/0.gif`];
+    	possibilites.push('https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/1.gif');      
+    	possibilites.push('https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/2.gif');
+    	possibilites.push('https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/3.gif');
+    	possibilites.push('https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/4.gif');
+
+      message.channel.send('', {
+              file : possibilites[alea]
+          });
+
+      },
+};
