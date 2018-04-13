@@ -104,6 +104,11 @@ module.exports = {
                     message.channel.send(res[0], {
                         file : res[1]
                       });
+              } else if ( p == 'AIKO-PROTO') {
+                    let res = possibilites[5];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
               } else {
                  let alea = parseInt(Math.random() * 8);
                  let res = possibilites[alea];
