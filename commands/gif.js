@@ -19,7 +19,7 @@ module.exports = {
     	possibilites.push(['C\'était trop simple!',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
 
-      message.channel.send(args.size==0);  
+      message.channel.send(args.size);  
         message.channel.send("ok");
         
       if (args.size<1) {
