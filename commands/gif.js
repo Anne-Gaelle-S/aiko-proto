@@ -15,7 +15,7 @@ module.exports = {
     	possibilites.push(['Quand il est pas en cours il code. Il code souvent.',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/elio.gif']);
     	possibilites.push(['o/',
-                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ohayo.gif']);
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-ohayo.gif']);
     	possibilites.push(['C\'était trop simple!',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
 
