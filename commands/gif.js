@@ -30,7 +30,6 @@ module.exports = {
           let a = args[0].toUpperCase();
           if( a == 'LEA' || a == 'KAINNALY') {
                    let alea = parseInt(Math.random() * 2);
-                   message.channel.send(alea);
                    let res = possibilites[alea];
                    message.channel.send(res[0], {
                     file : res[1]
