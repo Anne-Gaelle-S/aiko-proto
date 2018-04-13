@@ -1,6 +1,6 @@
 module.exports = {
     name: 'gif',
-    usage: `<lea> | <nicolas> | <gael> | <elio> | <ohayo> | <ez>`,
+    usage: `<lea> | <nicolas> | <gael> | <elio> | <ohayo> | <ez> | <ag>`,
     description: `Affiche le gif choisis en paramètre, ou un aléatoirement.`,
     execute(message, args) {
       
@@ -18,12 +18,14 @@ module.exports = {
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-ohayo.gif']);
     	possibilites.push(['C\'était trop simple!',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
+    	possibilites.push(['Elle a souvent de idées à la con...',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/AG.gif']);
 
-      message.channel.send(args.size);  
+      message.channel.send(args.length);  
         message.channel.send("ok");
         
       if (args.size<1) {
-         let alea = parseInt(Math.random() * 7);
+         let alea = parseInt(Math.random() * 8);
          let res = possibilites[alea];
          message.channel.send(res[0], {
             file : res[1]
@@ -61,8 +63,13 @@ module.exports = {
                 message.channel.send(res[0], {
                     file : res[1]
                   });
+          } else if ( a == 'AG' || a == 'KRYSTHALIA' || a == 'ANNE-GAELLE') {
+                let res = possibilites[7];
+                message.channel.send(res[0], {
+                    file : res[1]
+                  });
           } else {
-             let alea = parseInt(Math.random() * 7);
+             let alea = parseInt(Math.random() * 8);
              let res = possibilites[alea];
              message.channel.send(res[0], {
                 file : res[1]
