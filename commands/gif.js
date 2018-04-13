@@ -21,10 +21,7 @@ module.exports = {
     	possibilites.push(['Elle a souvent de idées à la con...',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/AG.gif']);
 
-      message.channel.send(args.length);  
-        message.channel.send("ok");
-        
-      if (args.size<1) {
+      if (args.length==0) {
          let alea = parseInt(Math.random() * 8);
          let res = possibilites[alea];
          message.channel.send(res[0], {
