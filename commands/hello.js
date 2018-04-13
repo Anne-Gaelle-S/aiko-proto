@@ -1,7 +1,7 @@
 module.exports = {
     name: 'hello',
     aliases: ['coucou', 'salut', 'plop', 'hoy', 'lu', 'hi', 'bonjour', 'hey', 'plop', 
-    'hola', 'konnichiwa', 'ohayo', 'halo', 'gutentag'],
+    'hola', 'halo', 'gutentag'],
     usage: ' ',
     description: 'hello!',
     execute(message, args) {
