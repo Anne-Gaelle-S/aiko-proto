@@ -60,6 +60,12 @@ module.exports = {
                 message.channel.send(res[0], {
                     file : res[1]
                   });
+          } else {
+             let alea = parseInt(Math.random() * 7);
+             let res = possibilites[alea];
+             message.channel.send(res[0], {
+                file : res[1]
+              });
           }
       }
 
