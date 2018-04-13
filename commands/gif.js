@@ -21,58 +21,98 @@ module.exports = {
     	possibilites.push(['Elle a souvent des idées à la con...',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/AG.gif']);
 
-      if (args.length==0) {
-         let alea = parseInt(Math.random() * 8);
-         let res = possibilites[alea];
-         message.channel.send(res[0], {
-            file : res[1]
-          });
-      } else {
-          let a = args[0].toUpperCase();
-          if( a == 'LEA' || a == 'KAINNALY') {
-                   let alea = parseInt(Math.random() * 2);
-                   let res = possibilites[alea];
-                   message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          } else if ( a == 'NICO' || a == 'NICOLAS' || a == 'KORNAKH') {
-                let res = possibilites[2];
-                message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          } else if ( a == 'GAEL' || a == 'ZORG') {
-                let res = possibilites[3];
-                message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          } else if ( a == 'ELIO' || a == 'SINISTAG') {
-                let res = possibilites[4];
-                message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          }  else if ( a == 'OHAYO' || a == 'KONNICHIWA' || a == 'KONBAWA') {
-                let res = possibilites[5];
-                message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          } else if ( a == 'EZ' || a == 'SIMPLE' || a == 'BASIQUE') {
-                let res = possibilites[6];
-                message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          } else if ( a == 'AG' || a == 'KRYSTHALIA' || a == 'ANNE-GAELLE') {
-                let res = possibilites[7];
-                message.channel.send(res[0], {
-                    file : res[1]
-                  });
-          } else {
+      if (!message.mentions.users.size) {
+          
+          if (args.length==0) {
              let alea = parseInt(Math.random() * 8);
              let res = possibilites[alea];
              message.channel.send(res[0], {
                 file : res[1]
               });
+          } else {
+              let a = args[0].toUpperCase();
+              if( a == 'LEA' || a == 'KAINNALY') {
+                       let alea = parseInt(Math.random() * 2);
+                       let res = possibilites[alea];
+                       message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( a == 'NICO' || a == 'NICOLAS' || a == 'KORNAKH') {
+                    let res = possibilites[2];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( a == 'GAEL' || a == 'ZORG') {
+                    let res = possibilites[3];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( a == 'ELIO' || a == 'SINISTAG') {
+                    let res = possibilites[4];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              }  else if ( a == 'OHAYO' || a == 'KONNICHIWA' || a == 'KONBAWA') {
+                    let res = possibilites[5];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( a == 'EZ' || a == 'SIMPLE' || a == 'BASIQUE') {
+                    let res = possibilites[6];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( a == 'AG' || a == 'KRYSTHALIA' || a == 'ANNE-GAELLE') {
+                    let res = possibilites[7];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else {
+                 let alea = parseInt(Math.random() * 8);
+                 let res = possibilites[alea];
+                 message.channel.send(res[0], {
+                    file : res[1]
+                  });
+              }
           }
       }
+        const avatarList = message.mentions.users.map(user => {
+            message.channel.send(${user.username});
+            let p = user.username;
+            if( p == 'KAINNALY') {
+                       let alea = parseInt(Math.random() * 2);
+                       let res = possibilites[alea];
+                       message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( p == 'KORNAKH') {
+                    let res = possibilites[2];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( p == 'ZORG') {
+                    let res = possibilites[3];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else if ( p == 'SINISTAG') {
+                    let res = possibilites[4];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              }  else if ( p == 'KRYSTHALIA') {
+                    let res = possibilites[7];
+                    message.channel.send(res[0], {
+                        file : res[1]
+                      });
+              } else {
+                 let alea = parseInt(Math.random() * 8);
+                 let res = possibilites[alea];
+                 message.channel.send(res[0], {
+                    file : res[1]
+                  });
+              }
+        });
 
     },
 };
