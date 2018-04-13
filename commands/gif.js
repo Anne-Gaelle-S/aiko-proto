@@ -5,8 +5,8 @@ module.exports = {
     execute(message, args) {
       
     	let possibilites = [['N\'est elle pas mignonne?',`https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/Léa.gif`]];
-    	possibilites.push(['C\'est donc à ça que les jambes servent ... ', 
-                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/1.gif']);      
+    	possibilites.push(['Elle te juge.', 
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/LeaJugement.gif']);      
     	possibilites.push(['De toute manière il n\'aime que l\'elixir...', 'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
     	possibilites.push(['En cas de problème: appeler Gaël.','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
     	possibilites.push(['Quand il est pas en cours il code. Il code souvent.','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
@@ -14,14 +14,46 @@ module.exports = {
     	possibilites.push(['C\'était trop simple!','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
 
           
-      if (args.size < 1) {
-         let alea = parseInt(Math.random() * 6);
+      if (!args.size) {
+         let alea = parseInt(Math.random() * 7);
          let res = possibilites[alea];
          message.channel.send(res[0], {
             file : res[1]
           });
       } else {
-          message.channel.send(args[0]);
+          let a = args[0].toUpperCase();
+          if( a == 'LEA' || a == 'KAINNALY') {
+                   let alea = parseInt(Math.random() * 2);
+                   let res = possibilites[alea];
+                   message.channel.send(res[0], {
+                    file : res[1]
+                  });
+          } else if ( a == 'NICO' || a == 'NICOLAS' || a == 'KORNAKH') {
+                let res = possibilites[2];
+                message.channel.send(res[0], {
+                    file : res[1]
+                  });
+          } else if ( a == 'GAEL' || a == 'ZORG') {
+                let res = possibilites[3];
+                message.channel.send(res[0], {
+                    file : res[1]
+                  });
+          } else if ( a == 'ELIO' || a == 'SINISTAG') {
+                let res = possibilites[4];
+                message.channel.send(res[0], {
+                    file : res[1]
+                  });
+          }  else if ( a == 'OHAYO' || a == 'KONNICHIWA' || a == 'KONBAWA') {
+                let res = possibilites[5];
+                message.channel.send(res[0], {
+                    file : res[1]
+                  });
+          } else if ( a == 'EZ' || a == 'SIMPLE' || a == 'BASIQUE') {
+                let res = possibilites[6];
+                message.channel.send(res[0], {
+                    file : res[1]
+                  });
+          }
       }
 
     },
