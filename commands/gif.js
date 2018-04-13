@@ -1,6 +1,6 @@
 module.exports = {
     name: 'gif',
-    usage: `<lea> | <nicolas> | <gael> | <elio> | <ohayo> | <ez> | <ag>`,
+    usage: ` |   -gif <lea> | <nicolas> | <gael> | <elio> | <ohayo> | <ez> | <ag>`,
     description: `Affiche le gif choisis en paramètre, ou un aléatoirement.`,
     execute(message, args) {
       
