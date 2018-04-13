@@ -112,7 +112,6 @@ module.exports = {
                     file : res[1]
                   });
               }
-            }   
         });
 
     },
