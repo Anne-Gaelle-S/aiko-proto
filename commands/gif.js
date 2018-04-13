@@ -14,7 +14,7 @@ module.exports = {
     	possibilites.push(['C\'était trop simple!','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
 
           
-      if (!args.size) {
+      if (args.size<1) {
          let alea = parseInt(Math.random() * 7);
          let res = possibilites[alea];
          message.channel.send(res[0], {
