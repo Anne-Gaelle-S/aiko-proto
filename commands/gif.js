@@ -4,14 +4,20 @@ module.exports = {
     description: `Affiche le gif choisis en paramètre, ou un aléatoirement.`,
     execute(message, args) {
       
-    	let possibilites = [['N\'est elle pas mignonne?',`https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/Léa.gif`]];
+    	let possibilites = [['N\'est elle pas mignonne?',
+                             `https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/Léa.gif`]];
     	possibilites.push(['Elle te juge.', 
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/LeaJugement.gif']);      
-    	possibilites.push(['De toute manière il n\'aime que l\'elixir...', 'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
-    	possibilites.push(['En cas de problème: appeler Gaël.','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
-    	possibilites.push(['Quand il est pas en cours il code. Il code souvent.','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
-    	possibilites.push([':D','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ohayo.gif']);
-    	possibilites.push(['C\'était trop simple!','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
+    	possibilites.push(['De toute manière il n\'aime que l\'elixir...', 
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/nicolas.gif']);
+    	possibilites.push(['En cas de problème: appeler Gaël.',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/gael.gif']);
+    	possibilites.push(['Quand il est pas en cours il code. Il code souvent.',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/elio.gif']);
+    	possibilites.push([':D',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ohayo.gif']);
+    	possibilites.push(['C\'était trop simple!',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
 
           
       if (args.size<1) {
@@ -24,6 +30,7 @@ module.exports = {
           let a = args[0].toUpperCase();
           if( a == 'LEA' || a == 'KAINNALY') {
                    let alea = parseInt(Math.random() * 2);
+                   message.channel.send(alea);
                    let res = possibilites[alea];
                    message.channel.send(res[0], {
                     file : res[1]
