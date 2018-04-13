@@ -20,11 +20,13 @@ module.exports = {
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
     	possibilites.push(['Elle a souvent des idées à la con...',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/AG.gif']);
+    	possibilites.push(['Shigoto, shigoto ! ',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
 
       if (!message.mentions.users.size) {
           
           if (args.length==0) {
-             let alea = parseInt(Math.random() * 8);
+             let alea = parseInt(Math.random() * 9);
              let res = possibilites[alea];
              message.channel.send(res[0], {
                 file : res[1]
@@ -68,7 +70,7 @@ module.exports = {
                         file : res[1]
                       });
               } else {
-                 let alea = parseInt(Math.random() * 8);
+                 let alea = parseInt(Math.random() * 9);
                  let res = possibilites[alea];
                  message.channel.send(res[0], {
                     file : res[1]
@@ -110,7 +112,7 @@ module.exports = {
                         file : res[1]
                       });
               } else {
-                 let alea = parseInt(Math.random() * 8);
+                 let alea = parseInt(Math.random() * 9);
                  let res = possibilites[alea];
                  message.channel.send(res[0], {
                     file : res[1]
