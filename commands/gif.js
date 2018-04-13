@@ -77,7 +77,7 @@ module.exports = {
           }
       }
         const avatarList = message.mentions.users.map(user => {
-            message.channel.send(${user.username});
+            message.channel.send(`${user.username}`);
             let p = user.username;
             if( p == 'KAINNALY') {
                        let alea = parseInt(Math.random() * 2);
