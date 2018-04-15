@@ -24,6 +24,19 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+	const Cleverbot = require('cleverbot.js');
+	let options = {
+	  APIKey: 'CFDoi4234falFOFaSfwepxXhBRW',
+	  preserveState: true
+	};
+	cleverbot = new Cleverbot(options);
+	 
+	cleverbot.write(message.content).then(response => {
+	  console.log(response.output); // Fine, How're you?
+	}).catch(e => {
+	  console.error(e);
+	});
+
     if (!message.content.startsWith(prefix)) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
