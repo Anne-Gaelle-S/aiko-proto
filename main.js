@@ -35,49 +35,54 @@ client.on('message', message => {
 
 	if (!command) {
 		message.channel.send("Hey! Bientôt je saurais parler :D !");
-	};
+	} else {
 
-	if (command.args && !args.length) {
-		let reply = `Merci de mettre des arguments, ${message.author}!`;
+		if (command.args && !args.length) {
+			let reply = `Merci de mettre des arguments, ${message.author}!`;
 
-		if (command.usage) {
-			reply += `\nLe bon usage de la commande est: \`${prefix}${command.name} ${command.usage}\``;
+			if (command.usage) {
+				reply += `\nLe bon usage de la commande est: \`${prefix}${command.name} ${command.usage}\``;
+			}
+
+			return message.channel.send(reply);
 		}
 
-		return message.channel.send(reply);
-	}
-
-	if (!cooldowns.has(command.name)) {
-		cooldowns.set(command.name, new Discord.Collection());
-	}
-
-	const now = Date.now();
-	const timestamps = cooldowns.get(command.name);
-	const cooldownAmount = (command.cooldown || 3) * 1000;
-
-	if (!timestamps.has(message.author.id)) {
-		timestamps.set(message.author.id, now);
-		setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
-	}
-	else {
-		const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
-
-		if (now < expirationTime) {
-			const timeLeft = (expirationTime - now) / 1000;
-			return message.reply(`merci d'attendre ${timeLeft.toFixed(1)} seconde(s) avant de réutiliser la commande \`${command.name}\`.`);
+		if (!cooldowns.has(command.name)) {
+			cooldowns.set(command.name, new Discord.Collection());
 		}
 
-		timestamps.set(message.author.id, now);
-		setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+		//Timer entre les commandes
+		const now = Date.now();
+		const timestamps = cooldowns.get(command.name);
+		const cooldownAmount = (command.cooldown || 3) * 1000;
+
+		if (!timestamps.has(message.author.id)) {
+			timestamps.set(message.author.id, now);
+			setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+		}
+		else {
+			const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
+
+			if (now < expirationTime) {
+				const timeLeft = (expirationTime - now) / 1000;
+				return message.reply(`merci d'attendre ${timeLeft.toFixed(1)} seconde(s) avant de réutiliser la commande \`${command.name}\`.`);
+			}
+
+			timestamps.set(message.author.id, now);
+			setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+		}
+
+		//Exécution de la commande
+		try {
+			command.execute(message, args);
+		}
+		catch (error) {
+		    console.error(error);
+		    message.reply('Il y a eu une erreur en essayant d\'exécuter cette commande!');
+		}
 	}
 
-	try {
-		command.execute(message, args);
-	}
-	catch (error) {
-	    console.error(error);
-	    message.reply('Il y a eu une erreur en essayant d\'exécuter cette commande!');
-	}
+	
 
 
 });
