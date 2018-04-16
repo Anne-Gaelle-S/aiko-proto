@@ -33,7 +33,9 @@ client.on('message', message => {
 	const command = client.commands.get(commandName)
 		|| client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 
-	if (!command) return;
+	if (!command) {
+		message.channel.send("Hey! Bientôt je saurais parler :D !");
+	};
 
 	if (command.args && !args.length) {
 		let reply = `Merci de mettre des arguments, ${message.author}!`;
