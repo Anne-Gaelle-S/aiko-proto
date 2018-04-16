@@ -69,7 +69,6 @@ function verifArg(message, possibilites, entree) {
      res = possibilites[alea];
   }
   
-  message.channel.send("Test");
   message.channel.send(res[0], {
         file : res[1]
   });
