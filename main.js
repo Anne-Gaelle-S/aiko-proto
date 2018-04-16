@@ -34,7 +34,8 @@ client.on('message', message => {
 		|| client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 
 	if (!command) {
-		message.channel.send("Hey! Bientôt je saurais parler :D !");
+		//message.channel.send("Hey! Bientôt je saurais parler :D !");
+
 	} else {
 
 		if (command.args && !args.length) {
