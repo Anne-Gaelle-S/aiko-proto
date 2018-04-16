@@ -33,22 +33,21 @@ module.exports = {
               });
           } else {
               let entree = args[0].toUpperCase();
-              verifArg(possibilites, entree);
+              verifArg(message, possibilites, entree);
           }
       } else {
           const avatarList = message.mentions.users.map(user => {
               let p = user.username.toUpperCase();
-              verifArg(possibilites, p);
+              verifArg(message, possibilites, p);
           });
       }
         
-
     },
 };
 
-function verifArg(possibilites, entree) {
+function verifArg(message, possibilites, entree) {
   let res;
-  
+
   if( entree == 'LEA' || entree == 'KAINNALY') {
         let alea = parseInt(Math.random() * 2);
         res = possibilites[alea];
