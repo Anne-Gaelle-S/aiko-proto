@@ -26,7 +26,7 @@ module.exports = {
       if (!message.mentions.users.size) {
           
           if (args.length==0) {
-             let alea = parseInt(Math.random() * 9);
+             let alea = parseInt(Math.random() * possibilites.length);
              let res = possibilites[alea];
              message.channel.send(res[0], {
                 file : res[1]
@@ -35,6 +35,7 @@ module.exports = {
               let entree = args[0].toUpperCase();
               verifArg(message, possibilites, entree);
           }
+
       } else {
           const avatarList = message.mentions.users.map(user => {
               let p = user.username.toUpperCase();
@@ -57,19 +58,18 @@ function verifArg(message, possibilites, entree) {
         res = possibilites[3];
   } else if ( entree == 'ELIO' || entree == 'SINISTAG') {
         res = possibilites[4];
-  }  else if ( entree == 'OHAYO' || entree == 'KONNICHIWA' || entree == 'KONBAWA') {
+  }  else if ( entree == 'OHAYO' || entree == 'KONNICHIWA' || entree == 'KONBAWA' || entree == 'AIKO-PROTO') {
         res = possibilites[5];
   } else if ( entree == 'EZ' || entree == 'SIMPLE' || entree == 'BASIQUE') {
         res = possibilites[6];
   } else if ( entree == 'AG' || entree == 'KRYSTHALIA' || entree == 'ANNE-GAELLE') {
         res = possibilites[7];
-  } else if ( entree == 'AIKO-PROTO') {
-        res = possibilites[5];
   } else {
      let alea = parseInt(Math.random() * possibilites.length);
      res = possibilites[alea];
   }
   
+  message.channel.send("Test");
   message.channel.send(res[0], {
         file : res[1]
   });
