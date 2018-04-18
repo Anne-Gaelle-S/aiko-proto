@@ -31,20 +31,38 @@ function encode(maChaine){
 	return maChaine;
 }
 
+const articles = 'LA LE LES DE DU UN UNE DES';
 
 function correspondance(msg, msgAlea){
+	//let tailleMsg = msg.length;
+
 	msgAlea = encode(msgAlea);
 	msg = encode(msg);
 	let motifs = msg.split(' ');
+	let taille = motifs.length;
 	let res = motifs.reduce( function(acc, val) {
-		if(val!='?' && val!='!' && val != '.' && val != ','){
+		if(val!='?' && val!='!' && val != '.' && val != ',' ){
 			let reg = new RegExp("("+val+")");
-			if(msgAlea.match(reg)) acc++; 
+
+			if (!articles.match(reg)){
+				if(msgAlea.match(reg)) {acc++; console.log("Amelio. Val : "+val+"\tAcc: "+acc);}
+			} else {
+				taille--;
+			}
+		} else {
+			if( ((msgAlea.indexOf('?')>(-1)) && (msg.indexOf('?')>(-1)))) {
+				acc++; acc+=0.5;
+			}
 		}
 		return acc;
 	} , 0);
-	res = res / (motifs.length);
 
+	/*if(tailleMsg<30 && (res>=1)){
+		res = res - 1;
+	}*/
+
+	res = res / taille;
+	
 	return res;
 }
 
@@ -56,19 +74,21 @@ module.exports = {
 		var fs = require('fs');
 		var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
-		let h = 0; let reponse = "";
+		let h = 0; let nbAmelio = 0; let reponse = ""; 
 		let reste = mesDonnees.length;
+		//console.log("Nb de reste : "+reste);
 		let nonFinFichier = (reste!=0);
 
-		while( h < 0.5 && nonFinFichier ){
+		while( nonFinFichier && nbAmelio<10 ){
 			let nbAlea = getRandomInt(reste);
 			let msgAlea = mesDonnees[nbAlea].input;
 
 			let hbis = correspondance(msg, msgAlea);
-			if (hbis>0.5){
+			if (hbis>=0.8){
 				if(hbis>h){
 					h = hbis;
 					reponse = mesDonnees[nbAlea].output;
+					nbAmelio ++;
 				}
 			}
 
@@ -77,6 +97,10 @@ module.exports = {
 			reste --;
 			nonFinFichier = (reste!=0);
 		}
+
+		console.log("\nFin fichier : "+!nonFinFichier);
+		console.log("Taux de ressemblance: "+h);
+		console.log("Nombre d'amélioration : "+nbAmelio);
 
 		if(!reponse) {
 			reponse = "Désolé je ne sais pas quoi répondre ... ";
