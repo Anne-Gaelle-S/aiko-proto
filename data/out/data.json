@@ -3249,10 +3249,14 @@
   },
   {
     "input": "Doc, j'y comprends rien. Et comment c'est possible, tout �a ? J'ai vraiment l'impression d'�tre en enfer.",
-    "output": "Non, on est � Hill Valley, bien que je ne voie pas comment l'enfer pourrait �tre pire !\n[Einstein g�mit]\nOh, Einstein ! Excuse-moi. Le labo est dans un triste, triste �tat, mon pauvre biquet ! Allez, viens l�, hop !\nDe toute �vidence, une rupture du continuum espace-temps a produit une nouvelle s�quence chrono-�v�nementielle, entra�nant l'�mergence de cette r�alit� alternative."
+    "output": "Non, on est � Hill Valley, bien que je ne voie pas comment l'enfer pourrait �tre pire !"
   },
   {
-    "input": "Non, on est � Hill Valley, bien que je ne voie pas comment l'enfer pourrait �tre pire !\n[Einstein g�mit]\nOh, Einstein ! Excuse-moi. Le labo est dans un triste, triste �tat, mon pauvre biquet ! Allez, viens l�, hop !\nDe toute �vidence, une rupture du continuum espace-temps a produit une nouvelle s�quence chrono-�v�nementielle, entra�nant l'�mergence de cette r�alit� alternative.",
+    "input": "Non, on est � Hill Valley, bien que je ne voie pas comment l'enfer pourrait �tre pire !",
+    "output": "Oh, Einstein ! Excuse-moi. Le labo est dans un triste, triste �tat, mon pauvre biquet ! Allez, viens l�, hop !\nDe toute �vidence, une rupture du continuum espace-temps a produit une nouvelle s�quence chrono-�v�nementielle, entra�nant l'�mergence de cette r�alit� alternative."
+  },
+  {
+    "input": "Oh, Einstein ! Excuse-moi. Le labo est dans un triste, triste �tat, mon pauvre biquet ! Allez, viens l�, hop !\nDe toute �vidence, une rupture du continuum espace-temps a produit une nouvelle s�quence chrono-�v�nementielle, entra�nant l'�mergence de cette r�alit� alternative.",
     "output": "Traduction, Doc !"
   },
   {
@@ -3513,14 +3517,14 @@
   },
   {
     "input": "Oui !",
-    "output": "Ton d�part ne doit avoir lieu que ce soir. Alors il faut que tu �vites de tomber nez � nez avec l'autre toi. Je vais te donner un peu d'argent.\n[Marty siffle]"
+    "output": "Ton d�part ne doit avoir lieu que ce soir. Alors il faut que tu �vites de tomber nez � nez avec l'autre toi. Je vais te donner un peu d'argent."
   },
   {
-    "input": "Ton d�part ne doit avoir lieu que ce soir. Alors il faut que tu �vites de tomber nez � nez avec l'autre toi. Je vais te donner un peu d'argent.\n[Marty siffle]",
-    "output": "Je dois pouvoir faire face � toute �ventualit� mon�taire. Trouve-toi des v�tements des ann�es 50."
+    "input": "Ton d�part ne doit avoir lieu que ce soir. Alors il faut que tu �vites de tomber nez � nez avec l'autre toi. Je vais te donner un peu d'argent.",
+    "output": "\nJe dois pouvoir faire face � toute �ventualit� mon�taire. Trouve-toi des v�tements des ann�es 50."
   },
   {
-    "input": "Je dois pouvoir faire face � toute �ventualit� mon�taire. Trouve-toi des v�tements des ann�es 50.",
+    "input": "\nJe dois pouvoir faire face � toute �ventualit� mon�taire. Trouve-toi des v�tements des ann�es 50.",
     "output": "Ok, Doc."
   },
   {
@@ -4413,18 +4417,18 @@
   },
   {
     "input": "Bah, qu'est-ce qui se passe ? O� tu vas ? T'es une mauviette ?\nAh ouais c'est �a, hein ! Tout ce que t'es, c'est une petite mauviette.",
-    "output": "Personne ne me traite de mauviette !\n[Marty se prend la porte]"
+    "output": "Personne ne me traite de mauviette !"
   },
   {
-    "input": "Personne ne me traite de mauviette !\n[Marty se prend la porte]",
-    "output": "Oh, le salaud ! Tu me piques mes affaires ?\n[Biff lui donne un coup de pied dans le ventre]"
+    "input": "Personne ne me traite de mauviette !",
+    "output": "\nOh, le salaud ! Tu me piques mes affaires ?"
   },
   {
-    "input": "Oh, le salaud ! Tu me piques mes affaires ?\n[Biff lui donne un coup de pied dans le ventre]",
-    "output": "Et �a c'est pour ma bagnole !"
+    "input": "\nOh, le salaud ! Tu me piques mes affaires ?",
+    "output": "\nEt �a c'est pour ma bagnole !"
   },
   {
-    "input": "Et �a c'est pour ma bagnole !",
+    "input": "\nEt �a c'est pour ma bagnole !",
     "output": "Doc ! Doc ! Je me suis fait avoir ! Biff m'a coinc�, il a pris le livre et il est parti en voiture. C'est ma faute, j'aurais d� me d�p�cher de filer."
   },
   {
@@ -4477,10 +4481,22 @@
   },
   {
     "input": "Notre Dame tient en respect la Caroline du Nord 27 � 7. L'Oklahoma a an�anti l'Iowa State par 52 � 0. West Virginia est all� perdre � Pittsburg 7 � 26. Texas A&M a gagn� contre Rice 20 � 12. Le Maryland l'emporte sur Clemson par 25 � 12. Un rappel des pr�visions m�t�o : une violente temp�te accompagn�e de rafales va s'abattre sur Hill Valley dans la soir�e...",
-    "output": "\nEncore toi ! Rends-moi mon bouquin !\nL�che �a !\nL�che ma bagnole !\n�a lui apprendra !\n[Biff ricane]"
+    "output": "\nEncore toi ! Rends-moi mon bouquin !"
   },
   {
-    "input": "\nEncore toi ! Rends-moi mon bouquin !\nL�che �a !\nL�che ma bagnole !\n�a lui apprendra !\n[Biff ricane]",
+    "input": "\nEncore toi ! Rends-moi mon bouquin !",
+    "output": "L�che �a !"
+  },
+  {
+    "input": "L�che �a !",
+    "output": "L�che ma bagnole !"
+  },
+  {
+    "input": "L�che ma bagnole !",
+    "output": "�a lui apprendra !"
+  },
+  {
+    "input": "�a lui apprendra !",
     "output": "Allez-y Doc !"
   },
   {
@@ -4517,10 +4533,10 @@
   },
   {
     "input": "Br�le-le !",
-    "output": "Entendu.\n[Marty br�le le livre dans un vieux sot en m�tal]"
+    "output": "Entendu."
   },
   {
-    "input": "Entendu.\n[Marty br�le le livre dans un vieux sot en m�tal]",
+    "input": "Entendu.",
     "output": "Doc ! Doc ! Le titre du journal a chang�, mon p�re est vivant ! �a veut dire que tout est rentr� dans l'ordre."
   },
   {
@@ -4537,10 +4553,10 @@
   },
   {
     "input": "Exactement, Marty, c'est l'effet de propagation. Le futur est de retour. On rentre !",
-    "output": "D'acc', Doc ! On a plus qu'� se d�p�cher de retourner vers le...\n[La foudre s'abat sur un arbre au bord de la route]"
+    "output": "D'acc', Doc ! On a plus qu'� se d�p�cher de retourner vers le..."
   },
   {
-    "input": "D'acc', Doc ! On a plus qu'� se d�p�cher de retourner vers le...\n[La foudre s'abat sur un arbre au bord de la route]",
+    "input": "D'acc', Doc ! On a plus qu'� se d�p�cher de retourner vers le...",
     "output": "Doc ! Doc ! Est-ce que tout va bien ?"
   },
   {
@@ -4549,14 +4565,14 @@
   },
   {
     "input": "C'�tait � deux doigts. J'ai failli avaler ma chique.",
-    "output": "Faites attention ! Qu'est-ce qu'on ferait si vous �tiez frapp� par un �clair ?\n[Un �clair frappe soudain la DeLorean]"
+    "output": "Faites attention ! Qu'est-ce qu'on ferait si vous �tiez frapp� par un �clair ?"
   },
   {
-    "input": "Faites attention ! Qu'est-ce qu'on ferait si vous �tiez frapp� par un �clair ?\n[Un �clair frappe soudain la DeLorean]",
-    "output": "Doc ?\nDoc ? Doc, r�pondez, Doc ! Doc, vous me recevez ? Doc, vous me recevez ? � vous, parlez ! Doc !\nOh, non ! Il a disparu. Doc ! Il a disparu !\n[Une voiture s'approche, un homme en sort]"
+    "input": "Faites attention ! Qu'est-ce qu'on ferait si vous �tiez frapp� par un �clair ?",
+    "output": "Doc ?\nDoc ? Doc, r�pondez, Doc ! Doc, vous me recevez ? Doc, vous me recevez ? � vous, parlez ! Doc !\nOh, non ! Il a disparu. Doc ! Il a disparu !"
   },
   {
-    "input": "Doc ?\nDoc ? Doc, r�pondez, Doc ! Doc, vous me recevez ? Doc, vous me recevez ? � vous, parlez ! Doc !\nOh, non ! Il a disparu. Doc ! Il a disparu !\n[Une voiture s'approche, un homme en sort]",
+    "input": "Doc ?\nDoc ? Doc, r�pondez, Doc ! Doc, vous me recevez ? Doc, vous me recevez ? � vous, parlez ! Doc !\nOh, non ! Il a disparu. Doc ! Il a disparu !",
     "output": "Monsieur McFly ?"
   },
   {
@@ -4573,10 +4589,10 @@
   },
   {
     "input": "Ouais.",
-    "output": "J'ai quelque chose pour vous.\n[Il sort quelque chose de la poche int�rieur de son manteau]\nUne lettre."
+    "output": "J'ai quelque chose pour vous.\nUne lettre."
   },
   {
-    "input": "J'ai quelque chose pour vous.\n[Il sort quelque chose de la poche int�rieur de son manteau]\nUne lettre.",
+    "input": "J'ai quelque chose pour vous.\nUne lettre.",
     "output": "Une lettre pour moi ? Mais c'est impossible ! Enfin, qui �tes-vous ?"
   },
   {
