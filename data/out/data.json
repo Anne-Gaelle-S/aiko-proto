@@ -1176,86 +1176,6 @@
     "output": "Exactement !\n"
   },
   {
-    "input": "Qu’est-ce que vous avez fait pendant les vacances ? ",
-    "output": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? "
-  },
-  {
-    "input": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? ",
-    "output": "Moi, je suis allée en Tunisie avec mon mari."
-  },
-  {
-    "input": "Moi, je suis allée en Tunisie avec mon mari.",
-    "output": "Vous étiez où en Tunisie ? "
-  },
-  {
-    "input": "Vous étiez où en Tunisie ? ",
-    "output": "On était à Djerba pendant une semaine, c’était magnifique."
-  },
-  {
-    "input": "On était à Djerba pendant une semaine, c’était magnifique.",
-    "output": "Vous êtes restés tout le temps à Djerba ? "
-  },
-  {
-    "input": "Vous êtes restés tout le temps à Djerba ? ",
-    "output": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. "
-  },
-  {
-    "input": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. ",
-    "output": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? "
-  },
-  {
-    "input": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? ",
-    "output": "Non non, les gens sont très accueillants et dans les lieux touristiques, tout le monde parle français.\n"
-  },
-  {
-    "input": "Tu as bougé pendant les vacances ?",
-    "output": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors."
-  },
-  {
-    "input": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors.",
-    "output": "Combien de temps ? "
-  },
-  {
-    "input": "Combien de temps ? ",
-    "output": "Une semaine au total, c’était un peu dur à cause du temps. On a eu des orages assez violents et il a plu pendant deux jours. Mais les paysages étaient superbes. Et toi, tu as fait quoi ? "
-  },
-  {
-    "input": "Une semaine au total, c’était un peu dur à cause du temps. On a eu des orages assez violents et il a plu pendant deux jours. Mais les paysages étaient superbes. Et toi, tu as fait quoi ? ",
-    "output": "Pas grand chose. J’ai passé quatre jours chez mon beau-frère, résultat j’ai pris deux kilos ! "
-  },
-  {
-    "input": "Pas grand chose. J’ai passé quatre jours chez mon beau-frère, résultat j’ai pris deux kilos ! ",
-    "output": "Tu as bien mangé ? "
-  },
-  {
-    "input": "Tu as bien mangé ? ",
-    "output": "Oui, j’ai surtout trop bu ! Mais bon, c’était bien sympa. Et puis, je suis allé faire un peu de camping en Dordogne comme chaque année. Bref, rien d’extraordinaire, mais les enfants étaient contents. Ils ont vu leurs cousins et ils sont allés à la pêche."
-  },
-  {
-    "input": "Tu as fait quoi hier ? ",
-    "output": "Hier ? Ben, je suis restée chez moi. "
-  },
-  {
-    "input": "Hier ? Ben, je suis restée chez moi. ",
-    "output": "Tu n’es pas allée à la soirée de Bastien ? "
-  },
-  {
-    "input": "Tu n’es pas allée à la soirée de Bastien ? ",
-    "output": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? "
-  },
-  {
-    "input": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? ",
-    "output": "Non, je voulais bosser pour le concours."
-  },
-  {
-    "input": "Non, je voulais bosser pour le concours.",
-    "output": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps."
-  },
-  {
-    "input": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps.",
-    "output": "Je sais mais si je vais chez Bastien, après je mets une semaine à m’en remettre… Et je ne peux pas me permettre d’échouer encore une fois."
-  },
-  {
     "input": "Retour vers le futur II",
     "output": "\nAh !"
   },
@@ -4666,5 +4586,85 @@
   {
     "input": "Oh ! Nom de Zeus !",
     "output": "Doc ! Doc ? Oh, non, Doc, me faites pas �a ! Ah, bravo ! Oh, c'est le bouquet !\n"
+  },
+  {
+    "input": "Qu’est-ce que vous avez fait pendant les vacances ? ",
+    "output": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? "
+  },
+  {
+    "input": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? ",
+    "output": "Moi, je suis allée en Tunisie avec mon mari."
+  },
+  {
+    "input": "Moi, je suis allée en Tunisie avec mon mari.",
+    "output": "Vous étiez où en Tunisie ? "
+  },
+  {
+    "input": "Vous étiez où en Tunisie ? ",
+    "output": "On était à Djerba pendant une semaine, c’était magnifique."
+  },
+  {
+    "input": "On était à Djerba pendant une semaine, c’était magnifique.",
+    "output": "Vous êtes restés tout le temps à Djerba ? "
+  },
+  {
+    "input": "Vous êtes restés tout le temps à Djerba ? ",
+    "output": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. "
+  },
+  {
+    "input": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. ",
+    "output": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? "
+  },
+  {
+    "input": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? ",
+    "output": "Non non, les gens sont très accueillants et dans les lieux touristiques, tout le monde parle français.\n"
+  },
+  {
+    "input": "Tu as bougé pendant les vacances ?",
+    "output": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors."
+  },
+  {
+    "input": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors.",
+    "output": "Combien de temps ? "
+  },
+  {
+    "input": "Combien de temps ? ",
+    "output": "Une semaine au total, c’était un peu dur à cause du temps. On a eu des orages assez violents et il a plu pendant deux jours. Mais les paysages étaient superbes. Et toi, tu as fait quoi ? "
+  },
+  {
+    "input": "Une semaine au total, c’était un peu dur à cause du temps. On a eu des orages assez violents et il a plu pendant deux jours. Mais les paysages étaient superbes. Et toi, tu as fait quoi ? ",
+    "output": "Pas grand chose. J’ai passé quatre jours chez mon beau-frère, résultat j’ai pris deux kilos ! "
+  },
+  {
+    "input": "Pas grand chose. J’ai passé quatre jours chez mon beau-frère, résultat j’ai pris deux kilos ! ",
+    "output": "Tu as bien mangé ? "
+  },
+  {
+    "input": "Tu as bien mangé ? ",
+    "output": "Oui, j’ai surtout trop bu ! Mais bon, c’était bien sympa. Et puis, je suis allé faire un peu de camping en Dordogne comme chaque année. Bref, rien d’extraordinaire, mais les enfants étaient contents. Ils ont vu leurs cousins et ils sont allés à la pêche."
+  },
+  {
+    "input": "Tu as fait quoi hier ? ",
+    "output": "Hier ? Ben, je suis restée chez moi. "
+  },
+  {
+    "input": "Hier ? Ben, je suis restée chez moi. ",
+    "output": "Tu n’es pas allée à la soirée de Bastien ? "
+  },
+  {
+    "input": "Tu n’es pas allée à la soirée de Bastien ? ",
+    "output": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? "
+  },
+  {
+    "input": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? ",
+    "output": "Non, je voulais bosser pour le concours."
+  },
+  {
+    "input": "Non, je voulais bosser pour le concours.",
+    "output": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps."
+  },
+  {
+    "input": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps.",
+    "output": "Je sais mais si je vais chez Bastien, après je mets une semaine à m’en remettre… Et je ne peux pas me permettre d’échouer encore une fois."
   }
 ]
