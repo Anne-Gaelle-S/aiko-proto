@@ -1,61 +1,5 @@
 [
   {
-    "input": "Bonjour Mademoiselle !",
-    "output": "Bonjour !"
-  },
-  {
-    "input": "Bonjour !",
-    "output": "Pourriez-vous me dire comment arriver à la bibliothèque?"
-  },
-  {
-    "input": "Pourriez-vous me dire comment arriver à la bibliothèque?",
-    "output": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine."
-  },
-  {
-    "input": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine.",
-    "output": "Merci beaucoup, tu es française ?"
-  },
-  {
-    "input": "Merci beaucoup, tu es française ?",
-    "output": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?"
-  },
-  {
-    "input": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?",
-    "output": "Non, je suis italien. Je m’appelle Bobs Adamo."
-  },
-  {
-    "input": "Non, je suis italien. Je m’appelle Bobs Adamo.",
-    "output": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !"
-  },
-  {
-    "input": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !",
-    "output": "Enchanté de faire ta connaissance !"
-  },
-  {
-    "input": "Enchanté de faire ta connaissance !",
-    "output": "D’où viens-tu ?"
-  },
-  {
-    "input": "D’où viens-tu ?",
-    "output": "Je viens d' Italie, de Milan ! Et toi ?"
-  },
-  {
-    "input": "Je viens d' Italie, de Milan ! Et toi ?",
-    "output": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon."
-  },
-  {
-    "input": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon.",
-    "output": "Je t’invite à une soirée italienne demain soir si tu es libre."
-  },
-  {
-    "input": "Je t’invite à une soirée italienne demain soir si tu es libre.",
-    "output": "Merci beaucoup, ça me fera plaisir. À demain soir alors !"
-  },
-  {
-    "input": "Merci beaucoup, ça me fera plaisir. À demain soir alors !",
-    "output": "À demain !"
-  },
-  {
     "input": "Vous êtes d’où ?",
     "output": "Je suis de Bordeaux."
   },
@@ -118,6 +62,62 @@
   {
     "input": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? ",
     "output": "Non non, les gens sont très accueillants et dans les lieux touristiques, tout le monde parle français.\n"
+  },
+  {
+    "input": "Bonjour Mademoiselle !",
+    "output": "Bonjour !"
+  },
+  {
+    "input": "Bonjour !",
+    "output": "Pourriez-vous me dire comment arriver à la bibliothèque?"
+  },
+  {
+    "input": "Pourriez-vous me dire comment arriver à la bibliothèque?",
+    "output": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine."
+  },
+  {
+    "input": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine.",
+    "output": "Merci beaucoup, tu es française ?"
+  },
+  {
+    "input": "Merci beaucoup, tu es française ?",
+    "output": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?"
+  },
+  {
+    "input": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?",
+    "output": "Non, je suis italien. Je m’appelle Bobs Adamo."
+  },
+  {
+    "input": "Non, je suis italien. Je m’appelle Bobs Adamo.",
+    "output": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !"
+  },
+  {
+    "input": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !",
+    "output": "Enchanté de faire ta connaissance !"
+  },
+  {
+    "input": "Enchanté de faire ta connaissance !",
+    "output": "D’où viens-tu ?"
+  },
+  {
+    "input": "D’où viens-tu ?",
+    "output": "Je viens d' Italie, de Milan ! Et toi ?"
+  },
+  {
+    "input": "Je viens d' Italie, de Milan ! Et toi ?",
+    "output": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon."
+  },
+  {
+    "input": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon.",
+    "output": "Je t’invite à une soirée italienne demain soir si tu es libre."
+  },
+  {
+    "input": "Je t’invite à une soirée italienne demain soir si tu es libre.",
+    "output": "Merci beaucoup, ça me fera plaisir. À demain soir alors !"
+  },
+  {
+    "input": "Merci beaucoup, ça me fera plaisir. À demain soir alors !",
+    "output": "À demain !"
   },
   {
     "input": "Tu as bougé pendant les vacances ?",
@@ -214,5 +214,1045 @@
   {
     "input": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps.",
     "output": "Je sais mais si je vais chez Bastien, après je mets une semaine à m’en remettre… Et je ne peux pas me permettre d’échouer encore une fois."
+  },
+  {
+    "input": "Je vais te poser des questions. Tu vas me donner ton avis.",
+    "output": "D’accord."
+  },
+  {
+    "input": "D’accord.",
+    "output": "Est-ce que tu aimes prendre le TGV ?"
+  },
+  {
+    "input": "Est-ce que tu aimes prendre le TGV ?",
+    "output": "Oui, c’est rapide et pratique. Mais je trouve que c’est un peu cher."
+  },
+  {
+    "input": "Oui, c’est rapide et pratique. Mais je trouve que c’est un peu cher.",
+    "output": "Tu préfères voyager en bus ou en train ?"
+  },
+  {
+    "input": "Tu préfères voyager en bus ou en train ?",
+    "output": "Je préfère le train. Les bus roulent trop lentement."
+  },
+  {
+    "input": "Je préfère le train. Les bus roulent trop lentement.",
+    "output": "Tu exagères beaucoup. Les bus ne roulent pas trop lentement. Ils ne sont pas assez rapides pour toi. "
+  },
+  {
+    "input": "Tu exagères beaucoup. Les bus ne roulent pas trop lentement. Ils ne sont pas assez rapides pour toi. ",
+    "output": "Bon, si tu veux. Tu as d’autres questions ? "
+  },
+  {
+    "input": "Bon, si tu veux. Tu as d’autres questions ? ",
+    "output": "Qu’est-ce que tu penses de Marc ?"
+  },
+  {
+    "input": "Qu’est-ce que tu penses de Marc ?",
+    "output": "Marc Desvaux ? Je le trouve très séduisant. Il est très grand, il parle peu, ses gestes sont précis, je l’aime beaucoup."
+  },
+  {
+    "input": "Marc Desvaux ? Je le trouve très séduisant. Il est très grand, il parle peu, ses gestes sont précis, je l’aime beaucoup.",
+    "output": "Et comment tu trouves madame Lepic ? "
+  },
+  {
+    "input": "Et comment tu trouves madame Lepic ? ",
+    "output": "Je la trouve très gentille. Elle est attentive et elle est toujours disponible. "
+  },
+  {
+    "input": "Je la trouve très gentille. Elle est attentive et elle est toujours disponible. ",
+    "output": "Moi, je trouve qu’elle est assez prétentieuse."
+  },
+  {
+    "input": "Moi, je trouve qu’elle est assez prétentieuse.",
+    "output": "Non, je ne trouve pas."
+  },
+  {
+    "input": "Non, je ne trouve pas.",
+    "output": "J’ai une dernière question. Tu t’intéresses au cinéma français ?"
+  },
+  {
+    "input": "J’ai une dernière question. Tu t’intéresses au cinéma français ?",
+    "output": "Oui, un peu. "
+  },
+  {
+    "input": "Oui, un peu. ",
+    "output": "Alors, que penses-tu de Romain Duris ? "
+  },
+  {
+    "input": "Alors, que penses-tu de Romain Duris ? ",
+    "output": "J’aime beaucoup. Je trouve que c’est un bon acteur. Il joue bien. J’adore cet acteur. Mais, c’est quoi toutes tes questions ? "
+  },
+  {
+    "input": "J’aime beaucoup. Je trouve que c’est un bon acteur. Il joue bien. J’adore cet acteur. Mais, c’est quoi toutes tes questions ? ",
+    "output": "C’est pour mon cours de français. Je dois poser des questions et analyser les réponses."
+  },
+  {
+    "input": "C’est pour mon cours de français. Je dois poser des questions et analyser les réponses.",
+    "output": "Ah d’accord."
+  },
+  {
+    "input": "Ah d’accord.",
+    "output": "Tu as fait quoi hier ? "
+  },
+  {
+    "input": "Tu as fait quoi hier ? ",
+    "output": "J’ai regardé un film. "
+  },
+  {
+    "input": "J’ai regardé un film. ",
+    "output": "Tu as regardé quoi comme film ? "
+  },
+  {
+    "input": "Tu as regardé quoi comme film ? ",
+    "output": "«Les Valseuses»"
+  },
+  {
+    "input": "«Les Valseuses»",
+    "output": "Je ne connais pas. C’est un film récent ? "
+  },
+  {
+    "input": "Je ne connais pas. C’est un film récent ? ",
+    "output": "Non, c’est un film de Blier. Je crois que ça date des années soixante-dix. "
+  },
+  {
+    "input": "Non, c’est un film de Blier. Je crois que ça date des années soixante-dix. ",
+    "output": "C’est avec qui ? "
+  },
+  {
+    "input": "C’est avec qui ? ",
+    "output": "C’est avec Depardieu et Dewaere. Par contre, je ne me souviens plus du nom de l’actrice…"
+  },
+  {
+    "input": "C’est avec Depardieu et Dewaere. Par contre, je ne me souviens plus du nom de l’actrice…",
+    "output": "Attends, je vérifie sur Wikipédia… Oui, ce film a été réalisé en 1974. L’actrice, c’est Miou Miou. "
+  },
+  {
+    "input": "Attends, je vérifie sur Wikipédia… Oui, ce film a été réalisé en 1974. L’actrice, c’est Miou Miou. ",
+    "output": "Ah oui ! Ils disent quoi d’autre sur le film ?"
+  },
+  {
+    "input": "Ah oui ! Ils disent quoi d’autre sur le film ?",
+    "output": "Euh… Le film a été adapté d’un roman du même nom… et le film a eu un très grand succès l’année de sa sortie. Bon, je ne connaissais pas. Et, c’était bien ? "
+  },
+  {
+    "input": "Euh… Le film a été adapté d’un roman du même nom… et le film a eu un très grand succès l’année de sa sortie. Bon, je ne connaissais pas. Et, c’était bien ? ",
+    "output": "Oui, pas mal. Je pense qu’il faut le voir. Je te le passerai si tu veux."
+  },
+  {
+    "input": "Oui, pas mal. Je pense qu’il faut le voir. Je te le passerai si tu veux.",
+    "output": "Oui, je veux bien."
+  },
+  {
+    "input": "Oui, je veux bien.",
+    "output": "Tu as trouvé ça comment ? "
+  },
+  {
+    "input": "Tu as trouvé ça comment ? ",
+    "output": "Ben, je ne m’attendais pas du tout à ça."
+  },
+  {
+    "input": "Ben, je ne m’attendais pas du tout à ça.",
+    "output": "C’est vrai que dans la bande annonce, ça avait l’air super drôle mais en fait toutes les scènes drôles étaient dedans…"
+  },
+  {
+    "input": "C’est vrai que dans la bande annonce, ça avait l’air super drôle mais en fait toutes les scènes drôles étaient dedans…",
+    "output": "Oui, et puis je ne comprends pas la fin… Pourquoi le héros meurt ? C’est une comédie…"
+  },
+  {
+    "input": "Oui, et puis je ne comprends pas la fin… Pourquoi le héros meurt ? C’est une comédie…",
+    "output": "Mmm, moi c’est pareil, je n’accroche pas du tout. Cela dit, l’histoire était originale."
+  },
+  {
+    "input": "Mmm, moi c’est pareil, je n’accroche pas du tout. Cela dit, l’histoire était originale.",
+    "output": "Oui, mais payer dix euros pour voir ça. Merci, la prochaine fois je regarde un DVD tranquille à la maison."
+  },
+  {
+    "input": "Oui, mais payer dix euros pour voir ça. Merci, la prochaine fois je regarde un DVD tranquille à la maison.",
+    "output": "Bon, je te raccompagne ? "
+  },
+  {
+    "input": "Bon, je te raccompagne ? ",
+    "output": "Offre-moi plutôt un verre pour oublier ce début de soirée."
+  },
+  {
+    "input": "Offre-moi plutôt un verre pour oublier ce début de soirée.",
+    "output": "D’accord, on va aller à l’Exalibur, c’est encore ouvert."
+  },
+  {
+    "input": "D’accord, on va aller à l’Exalibur, c’est encore ouvert.",
+    "output": "Ouah, la fin était bouleversante. "
+  },
+  {
+    "input": "Ouah, la fin était bouleversante. ",
+    "output": "Quel film !"
+  },
+  {
+    "input": "Quel film !",
+    "output": "L’adaptation était vraiment très fidèle et on oubliait vraiment le roman. Tu ne crois pas ?"
+  },
+  {
+    "input": "L’adaptation était vraiment très fidèle et on oubliait vraiment le roman. Tu ne crois pas ?",
+    "output": "Si, j’appréhendais un peu au début et finalement on se laisse porter par l’histoire, le jeu des acteurs."
+  },
+  {
+    "input": "Si, j’appréhendais un peu au début et finalement on se laisse porter par l’histoire, le jeu des acteurs.",
+    "output": "Tu as vu la scène où Lou Grant regarde l’horizon du haut de la colline ? j’ai trouvé ça d’une beauté…"
+  },
+  {
+    "input": "Tu as vu la scène où Lou Grant regarde l’horizon du haut de la colline ? j’ai trouvé ça d’une beauté…",
+    "output": "Oui, ça m’a donné envie d’aller dans les Pyrénées."
+  },
+  {
+    "input": "Oui, ça m’a donné envie d’aller dans les Pyrénées.",
+    "output": "C’était dans les Pyrénées ? Ce n’était pas plutôt dans les Alpes ? "
+  },
+  {
+    "input": "C’était dans les Pyrénées ? Ce n’était pas plutôt dans les Alpes ? ",
+    "output": "Tu crois ? Enfin bon, enfin c’était magnifique."
+  },
+  {
+    "input": "Tu crois ? Enfin bon, enfin c’était magnifique.",
+    "output": "Tu as vu le résultat des élections ? "
+  },
+  {
+    "input": "Tu as vu le résultat des élections ? ",
+    "output": "Franchement, je (ne) suis pas surprise. Ça fait des semaines qu’on nous rabâche que le gouvernement est impopulaire, qu’il faut du changement … tout ça."
+  },
+  {
+    "input": "Franchement, je (ne) suis pas surprise. Ça fait des semaines qu’on nous rabâche que le gouvernement est impopulaire, qu’il faut du changement … tout ça.",
+    "output": "Oui, mais là, c’est du jamais vu."
+  },
+  {
+    "input": "Oui, mais là, c’est du jamais vu.",
+    "output": "Fais voir ! Cinq pour cent ? Ils ont fait 5 % ? Mais, c’est incroyable."
+  },
+  {
+    "input": "Fais voir ! Cinq pour cent ? Ils ont fait 5 % ? Mais, c’est incroyable.",
+    "output": "Je ne te le fais pas dire…"
+  },
+  {
+    "input": "Je ne te le fais pas dire…",
+    "output": "Oui, mais attends, tu as vu le taux d’abstention ? "
+  },
+  {
+    "input": "Oui, mais attends, tu as vu le taux d’abstention ? ",
+    "output": "C’est énorme, je sais. Ça dépasse les 60%. C’est du jamais vu pour une élection législative. Mais en fait, ce qui est intéressant, ce n’est pas tellement la défaite du gouvernement ni la victoire de l’opposition. Non, c’est plutôt la montée de tous les petits partis."
+  },
+  {
+    "input": "C’est énorme, je sais. Ça dépasse les 60%. C’est du jamais vu pour une élection législative. Mais en fait, ce qui est intéressant, ce n’est pas tellement la défaite du gouvernement ni la victoire de l’opposition. Non, c’est plutôt la montée de tous les petits partis.",
+    "output": "Tu trouves ça intéressant toi que les partis d’extrême gauche ou d’extrême droite montent à chaque élection ? "
+  },
+  {
+    "input": "Tu trouves ça intéressant toi que les partis d’extrême gauche ou d’extrême droite montent à chaque élection ? ",
+    "output": "Je n’ai pas dit ça."
+  },
+  {
+    "input": "Je n’ai pas dit ça.",
+    "output": "Au fait, tu es allé voter, toi ? "
+  },
+  {
+    "input": "Au fait, tu es allé voter, toi ? ",
+    "output": "Bien sûr ! J’ai fait mon devoir de citoyen. J’étais au bureau de vote dès l’ouverture. "
+  },
+  {
+    "input": "Bien sûr ! J’ai fait mon devoir de citoyen. J’étais au bureau de vote dès l’ouverture. ",
+    "output": "Et, tu as voté pour qui ? "
+  },
+  {
+    "input": "Et, tu as voté pour qui ? ",
+    "output": "Je vote toujours blanc !"
+  },
+  {
+    "input": "Je vote toujours blanc !",
+    "output": "Je ne vois vraiment pas pourquoi tu vas voter alors."
+  },
+  {
+    "input": "Je ne vois vraiment pas pourquoi tu vas voter alors.",
+    "output": "Moi, je dis « on est tous frères» !"
+  },
+  {
+    "input": "Moi, je dis « on est tous frères» !",
+    "output": "Vous avez raison."
+  },
+  {
+    "input": "Vous avez raison.",
+    "output": "On (ne) devrait plus se taper les uns sur les autres."
+  },
+  {
+    "input": "On (ne) devrait plus se taper les uns sur les autres.",
+    "output": "Tout à fait. "
+  },
+  {
+    "input": "Tout à fait. ",
+    "output": "On ne vit pas assez vieux pour passer son temps à faire la guerre !"
+  },
+  {
+    "input": "On ne vit pas assez vieux pour passer son temps à faire la guerre !",
+    "output": "C’est vrai."
+  },
+  {
+    "input": "C’est vrai.",
+    "output": "Moi, je dis « le plus important, c’est la solidarité»"
+  },
+  {
+    "input": "Moi, je dis « le plus important, c’est la solidarité»",
+    "output": "Oui, comme vous dites !  "
+  },
+  {
+    "input": "Oui, comme vous dites !  ",
+    "output": "Et puis, on n’est jamais tout blanc ou tout noir. Il faut le reconnaître. "
+  },
+  {
+    "input": "Et puis, on n’est jamais tout blanc ou tout noir. Il faut le reconnaître. ",
+    "output": "Je suis tout à fait d’accord avec vous ! Allez, maintenant il faut rentrer. "
+  },
+  {
+    "input": "Je suis tout à fait d’accord avec vous ! Allez, maintenant il faut rentrer. ",
+    "output": "Non, avant on va reprendre un petit verre. "
+  },
+  {
+    "input": "Non, avant on va reprendre un petit verre. ",
+    "output": "Non, ça suffit comme ça. C’est terminé pour aujourd’hui."
+  },
+  {
+    "input": "Non, ça suffit comme ça. C’est terminé pour aujourd’hui.",
+    "output": "Allez ! juste un dernier. "
+  },
+  {
+    "input": "Allez ! juste un dernier. ",
+    "output": "Non, pas d’accord. Vous avez assez bu comme ça, il faut rentrer chez vous, maintenant."
+  },
+  {
+    "input": "Non, pas d’accord. Vous avez assez bu comme ça, il faut rentrer chez vous, maintenant.",
+    "output": "Juste un !"
+  },
+  {
+    "input": "Juste un !",
+    "output": "Je vous ai dit non. Allez, zou !"
+  },
+  {
+    "input": "Je vous ai dit non. Allez, zou !",
+    "output": "On pourrait, par exemple, abattre le mur du salon."
+  },
+  {
+    "input": "On pourrait, par exemple, abattre le mur du salon.",
+    "output": "Oui, ça ferait une grande cuisine salle à manger."
+  },
+  {
+    "input": "Oui, ça ferait une grande cuisine salle à manger.",
+    "output": "Ce serait sympa aussi avec une cheminée dans le coin."
+  },
+  {
+    "input": "Ce serait sympa aussi avec une cheminée dans le coin.",
+    "output": "Là-bas ? Je l’aurais plutôt vue dans le coin opposé."
+  },
+  {
+    "input": "Là-bas ? Je l’aurais plutôt vue dans le coin opposé.",
+    "output": "Tu crois ? Ah, oui, je n’y avais pas pensé."
+  },
+  {
+    "input": "Tu crois ? Ah, oui, je n’y avais pas pensé.",
+    "output": "Et ici, ce sera la chambre des enfants… tu as vu l’état des murs ? "
+  },
+  {
+    "input": "Et ici, ce sera la chambre des enfants… tu as vu l’état des murs ? ",
+    "output": "Oui, il va falloir un bon coup de peinture. "
+  },
+  {
+    "input": "Oui, il va falloir un bon coup de peinture. ",
+    "output": "On en profitera pour changer la moquette."
+  },
+  {
+    "input": "On en profitera pour changer la moquette.",
+    "output": "En fait, il faut tout refaire… ça va coûter pas mal d’argent."
+  },
+  {
+    "input": "En fait, il faut tout refaire… ça va coûter pas mal d’argent.",
+    "output": "Disons que la plupart des travaux sont faisables nous-mêmes, c’est un point positif."
+  },
+  {
+    "input": "Disons que la plupart des travaux sont faisables nous-mêmes, c’est un point positif.",
+    "output": "Tu as raison, le toit et la tuyauterie sont en très bon état."
+  },
+  {
+    "input": "Tu as raison, le toit et la tuyauterie sont en très bon état.",
+    "output": "Par contre, il faudra étaler les travaux sur au moins deux ans. "
+  },
+  {
+    "input": "Par contre, il faudra étaler les travaux sur au moins deux ans. ",
+    "output": "On va s’en tirer à combien à ton avis ? "
+  },
+  {
+    "input": "On va s’en tirer à combien à ton avis ? ",
+    "output": "Je ne sais pas… dans les 400 000."
+  },
+  {
+    "input": "Je ne sais pas… dans les 400 000.",
+    "output": "Tu crois qu’on obtiendra un crédit de la banque ? "
+  },
+  {
+    "input": "Tu crois qu’on obtiendra un crédit de la banque ? ",
+    "output": "Je n’en sais rien, mais Arnaud m’a dit que ça devrait le faire parce que tu es fonctionnaire."
+  },
+  {
+    "input": "Je n’en sais rien, mais Arnaud m’a dit que ça devrait le faire parce que tu es fonctionnaire.",
+    "output": "Il ne sait pas combien je gagne."
+  },
+  {
+    "input": "Il ne sait pas combien je gagne.",
+    "output": "Peut-être mais ça rassure les banquiers, figure-toi !"
+  },
+  {
+    "input": "Peut-être mais ça rassure les banquiers, figure-toi !",
+    "output": "Tu as vu, il y a encore plus d’hommes que de femmes dans le gouvernement !"
+  },
+  {
+    "input": "Tu as vu, il y a encore plus d’hommes que de femmes dans le gouvernement !",
+    "output": "Et ça t’étonne ? Je ne vois pas où est le problème."
+  },
+  {
+    "input": "Et ça t’étonne ? Je ne vois pas où est le problème.",
+    "output": "Mais ça fait des années qu’on en parle et on n’est pas capable d’arriver à la parité."
+  },
+  {
+    "input": "Mais ça fait des années qu’on en parle et on n’est pas capable d’arriver à la parité.",
+    "output": "C’est peut-être que la parité n’est pas objectivement réalisable…"
+  },
+  {
+    "input": "C’est peut-être que la parité n’est pas objectivement réalisable…",
+    "output": "Comment ça ? Il suffit de nommer autant d’hommes que de femmes dans le gouvernement, et on n’en parle plus."
+  },
+  {
+    "input": "Comment ça ? Il suffit de nommer autant d’hommes que de femmes dans le gouvernement, et on n’en parle plus.",
+    "output": "Oui, mais s’il n’y a pas assez de femmes compétentes, pourquoi nommer quelqu’un d’incompétent au motif que c’est une femme ?"
+  },
+  {
+    "input": "Oui, mais s’il n’y a pas assez de femmes compétentes, pourquoi nommer quelqu’un d’incompétent au motif que c’est une femme ?",
+    "output": "Non mais, tu plaisantes ? Tu ne penses pas ce que tu dis quand même ? "
+  },
+  {
+    "input": "Non mais, tu plaisantes ? Tu ne penses pas ce que tu dis quand même ? ",
+    "output": "Mais si ! Franchement, il n’y aurait que des femmes au pouvoir si elles étaient plus aptes à gouverner. "
+  },
+  {
+    "input": "Mais si ! Franchement, il n’y aurait que des femmes au pouvoir si elles étaient plus aptes à gouverner. ",
+    "output": "Non mais, je crois rêver là ! « aptes à gouverner » … parce que tu penses que les hommes sont génétiquement plus aptes à gouverner, peut-être ? "
+  },
+  {
+    "input": "Non mais, je crois rêver là ! « aptes à gouverner » … parce que tu penses que les hommes sont génétiquement plus aptes à gouverner, peut-être ? ",
+    "output": "C’est naturel, les hommes sont physiquement plus forts, ils sont donc naturellement plus disposés à détenir l’autorité, voilà !"
+  },
+  {
+    "input": "C’est naturel, les hommes sont physiquement plus forts, ils sont donc naturellement plus disposés à détenir l’autorité, voilà !",
+    "output": "Ils sont surtout intellectuellement plus faibles!"
+  },
+  {
+    "input": "Ils sont surtout intellectuellement plus faibles!",
+    "output": "Ah oui ? Et comment tu expliques alors qu’il n’y a quasiment que des hommes qui n’aient reçu de prix Nobel jusqu’à maintenant ? C’est parce qu’ils sont plus bêtes, c’est ça ? "
+  },
+  {
+    "input": "Ah oui ? Et comment tu expliques alors qu’il n’y a quasiment que des hommes qui n’aient reçu de prix Nobel jusqu’à maintenant ? C’est parce qu’ils sont plus bêtes, c’est ça ? ",
+    "output": "Tu mélanges tout ! Tu mélanges tout, arrête s’il te plaît. Il est prouvé que les petites filles obtiennent de meilleurs résultats à l’école que les garçons."
+  },
+  {
+    "input": "Tu mélanges tout ! Tu mélanges tout, arrête s’il te plaît. Il est prouvé que les petites filles obtiennent de meilleurs résultats à l’école que les garçons.",
+    "output": "Mais oui…"
+  },
+  {
+    "input": "Mais oui…",
+    "output": "C’est le conditionnement que notre société impose qui fait qu’elles ne poursuivent pas forcément les études qu’elles pourraient avoir…"
+  },
+  {
+    "input": "C’est le conditionnement que notre société impose qui fait qu’elles ne poursuivent pas forcément les études qu’elles pourraient avoir…",
+    "output": "Ah, ça va, hein !"
+  },
+  {
+    "input": "Ah, ça va, hein !",
+    "output": "… qu’elles ne font pas les carrières auxquelles elles pourraient prétendre. "
+  },
+  {
+    "input": "… qu’elles ne font pas les carrières auxquelles elles pourraient prétendre. ",
+    "output": "Donc tu admettras qu’au final, on risque de manquer de femmes compétentes si elles sont orientées vers des formations qui ne mènent pas au pouvoir."
+  },
+  {
+    "input": "Donc tu admettras qu’au final, on risque de manquer de femmes compétentes si elles sont orientées vers des formations qui ne mènent pas au pouvoir.",
+    "output": "C’est une question de modèle et de représentativité. Comment les filles pourraient s’identifier au pouvoir s’il est toujours incarné par un homme ? Bon, on arrête sur ce sujet.Tu es allé faire les courses j’espère."
+  },
+  {
+    "input": "C’est une question de modèle et de représentativité. Comment les filles pourraient s’identifier au pouvoir s’il est toujours incarné par un homme ? Bon, on arrête sur ce sujet.Tu es allé faire les courses j’espère.",
+    "output": "Oui, oui. "
+  },
+  {
+    "input": "Oui, oui. ",
+    "output": "Et bien, tu t’occuperas aussi du repas et du linge, je suis trop crevée pour m’en occuper !"
+  },
+  {
+    "input": "Et bien, tu t’occuperas aussi du repas et du linge, je suis trop crevée pour m’en occuper !",
+    "output": "Le gouvernement actuel a vraiment pris un tournant libéral !"
+  },
+  {
+    "input": "Le gouvernement actuel a vraiment pris un tournant libéral !",
+    "output": "Oui, et ce n’est pas plus mal."
+  },
+  {
+    "input": "Oui, et ce n’est pas plus mal.",
+    "output": "Parle pour toi ! Quand j’ai voté socialiste, c’était pour avoir une politique socialiste. Mais là, on a l’impression que voter socialiste ou droite, c’est devenu pareil."
+  },
+  {
+    "input": "Parle pour toi ! Quand j’ai voté socialiste, c’était pour avoir une politique socialiste. Mais là, on a l’impression que voter socialiste ou droite, c’est devenu pareil.",
+    "output": "Tu parles comme l’extrême droite là !"
+  },
+  {
+    "input": "Tu parles comme l’extrême droite là !",
+    "output": "Arrête ! Ne dis pas n’importe quoi ! Ce que je veux dire, c’est qu’on s’attendait à plus de justice sociale, plus d’égalité…"
+  },
+  {
+    "input": "Arrête ! Ne dis pas n’importe quoi ! Ce que je veux dire, c’est qu’on s’attendait à plus de justice sociale, plus d’égalité…",
+    "output": "Ouvre les yeux. Il n’y a que le travail qui donne la justice sociale. Tu travailles, tu gagnes de l’argent, et tout va bien après. On travaille plus, on gagne plus."
+  },
+  {
+    "input": "Ouvre les yeux. Il n’y a que le travail qui donne la justice sociale. Tu travailles, tu gagnes de l’argent, et tout va bien après. On travaille plus, on gagne plus.",
+    "output": "Ben voyons !"
+  },
+  {
+    "input": "Ben voyons !",
+    "output": "D’ailleurs, c’est ce que propose ton gouvernement socialiste en voulant enterrer les 35 heures."
+  },
+  {
+    "input": "D’ailleurs, c’est ce que propose ton gouvernement socialiste en voulant enterrer les 35 heures.",
+    "output": "Ce n’est pas mon gouvernement ! J’ai peut-être voté socialiste mais pas voté pour ce programme-là !  Et puis, c’est facile de dire qu’il faut travailler plus quand on a déjà une bonne situation. Mais la réalité, c’est qu’il y a des millions de gens qui préféreraient qu’on travaille moins et qu’on partage le temps de travail."
+  },
+  {
+    "input": "Ce n’est pas mon gouvernement ! J’ai peut-être voté socialiste mais pas voté pour ce programme-là !  Et puis, c’est facile de dire qu’il faut travailler plus quand on a déjà une bonne situation. Mais la réalité, c’est qu’il y a des millions de gens qui préféreraient qu’on travaille moins et qu’on partage le temps de travail.",
+    "output": "Tu vis encore dans les années 2000 là, c’est fini cette époque. On a essayé, ça ne marche pas. Point barre ! Bon, ce que je veux dire, c’est qu’avec la politique actuelle en France, on a surtout tous les inconvénients du libéralisme sans en avoir les avantages."
+  },
+  {
+    "input": "Tu vis encore dans les années 2000 là, c’est fini cette époque. On a essayé, ça ne marche pas. Point barre ! Bon, ce que je veux dire, c’est qu’avec la politique actuelle en France, on a surtout tous les inconvénients du libéralisme sans en avoir les avantages.",
+    "output": "(soupir) Bien, on va changer de sujet parce qu’on va pas se mettre d’accord aujourd’hui. Tu pars toujours en vacances dans le Médoc ? "
+  },
+  {
+    "input": "(soupir) Bien, on va changer de sujet parce qu’on va pas se mettre d’accord aujourd’hui. Tu pars toujours en vacances dans le Médoc ? ",
+    "output": "Alors tu ferais quoi à ma place ? Tu accepterais le poste ? "
+  },
+  {
+    "input": "Alors tu ferais quoi à ma place ? Tu accepterais le poste ? ",
+    "output": "À ta place ? J’accepterais, oui. C’est quand même beaucoup mieux payé."
+  },
+  {
+    "input": "À ta place ? J’accepterais, oui. C’est quand même beaucoup mieux payé.",
+    "output": "C’est certain que sur le plan de la rémunération, c’est beaucoup mieux."
+  },
+  {
+    "input": "C’est certain que sur le plan de la rémunération, c’est beaucoup mieux.",
+    "output": "Alors, pourquoi hésites-tu ? "
+  },
+  {
+    "input": "Alors, pourquoi hésites-tu ? ",
+    "output": "Je ne sais pas trop. J’ai l’impression que passer cadre, ça va me causer plein de soucis."
+  },
+  {
+    "input": "Je ne sais pas trop. J’ai l’impression que passer cadre, ça va me causer plein de soucis.",
+    "output": "Tu étais toujours stressé à cause de tes supérieurs. Maintenant, c’est toi qui stressera les autres…"
+  },
+  {
+    "input": "Tu étais toujours stressé à cause de tes supérieurs. Maintenant, c’est toi qui stressera les autres…",
+    "output": "Et bien, figure-toi que cette idée ne m’enchante pas du tout."
+  },
+  {
+    "input": "Et bien, figure-toi que cette idée ne m’enchante pas du tout.",
+    "output": "Tu n’auras qu’à faire en sorte de ne pas stresser ton entourage."
+  },
+  {
+    "input": "Tu n’auras qu’à faire en sorte de ne pas stresser ton entourage.",
+    "output": "Oui, la direction est très exigeante. Tu comprends ? "
+  },
+  {
+    "input": "Oui, la direction est très exigeante. Tu comprends ? ",
+    "output": "Je comprends surtout que tu n’as pas vraiment le choix. C’est la chance de ta vie. On ne le proposera pas deux fois !"
+  },
+  {
+    "input": "Je comprends surtout que tu n’as pas vraiment le choix. C’est la chance de ta vie. On ne le proposera pas deux fois !",
+    "output": "Je pourrais aussi changer de boîte."
+  },
+  {
+    "input": "Je pourrais aussi changer de boîte.",
+    "output": "Peut-être mais si tu comptes changer de boîte un jour, je pense quand même que tu ferais mieux d’essayer ce poste. Et s’il ne te plaît pas, alors ce sera une bonne occasion de changer."
+  },
+  {
+    "input": "Peut-être mais si tu comptes changer de boîte un jour, je pense quand même que tu ferais mieux d’essayer ce poste. Et s’il ne te plaît pas, alors ce sera une bonne occasion de changer.",
+    "output": "Oui, tu as peut-être raison."
+  },
+  {
+    "input": "Oui, tu as peut-être raison.",
+    "output": "Tu lis quoi ?"
+  },
+  {
+    "input": "Tu lis quoi ?",
+    "output": "Je relis le Vol des Cigognes…"
+  },
+  {
+    "input": "Je relis le Vol des Cigognes…",
+    "output": "Je ne connais pas. C’est de qui ?"
+  },
+  {
+    "input": "Je ne connais pas. C’est de qui ?",
+    "output": "Jean-Christophe Grangé…"
+  },
+  {
+    "input": "Jean-Christophe Grangé…",
+    "output": "Je ne connais pas…"
+  },
+  {
+    "input": "Je ne connais pas…",
+    "output": "Mais si, tu connais forcément. C’est lui qui a écrit les Rivières pourpres…"
+  },
+  {
+    "input": "Mais si, tu connais forcément. C’est lui qui a écrit les Rivières pourpres…",
+    "output": "Ah, oui, j’ai vu le film."
+  },
+  {
+    "input": "Ah, oui, j’ai vu le film.",
+    "output": "En fait, tous ses livres ont été adaptés au cinéma. J’ai lu tous ses livres ! J’adore !"
+  },
+  {
+    "input": "En fait, tous ses livres ont été adaptés au cinéma. J’ai lu tous ses livres ! J’adore !",
+    "output": "Et celui que tu lis maintenant, il est comment ?"
+  },
+  {
+    "input": "Et celui que tu lis maintenant, il est comment ?",
+    "output": "C’est son premier. C’est absolument trépidant. Une fois que tu commences, tu ne peux pas t’arrêter."
+  },
+  {
+    "input": "C’est son premier. C’est absolument trépidant. Une fois que tu commences, tu ne peux pas t’arrêter.",
+    "output": "C’est si bien écrit que ça ?"
+  },
+  {
+    "input": "C’est si bien écrit que ça ?",
+    "output": "Oh, ce n’est pas de la grande littérature! Le but n’est pas de se prendre la tête. Il t’emmène toujours dans une intrigue policière avec des descriptions de scènes de crime effroyables. Il y a un suspense qui te tient du début à la fin du bouquin."
+  },
+  {
+    "input": "Oh, ce n’est pas de la grande littérature! Le but n’est pas de se prendre la tête. Il t’emmène toujours dans une intrigue policière avec des descriptions de scènes de crime effroyables. Il y a un suspense qui te tient du début à la fin du bouquin.",
+    "output": "Tu sais, moi, les livres qui font peur, ce n’est pas trop ma tasse de thé."
+  },
+  {
+    "input": "Tu sais, moi, les livres qui font peur, ce n’est pas trop ma tasse de thé.",
+    "output": "Tu n’aimes pas les polars ?"
+  },
+  {
+    "input": "Tu n’aimes pas les polars ?",
+    "output": "Ce n’est pas que je n’aime pas. Tant qu’on ne tombe pas dans les scènes d’horreur, ça va. Sinon, je n’arrive pas à dormir de la nuit."
+  },
+  {
+    "input": "Ce n’est pas que je n’aime pas. Tant qu’on ne tombe pas dans les scènes d’horreur, ça va. Sinon, je n’arrive pas à dormir de la nuit.",
+    "output": "C’est quoi ton livre préféré ?"
+  },
+  {
+    "input": "C’est quoi ton livre préféré ?",
+    "output": "Mon livre préféré ? C’est une question difficile !"
+  },
+  {
+    "input": "Mon livre préféré ? C’est une question difficile !",
+    "output": "Pourquoi ? On a tous un livre préféré !"
+  },
+  {
+    "input": "Pourquoi ? On a tous un livre préféré !",
+    "output": "L’Insoutenable Légèreté de l’Être, de Kundera."
+  },
+  {
+    "input": "L’Insoutenable Légèreté de l’Être, de Kundera.",
+    "output": "Tu l’as lu quand la dernière fois ?"
+  },
+  {
+    "input": "Tu l’as lu quand la dernière fois ?",
+    "output": "Ça fait bien dix ans ! je venais d’entrer à la fac."
+  },
+  {
+    "input": "Ça fait bien dix ans ! je venais d’entrer à la fac.",
+    "output": "Et ben, tu vois, tu devrais peut-être le relire avant de dire que c’est ton livre préféré."
+  },
+  {
+    "input": "Et ben, tu vois, tu devrais peut-être le relire avant de dire que c’est ton livre préféré.",
+    "output": "Le relire ? Je ne vois pas pourquoi ! Je me rappelle très bien l’histoire."
+  },
+  {
+    "input": "Le relire ? Je ne vois pas pourquoi ! Je me rappelle très bien l’histoire.",
+    "output": "Quand j’étais à la fac, je disais moi aussi que c’était mon livre préféré."
+  },
+  {
+    "input": "Quand j’étais à la fac, je disais moi aussi que c’était mon livre préféré.",
+    "output": "L’Insoutenable Légèreté de l’Être ?"
+  },
+  {
+    "input": "L’Insoutenable Légèreté de l’Être ?",
+    "output": "Oui, et puis un jour, je faisais ma deuxième année de master, j’ai conseillé ce livre à une amie qui l’a lu et qui m’a demandé ensuite si j’aimais vraiment ce livre. Sa question m’a vraiment surprise. Alors je l’ai relu le soir même…"
+  },
+  {
+    "input": "Oui, et puis un jour, je faisais ma deuxième année de master, j’ai conseillé ce livre à une amie qui l’a lu et qui m’a demandé ensuite si j’aimais vraiment ce livre. Sa question m’a vraiment surprise. Alors je l’ai relu le soir même…",
+    "output": "Et ça a changé quelque chose ?"
+  },
+  {
+    "input": "Et ça a changé quelque chose ?",
+    "output": "Oui, je n’aimais plus. Le fait de ne plus aimer un livre a été une grande découverte pour moi. Un livre que j’adorais ! J’avais lu tout Kundera, puis tous les auteurs Tchèques traduits en français et je suis même allée marcher dans les rues de Prague pour mieux apprécier son œuvre. J’étais complètement fan."
+  },
+  {
+    "input": "Oui, je n’aimais plus. Le fait de ne plus aimer un livre a été une grande découverte pour moi. Un livre que j’adorais ! J’avais lu tout Kundera, puis tous les auteurs Tchèques traduits en français et je suis même allée marcher dans les rues de Prague pour mieux apprécier son œuvre. J’étais complètement fan.",
+    "output": "Tu veux dire que le temps passant, on ne comprend pas les livres de la même manière."
+  },
+  {
+    "input": "Tu veux dire que le temps passant, on ne comprend pas les livres de la même manière.",
+    "output": "Oui, à partir de ce moment, j’ai compris qu’un auteur comme un lecteur change. J’ai commencé à me renseigner sur la biographie des auteurs, l’âge auquel ils ont écrit leurs livres."
+  },
+  {
+    "input": "Oui, à partir de ce moment, j’ai compris qu’un auteur comme un lecteur change. J’ai commencé à me renseigner sur la biographie des auteurs, l’âge auquel ils ont écrit leurs livres.",
+    "output": "Je ne vois pas trop l’intérêt !"
+  },
+  {
+    "input": "Je ne vois pas trop l’intérêt !",
+    "output": "C’est super important. Il y a des choses qu’on ne perçoit que jeune, d’autres qu’on ne comprend qu’avec l’expérience."
+  },
+  {
+    "input": "C’est super important. Il y a des choses qu’on ne perçoit que jeune, d’autres qu’on ne comprend qu’avec l’expérience.",
+    "output": "Oui… donc tu n’as pas de livre préféré si j’ai bien compris. Tu aurais pu le dire plus tôt !"
+  },
+  {
+    "input": "Oui… donc tu n’as pas de livre préféré si j’ai bien compris. Tu aurais pu le dire plus tôt !",
+    "output": "Non, mais, tu as vu ?"
+  },
+  {
+    "input": "Non, mais, tu as vu ?",
+    "output": "Quoi ?"
+  },
+  {
+    "input": "Quoi ?",
+    "output": "150 000 000 d’euros pour un transfert… Tu te rends compte ? Tout ça pour taper dans un ballon !"
+  },
+  {
+    "input": "150 000 000 d’euros pour un transfert… Tu te rends compte ? Tout ça pour taper dans un ballon !",
+    "output": "Oui, mais c’est pour le meilleur joueur du monde."
+  },
+  {
+    "input": "Oui, mais c’est pour le meilleur joueur du monde.",
+    "output": "Meilleur joueur ou pas, je trouve cette somme obscène."
+  },
+  {
+    "input": "Meilleur joueur ou pas, je trouve cette somme obscène.",
+    "output": "Tu exagères, le football est un business comme un autre. C’est normal que les sommes atteignent des sommets quand l’enjeu est important."
+  },
+  {
+    "input": "Tu exagères, le football est un business comme un autre. C’est normal que les sommes atteignent des sommets quand l’enjeu est important.",
+    "output": "Mais attends, il va être payé 900 000 euros par mois par son club ! 900 000 euros ! On a l’air malin avec notre mois à 2500 euros."
+  },
+  {
+    "input": "Mais attends, il va être payé 900 000 euros par mois par son club ! 900 000 euros ! On a l’air malin avec notre mois à 2500 euros.",
+    "output": "Tu ne vas pas comparer ton salaire avec celui d’un sportif professionnel quand même."
+  },
+  {
+    "input": "Tu ne vas pas comparer ton salaire avec celui d’un sportif professionnel quand même.",
+    "output": "Et pourquoi pas ?"
+  },
+  {
+    "input": "Et pourquoi pas ?",
+    "output": "Parce que toi, si tu tapes dans le ballon, personne ne fera le déplacement pour te regarder faire."
+  },
+  {
+    "input": "Parce que toi, si tu tapes dans le ballon, personne ne fera le déplacement pour te regarder faire.",
+    "output": "Personne… tout de suite…"
+  },
+  {
+    "input": "Personne… tout de suite…",
+    "output": "À part moi, je veux dire."
+  },
+  {
+    "input": "À part moi, je veux dire.",
+    "output": "Oh, tu es trop chou."
+  },
+  {
+    "input": "Oh, tu es trop chou.",
+    "output": "Tu en penses quoi, toi, du travail le dimanche ?"
+  },
+  {
+    "input": "Tu en penses quoi, toi, du travail le dimanche ?",
+    "output": "Je ne sais pas trop quoi penser. Ça va faire bizarre de voir les magasins ouverts ce jour-là."
+  },
+  {
+    "input": "Je ne sais pas trop quoi penser. Ça va faire bizarre de voir les magasins ouverts ce jour-là.",
+    "output": "Oui, enfin, les commerces étaient ouverts le matin."
+  },
+  {
+    "input": "Oui, enfin, les commerces étaient ouverts le matin.",
+    "output": "Pas tous ! les supermarchés étaient fermés."
+  },
+  {
+    "input": "Pas tous ! les supermarchés étaient fermés.",
+    "output": "Justement, je crois que l’idée c’est que la règle soit la même pour tout le monde."
+  },
+  {
+    "input": "Justement, je crois que l’idée c’est que la règle soit la même pour tout le monde.",
+    "output": "Ça va surtout nuire aux petits commerçants. Les gens iront tous dans les centres commerciaux. J’ai l’impression qu’on brise un tabou et qu’on ne pourra plus revenir en arrière. Et puis, je trouve ça pas mal qu’il y ait un jour dans la semaine où on peut faire autre chose que consommer."
+  },
+  {
+    "input": "Ça va surtout nuire aux petits commerçants. Les gens iront tous dans les centres commerciaux. J’ai l’impression qu’on brise un tabou et qu’on ne pourra plus revenir en arrière. Et puis, je trouve ça pas mal qu’il y ait un jour dans la semaine où on peut faire autre chose que consommer.",
+    "output": "Tu dis ça parce que tu as le temps de faire tes courses un autre jour."
+  },
+  {
+    "input": "Tu dis ça parce que tu as le temps de faire tes courses un autre jour.",
+    "output": "Non, pas du tout, je commande tout sur Internet."
+  },
+  {
+    "input": "Non, pas du tout, je commande tout sur Internet.",
+    "output": "Et tu passes ta commande quel jour ?"
+  },
+  {
+    "input": "Et tu passes ta commande quel jour ?",
+    "output": "Ben, le dimanche…"
+  },
+  {
+    "input": "Ben, le dimanche…",
+    "output": "Tu es en train de me dire que tu es pour la fermeture des magasins le dimanche et  que tu fais tes courses sur internet le dimanche…"
+  },
+  {
+    "input": "Tu es en train de me dire que tu es pour la fermeture des magasins le dimanche et  que tu fais tes courses sur internet le dimanche…",
+    "output": "Oui, mais c’est différent !"
+  },
+  {
+    "input": "Oui, mais c’est différent !",
+    "output": "Désolée, mais je ne vois pas ce qui est différent."
+  },
+  {
+    "input": "Désolée, mais je ne vois pas ce qui est différent.",
+    "output": "Ce que je veux dire, c’est que avec l’ouverture des magasins le dimanche, c’est la fin des repas en famille…"
+  },
+  {
+    "input": "Ce que je veux dire, c’est que avec l’ouverture des magasins le dimanche, c’est la fin des repas en famille…",
+    "output": "Euh… Rien ne t’oblige à sortir le dimanche. Ce sera juste plus pratique pour ceux qui ne peuvent pas faire autrement."
+  },
+  {
+    "input": "Euh… Rien ne t’oblige à sortir le dimanche. Ce sera juste plus pratique pour ceux qui ne peuvent pas faire autrement.",
+    "output": "Tu es pour ou contre le travail le dimanche ?"
+  },
+  {
+    "input": "Tu es pour ou contre le travail le dimanche ?",
+    "output": "Je suis plutôt contre."
+  },
+  {
+    "input": "Je suis plutôt contre.",
+    "output": "Et pourquoi alors ?"
+  },
+  {
+    "input": "Et pourquoi alors ?",
+    "output": "Et bien, pour moi le dimanche est un jour spécial. C’est le jour de repos par excellence."
+  },
+  {
+    "input": "Et bien, pour moi le dimanche est un jour spécial. C’est le jour de repos par excellence.",
+    "output": "On peut se reposer un autre jour…"
+  },
+  {
+    "input": "On peut se reposer un autre jour…",
+    "output": "Oui, mais il y a la tradition, le dimanche c’est le jour pour les sorties en famille, le jour pour faire du sport… Et puis, ça fait des siècles qu’on ne travaille pas le dimanche en France."
+  },
+  {
+    "input": "Oui, mais il y a la tradition, le dimanche c’est le jour pour les sorties en famille, le jour pour faire du sport… Et puis, ça fait des siècles qu’on ne travaille pas le dimanche en France.",
+    "output": "Peut-être ! Mais il faut évoluer avec son temps, tu ne crois pas ?"
+  },
+  {
+    "input": "Peut-être ! Mais il faut évoluer avec son temps, tu ne crois pas ?",
+    "output": "Tu crois que perdre un jour de repos par semaine, c’est une évolution ?"
+  },
+  {
+    "input": "Tu crois que perdre un jour de repos par semaine, c’est une évolution ?",
+    "output": "Il n’est pas question de perdre un jour de repos ! Ceux qui travaillent le dimanche sont mieux payés et se reposent un autre jour."
+  },
+  {
+    "input": "Il n’est pas question de perdre un jour de repos ! Ceux qui travaillent le dimanche sont mieux payés et se reposent un autre jour.",
+    "output": "Tu ramènes tout à l’argent ! Avoir un même jour chômé dans une société est important pour la cohésion sociale."
+  },
+  {
+    "input": "Tu ramènes tout à l’argent ! Avoir un même jour chômé dans une société est important pour la cohésion sociale.",
+    "output": "Tu parles ! Le pays a surtout besoin de créer des emplois, et le travail le dimanche permet d’en créer."
+  },
+  {
+    "input": "Tu parles ! Le pays a surtout besoin de créer des emplois, et le travail le dimanche permet d’en créer.",
+    "output": "Et bien voilà, on va encore sacrifier le vivre ensemble sur l’autel de la croissance et de l’emploi."
+  },
+  {
+    "input": "Et bien voilà, on va encore sacrifier le vivre ensemble sur l’autel de la croissance et de l’emploi.",
+    "output": "Attends, tu ne peux quand même pas dire que ce serait une mauvaise chose qu’il ait plus d’emplois dans ce pays."
+  },
+  {
+    "input": "Attends, tu ne peux quand même pas dire que ce serait une mauvaise chose qu’il ait plus d’emplois dans ce pays.",
+    "output": "Mais il y a d’autres moyens pour relancer la croissance ! Est-ce qu’il y a des problèmes de chômage ou de croissance en Allemagne ? Non ! Est-ce qu’on travaille le dimanche ? Non ! Alors, on pourra dire ce qu’on voudra, mais travailler le dimanche ne va certainement pas régler la question du chômage."
+  },
+  {
+    "input": "Mais il y a d’autres moyens pour relancer la croissance ! Est-ce qu’il y a des problèmes de chômage ou de croissance en Allemagne ? Non ! Est-ce qu’on travaille le dimanche ? Non ! Alors, on pourra dire ce qu’on voudra, mais travailler le dimanche ne va certainement pas régler la question du chômage.",
+    "output": "Monsieur Bouchard, vous êtes boulanger, que pensez-vous du travail le dimanche ?"
+  },
+  {
+    "input": "Monsieur Bouchard, vous êtes boulanger, que pensez-vous du travail le dimanche ?",
+    "output": "Ce que j’en pense ? Mais, c’est une catastrophe pour la profession !"
+  },
+  {
+    "input": "Ce que j’en pense ? Mais, c’est une catastrophe pour la profession !",
+    "output": "Comment ça ?"
+  },
+  {
+    "input": "Comment ça ?",
+    "output": "Et bien, les boulangers travaillent déjà le dimanche ! Alors vous imaginez bien que dans mon cas, je ne vois pas l’ouverture des grands magasins le dimanche d’un bon oeil."
+  },
+  {
+    "input": "Et bien, les boulangers travaillent déjà le dimanche ! Alors vous imaginez bien que dans mon cas, je ne vois pas l’ouverture des grands magasins le dimanche d’un bon oeil.",
+    "output": "L’ouverture le dimanche n’est pas prévue pour tous les dimanches de l’année !"
+  },
+  {
+    "input": "L’ouverture le dimanche n’est pas prévue pour tous les dimanches de l’année !",
+    "output": "Rendez-vous compte :  le dimanche, c’est notre plus gros jour. Je ne parle pas seulement des boulangers, c’est la même chose pour tous les petits commerçants. En autorisant les supermarchés à ouvrir le dimanche, les gens ne viendront plus faire leurs courses dans le centre ville."
+  },
+  {
+    "input": "Rendez-vous compte :  le dimanche, c’est notre plus gros jour. Je ne parle pas seulement des boulangers, c’est la même chose pour tous les petits commerçants. En autorisant les supermarchés à ouvrir le dimanche, les gens ne viendront plus faire leurs courses dans le centre ville.",
+    "output": "Mais, la loi prévoit l’ouverture de seulement douze dimanches par an…"
+  },
+  {
+    "input": "Mais, la loi prévoit l’ouverture de seulement douze dimanches par an…",
+    "output": "Faites le calcul !  Douze dimanches, c’est trois mois ! Et bien sûr, les grands magasins ouvriront les dimanches qui rapportent le plus ! Croyez-moi, c’est la mort des commerces de proximité dans les dix prochaines années. Vous ne trouverez plus un boucher, plus un charcutier, plus un boulanger en dehors des supermarchés ! Le gouvernement dit que c’est pour relancer l’emploi ! Si vous voulez qu’on embauche, il n’y a qu’à nous baisser les charges ! Voilà ce que j’ai à dire !"
+  },
+  {
+    "input": "Faites le calcul !  Douze dimanches, c’est trois mois ! Et bien sûr, les grands magasins ouvriront les dimanches qui rapportent le plus ! Croyez-moi, c’est la mort des commerces de proximité dans les dix prochaines années. Vous ne trouverez plus un boucher, plus un charcutier, plus un boulanger en dehors des supermarchés ! Le gouvernement dit que c’est pour relancer l’emploi ! Si vous voulez qu’on embauche, il n’y a qu’à nous baisser les charges ! Voilà ce que j’ai à dire !",
+    "output": "Tu t’intéresses à la littérature ?"
+  },
+  {
+    "input": "Tu t’intéresses à la littérature ?",
+    "output": "Oui, je m’y intéresse.Et toi ?"
+  },
+  {
+    "input": "Oui, je m’y intéresse.Et toi ?",
+    "output": "Moi aussi, la littérature m’intéresse. Et les maths, ça t’intéresse ?"
+  },
+  {
+    "input": "Moi aussi, la littérature m’intéresse. Et les maths, ça t’intéresse ?",
+    "output": "Les maths ? Franchement, je trouve ça trop difficile."
+  },
+  {
+    "input": "Les maths ? Franchement, je trouve ça trop difficile.",
+    "output": "Oui, mais c’est intéressant, tu es d’accord."
+  },
+  {
+    "input": "Oui, mais c’est intéressant, tu es d’accord.",
+    "output": "Je vois pas trop ce qu’il y a d’intéressant dans les maths. Mais bon."
+  },
+  {
+    "input": "Je vois pas trop ce qu’il y a d’intéressant dans les maths. Mais bon.",
+    "output": "Et les langues étrangères, est-ce que tu t’y intéresses ?"
+  },
+  {
+    "input": "Et les langues étrangères, est-ce que tu t’y intéresses ?",
+    "output": "Disons, que je trouve ça utile. Je suis surtout intéressée par l’allemand."
+  },
+  {
+    "input": "Disons, que je trouve ça utile. Je suis surtout intéressée par l’allemand.",
+    "output": "L’allemand ? Et il y a une raison particulière à ça ?"
+  },
+  {
+    "input": "L’allemand ? Et il y a une raison particulière à ça ?",
+    "output": "Oui, je suis passionnée de philosophie. Alors apprendre l’allemand, c’est intéressant car ça me permet de lire des textes qui n’ont jamais été traduits en français."
+  },
+  {
+    "input": "Oui, je suis passionnée de philosophie. Alors apprendre l’allemand, c’est intéressant car ça me permet de lire des textes qui n’ont jamais été traduits en français.",
+    "output": "Je vois, moi c’est plutôt l’italien qui m’intéresse."
+  },
+  {
+    "input": "Je vois, moi c’est plutôt l’italien qui m’intéresse.",
+    "output": "Et je peux savoir pourquoi ?"
+  },
+  {
+    "input": "Et je peux savoir pourquoi ?",
+    "output": "D’abord parce que j’en aime les sonorités et puis aussi parce que je suis d’origine italienne."
+  },
+  {
+    "input": "D’abord parce que j’en aime les sonorités et puis aussi parce que je suis d’origine italienne.",
+    "output": "Tu as vu ? Ils parlent d’obliger les enfants à porter l’uniforme à l’école."
+  },
+  {
+    "input": "Tu as vu ? Ils parlent d’obliger les enfants à porter l’uniforme à l’école.",
+    "output": "On en parle tous les ans… personne n’est jamais d’accord sur ce sujet."
+  },
+  {
+    "input": "On en parle tous les ans… personne n’est jamais d’accord sur ce sujet.",
+    "output": "Et tu en penses quoi toi ?"
+  },
+  {
+    "input": "Et tu en penses quoi toi ?",
+    "output": "Je ne vois pas l’intérêt. Je ne pense pas qu’un uniforme va changer (1) quelque chose dans le comportement des élèves."
+  },
+  {
+    "input": "Je ne vois pas l’intérêt. Je ne pense pas qu’un uniforme va changer (1) quelque chose dans le comportement des élèves.",
+    "output": "Les partisans de l’uniforme disent que ça réduirait les inégalités."
+  },
+  {
+    "input": "Les partisans de l’uniforme disent que ça réduirait les inégalités.",
+    "output": "Tu parles ! L’uniforme ne va faire disparaître ni les différences sociales ni les écarts scolaires."
+  },
+  {
+    "input": "Tu parles ! L’uniforme ne va faire disparaître ni les différences sociales ni les écarts scolaires.",
+    "output": "Peut-être, mais on dit que qu’avec l’uniforme, les professeurs auraient devant eux l’image de l’unité républicaine."
+  },
+  {
+    "input": "Peut-être, mais on dit que qu’avec l’uniforme, les professeurs auraient devant eux l’image de l’unité républicaine.",
+    "output": "Oui, et alors ?"
+  },
+  {
+    "input": "Oui, et alors ?",
+    "output": "Et bien, les élèves en portant l’uniforme seraient en quelques sortes contraints de sortir d’eux-mêmes, d’obéir à une certaine forme d’uniformité républicaine."
+  },
+  {
+    "input": "Et bien, les élèves en portant l’uniforme seraient en quelques sortes contraints de sortir d’eux-mêmes, d’obéir à une certaine forme d’uniformité républicaine.",
+    "output": "C’est du bla bla tout ça. Les temps ont changé, les enfants d’aujourd’hui ne sont plus comme avant. On ne reviendra pas en arrière. Au fond, je ne suis pas contre le port de l’uniforme, je considère seulement qu’après l’avoir supprimé, ça me parait impossible de l’imposer à nouveau."
+  },
+  {
+    "input": "C’est du bla bla tout ça. Les temps ont changé, les enfants d’aujourd’hui ne sont plus comme avant. On ne reviendra pas en arrière. Au fond, je ne suis pas contre le port de l’uniforme, je considère seulement qu’après l’avoir supprimé, ça me parait impossible de l’imposer à nouveau.",
+    "output": "Tu es pour ou contre la réforme de l’orthographe ?"
+  },
+  {
+    "input": "Tu es pour ou contre la réforme de l’orthographe ?",
+    "output": "Pourquoi cette question ?"
+  },
+  {
+    "input": "Pourquoi cette question ?",
+    "output": "Parce qu’on en parle beaucoup ces derniers temps…"
+  },
+  {
+    "input": "Parce qu’on en parle beaucoup ces derniers temps…",
+    "output": "Mais ça ne date pas d’hier cette réforme !"
+  },
+  {
+    "input": "Mais ça ne date pas d’hier cette réforme !",
+    "output": "Oui, je sais mais le gouvernement veut la faire appliquer dans les écoles. On ne doit plus écrire « nénuphar » avec ph mais avec un F… nénufar."
+  },
+  {
+    "input": "Oui, je sais mais le gouvernement veut la faire appliquer dans les écoles. On ne doit plus écrire « nénuphar » avec ph mais avec un F… nénufar.",
+    "output": "Je n’écris jamais le mot nénuphar… et puis avec tout le tintamarre fait autour de ce mot, tout le monde doit connaître maintenant les deux orthographes. Cela fait un point positif à cette réforme."
+  },
+  {
+    "input": "Je n’écris jamais le mot nénuphar… et puis avec tout le tintamarre fait autour de ce mot, tout le monde doit connaître maintenant les deux orthographes. Cela fait un point positif à cette réforme.",
+    "output": "Donc tu penses que c’est une bonne chose ?"
+  },
+  {
+    "input": "Donc tu penses que c’est une bonne chose ?",
+    "output": "Non, je n’en pense rien."
+  },
+  {
+    "input": "Non, je n’en pense rien.",
+    "output": "Comment ça, tu n’en penses rien ? Ils veulent supprimer l’accent circonflexe…"
+  },
+  {
+    "input": "Comment ça, tu n’en penses rien ? Ils veulent supprimer l’accent circonflexe…",
+    "output": "Oui, et bien moi, je continuerai de l’écrire, c’est tout."
+  },
+  {
+    "input": "Oui, et bien moi, je continuerai de l’écrire, c’est tout.",
+    "output": "Tu ne crois pas que ça va faire baisser encore plus le niveau général ?"
+  },
+  {
+    "input": "Tu ne crois pas que ça va faire baisser encore plus le niveau général ?",
+    "output": "Je crois qu’au lieu de regarder des gens s’écharper sur le sujet à la télé, tu devrais prendre un bon livre et me laisser finir le mien en paix… P. A. I. X,  tu m’as compris.\n"
   }
 ]
