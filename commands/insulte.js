@@ -2,15 +2,15 @@ module.exports = {
     name: 'insulte',
     aliases: [''],
     usage: `<user>`,
-    description: 'rip...',
+    description: 'baka baka baka baka ! ',
     execute(message, args) {
         var fs = require('fs');
-        var mesInsultes = JSON.parse(fs.readFileSync('./../commands/data/out/data.json', 'utf8'));
+        var mesInsultes = JSON.parse(fs.readFileSync('./data/insultes.json', 'utf8'));
 
         let alea = parseInt(Math.random() * mesInsultes.length); 
         let rare = parseInt(Math.random() * 50);
 
-        if (rare) return message.channel.send("お前はもう死んでいる (Omae wa mo shindeiru!)");
+        if (rare==0) return message.channel.send("お前はもう死んでいる (Omae wa mo shindeiru!)");
        
         if (!message.mentions.users.size) {
             let msg = `${message.author} dit que quelqu'un est vraiment ${mesInsultes[alea]}.`;
