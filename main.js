@@ -34,8 +34,8 @@ client.on('message', message => {
 		|| client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 
 	if (!command) {
-		//message.channel.send("Hey! Bientôt je saurais parler :D !");
-
+		const co = require('./cogite.js');
+		message.reply(co.cherchePattern(message));
 	} else {
 
 		if (command.args && !args.length) {
@@ -89,4 +89,4 @@ client.on('message', message => {
 });
 
 // login to Discord with your app's token
-client.login(process.env.TOKEN);
+client.login(process.env.TOKEN); 

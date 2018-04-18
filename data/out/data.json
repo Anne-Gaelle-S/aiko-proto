@@ -1,0 +1,218 @@
+[
+  {
+    "input": "Bonjour Mademoiselle !",
+    "output": "Bonjour !"
+  },
+  {
+    "input": "Bonjour !",
+    "output": "Pourriez-vous me dire comment arriver à la bibliothèque?"
+  },
+  {
+    "input": "Pourriez-vous me dire comment arriver à la bibliothèque?",
+    "output": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine."
+  },
+  {
+    "input": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine.",
+    "output": "Merci beaucoup, tu es française ?"
+  },
+  {
+    "input": "Merci beaucoup, tu es française ?",
+    "output": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?"
+  },
+  {
+    "input": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?",
+    "output": "Non, je suis italien. Je m’appelle Bobs Adamo."
+  },
+  {
+    "input": "Non, je suis italien. Je m’appelle Bobs Adamo.",
+    "output": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !"
+  },
+  {
+    "input": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !",
+    "output": "Enchanté de faire ta connaissance !"
+  },
+  {
+    "input": "Enchanté de faire ta connaissance !",
+    "output": "D’où viens-tu ?"
+  },
+  {
+    "input": "D’où viens-tu ?",
+    "output": "Je viens d' Italie, de Milan ! Et toi ?"
+  },
+  {
+    "input": "Je viens d' Italie, de Milan ! Et toi ?",
+    "output": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon."
+  },
+  {
+    "input": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon.",
+    "output": "Je t’invite à une soirée italienne demain soir si tu es libre."
+  },
+  {
+    "input": "Je t’invite à une soirée italienne demain soir si tu es libre.",
+    "output": "Merci beaucoup, ça me fera plaisir. À demain soir alors !"
+  },
+  {
+    "input": "Merci beaucoup, ça me fera plaisir. À demain soir alors !",
+    "output": "À demain !"
+  },
+  {
+    "input": "Vous êtes d’où ?",
+    "output": "Je suis de Bordeaux."
+  },
+  {
+    "input": "Je suis de Bordeaux.",
+    "output": "Vous n’avez pas d’accent."
+  },
+  {
+    "input": "Vous n’avez pas d’accent.",
+    "output": "Non, ma mère est d’origine espagnole et mon père est né à Lille. Alors, on n’a pas trop l’accent bordelais au départ."
+  },
+  {
+    "input": "Non, ma mère est d’origine espagnole et mon père est né à Lille. Alors, on n’a pas trop l’accent bordelais au départ.",
+    "output": "Moi, c’est pareil. Je suis né à Toulouse, mais toute ma famille est en Alsace."
+  },
+  {
+    "input": "Moi, c’est pareil. Je suis né à Toulouse, mais toute ma famille est en Alsace.",
+    "output": "Et vous parlez l’alsacien ?"
+  },
+  {
+    "input": "Et vous parlez l’alsacien ?",
+    "output": "Oui, avec mes parents et mes grands-parents. Mais pas avec mes frères et soeurs."
+  },
+  {
+    "input": "Oui, avec mes parents et mes grands-parents. Mais pas avec mes frères et soeurs.",
+    "output": "Vous n’avez pas l’intention d’y retourner pour y habiter ?"
+  },
+  {
+    "input": "Vous n’avez pas l’intention d’y retourner pour y habiter ?",
+    "output": "Non, je n’y ai  jamais  vécu, mais comme toute ma famille est là-bas, j’aime bien y passer quelques jours.\n"
+  },
+  {
+    "input": "Qu’est-ce que vous avez fait pendant les vacances ? ",
+    "output": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? "
+  },
+  {
+    "input": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? ",
+    "output": "Moi, je suis allée en Tunisie avec mon mari."
+  },
+  {
+    "input": "Moi, je suis allée en Tunisie avec mon mari.",
+    "output": "Vous étiez où en Tunisie ? "
+  },
+  {
+    "input": "Vous étiez où en Tunisie ? ",
+    "output": "On était à Djerba pendant une semaine, c’était magnifique."
+  },
+  {
+    "input": "On était à Djerba pendant une semaine, c’était magnifique.",
+    "output": "Vous êtes restés tout le temps à Djerba ? "
+  },
+  {
+    "input": "Vous êtes restés tout le temps à Djerba ? ",
+    "output": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. "
+  },
+  {
+    "input": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. ",
+    "output": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? "
+  },
+  {
+    "input": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? ",
+    "output": "Non non, les gens sont très accueillants et dans les lieux touristiques, tout le monde parle français.\n"
+  },
+  {
+    "input": "Tu as bougé pendant les vacances ?",
+    "output": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors."
+  },
+  {
+    "input": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors.",
+    "output": "Combien de temps ? "
+  },
+  {
+    "input": "Combien de temps ? ",
+    "output": "Une semaine au total, c’était un peu dur à cause du temps. On a eu des orages assez violents et il a plu pendant deux jours. Mais les paysages étaient superbes. Et toi, tu as fait quoi ? "
+  },
+  {
+    "input": "Une semaine au total, c’était un peu dur à cause du temps. On a eu des orages assez violents et il a plu pendant deux jours. Mais les paysages étaient superbes. Et toi, tu as fait quoi ? ",
+    "output": "Pas grand chose. J’ai passé quatre jours chez mon beau-frère, résultat j’ai pris deux kilos ! "
+  },
+  {
+    "input": "Pas grand chose. J’ai passé quatre jours chez mon beau-frère, résultat j’ai pris deux kilos ! ",
+    "output": "Tu as bien mangé ? "
+  },
+  {
+    "input": "Tu as bien mangé ? ",
+    "output": "Oui, j’ai surtout trop bu ! Mais bon, c’était bien sympa. Et puis, je suis allé faire un peu de camping en Dordogne comme chaque année. Bref, rien d’extraordinaire, mais les enfants étaient contents. Ils ont vu leurs cousins et ils sont allés à la pêche."
+  },
+  {
+    "input": "Vous êtes ici pour combien de temps ?",
+    "output": "Une semaine, mais je ne connais pas du tout la région."
+  },
+  {
+    "input": "Une semaine, mais je ne connais pas du tout la région.",
+    "output": "Alors, vous allez adorer. Il y a plein de choses à voir ici."
+  },
+  {
+    "input": "Alors, vous allez adorer. Il y a plein de choses à voir ici.",
+    "output": "C’est ce qu’on dit. Vous me conseillez de commencer par quoi ?"
+  },
+  {
+    "input": "C’est ce qu’on dit. Vous me conseillez de commencer par quoi ?",
+    "output": " Ça dépend, vous êtes en voiture ?  "
+  },
+  {
+    "input": " Ça dépend, vous êtes en voiture ?  ",
+    "output": "Oui, et j’ai tout mon temps."
+  },
+  {
+    "input": "Oui, et j’ai tout mon temps.",
+    "output": "Alors, commencez par Tours. C’est très joli et sur la route, il y a le château d’Amboise."
+  },
+  {
+    "input": "Alors, commencez par Tours. C’est très joli et sur la route, il y a le château d’Amboise.",
+    "output": "Est-ce que c’est loin de Chambord ?  "
+  },
+  {
+    "input": "Est-ce que c’est loin de Chambord ?  ",
+    "output": "Un peu, le mieux c’est de prendre une journée pour voir Chambord et Cheverny et une autre pour voir Tours et Amboise."
+  },
+  {
+    "input": "Un peu, le mieux c’est de prendre une journée pour voir Chambord et Cheverny et une autre pour voir Tours et Amboise.",
+    "output": "Je pensais aussi aller déguster un peu de vin."
+  },
+  {
+    "input": "Je pensais aussi aller déguster un peu de vin.",
+    "output": "Et bien, vous n’aurez que l’embarras du choix. Arrêtez-vous à Vouvray ou à Montlouis."
+  },
+  {
+    "input": "Et bien, vous n’aurez que l’embarras du choix. Arrêtez-vous à Vouvray ou à Montlouis.",
+    "output": "Montlouis ? C’est bien là qu’il y a le festival de Jazz ?"
+  },
+  {
+    "input": "Montlouis ? C’est bien là qu’il y a le festival de Jazz ?",
+    "output": "Exactement !\n"
+  },
+  {
+    "input": "Tu as fait quoi hier ? ",
+    "output": "Hier ? Ben, je suis restée chez moi. "
+  },
+  {
+    "input": "Hier ? Ben, je suis restée chez moi. ",
+    "output": "Tu n’es pas allée à la soirée de Bastien ? "
+  },
+  {
+    "input": "Tu n’es pas allée à la soirée de Bastien ? ",
+    "output": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? "
+  },
+  {
+    "input": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? ",
+    "output": "Non, je voulais bosser pour le concours."
+  },
+  {
+    "input": "Non, je voulais bosser pour le concours.",
+    "output": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps."
+  },
+  {
+    "input": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps.",
+    "output": "Je sais mais si je vais chez Bastien, après je mets une semaine à m’en remettre… Et je ne peux pas me permettre d’échouer encore une fois."
+  }
+]
