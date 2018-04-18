@@ -85,9 +85,6 @@ client.on('message', message => {
 		}
 	}
 
-	
-
-
 });
 
 // login to Discord with your app's token
