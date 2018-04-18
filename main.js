@@ -35,7 +35,9 @@ client.on('message', message => {
 
 	if (!command) {
 		const co = require('./cogite.js');
-		message.reply(co.cherchePattern(message));
+		if(message.toString()[1]!='>'){
+			message.reply(co.cherchePattern(message));
+		}
 	} else {
 
 		if (command.args && !args.length) {
