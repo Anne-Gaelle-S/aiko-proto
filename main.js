@@ -24,16 +24,19 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    const args = message.content.slice(prefix.length).split(/ +/);
-    const commandName = args.shift().toLowerCase();
-
     let neeep = parseInt(Math.random() * 1000);
 	if (neeep==0)  { 
-		let commande = client.commands.get("nep");
-		commande.execute(message, args); 
+		let nep = "nep";
+        do { continu = (parseInt(Math.random() * 5) == 0); 
+            nep += " nep";
+        } while (continu)
+        message.channel.send(nep);
 	}
 
     if (!message.content.startsWith(prefix)) return;
+
+    const args = message.content.slice(prefix.length).split(/ +/);
+    const commandName = args.shift().toLowerCase();
 
 	const command = client.commands.get(commandName)
 		|| client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
