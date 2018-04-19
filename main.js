@@ -24,6 +24,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+	let neeep = parseInt(Math.random() * 2);
+	if (neeep==0)  { client.commands.get(nep).execute(message, args); }
 
     if (!message.content.startsWith(prefix)) return;
 
