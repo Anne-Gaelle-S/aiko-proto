@@ -4,11 +4,20 @@ module.exports = {
     usage: '',
     description: '( ͡° ͜ʖ ͡°)',
     execute(message, args) {
-   
-		    message.channel.send('', {
-            file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-lewd.gif"
-        });
-
+	    
+	let alea = parseInt(Math.random() * 2); 
+	    
+	if(alea==0) {
+		message.channel.send('', {
+		    file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-lewd2.gif"
+		});
+   	
+	} else {
+		message.channel.send('', {
+		    file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-lewd.gif"
+		});
+	}
+		
         
     },
 };
