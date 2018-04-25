@@ -67,7 +67,7 @@ function verifArg(message, possibilites, entree) {
   } else if ( entree == 'EZ' || entree == 'SIMPLE' || entree == 'BASIQUE' || entree == 'AIKO-PROTO') {
         res = possibilites[6];
   } else if ( entree == 'LEWD' || entree == 'PERVERS' || entree == 'REGARD' || entree == 'LENNY'|| entree == 'AIKO-PROTO') {
-        let alea = parseInt(Math.random() * 2)+8;
+        let alea = parseInt(Math.random() * 2)+9;
         res = possibilites[alea];
   } else if ( entree == 'AG' || entree == 'KRYSTHALIA' || entree == 'ANNE-GAELLE') {
         res = possibilites[7];
