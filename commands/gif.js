@@ -22,6 +22,8 @@ module.exports = {
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/AG.gif']);
     	possibilites.push(['Shigoto, shigoto ! ',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
+    	possibilites.push(['( ͡° ͜ʖ ͡°)',
+                           'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-lewd.gif']);
 
       if (!message.mentions.users.size) {
           
@@ -60,8 +62,10 @@ function verifArg(message, possibilites, entree) {
         res = possibilites[4];
   }  else if ( entree == 'OHAYO' || entree == 'KONNICHIWA' || entree == 'KONBAWA' || entree == 'AIKO-PROTO') {
         res = possibilites[5];
-  } else if ( entree == 'EZ' || entree == 'SIMPLE' || entree == 'BASIQUE') {
+  } else if ( entree == 'EZ' || entree == 'SIMPLE' || entree == 'BASIQUE' || entree == 'AIKO-PROTO') {
         res = possibilites[6];
+  } else if ( entree == 'LEWD' || entree == 'PERVERS' || entree == 'REGARD' || entree == 'LENNY'|| entree == 'AIKO-PROTO') {
+        res = possibilites[8];
   } else if ( entree == 'AG' || entree == 'KRYSTHALIA' || entree == 'ANNE-GAELLE') {
         res = possibilites[7];
   } else {
