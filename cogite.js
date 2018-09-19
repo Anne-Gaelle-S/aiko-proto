@@ -70,7 +70,7 @@ function timeQuestion (msg){
 	let motifs = msg.split(' ');
 	let taille = motifs.length;
 	let res = 0;
-	foreach(word in motifs){
+	for each(var word in motifs){
 		if(word.toUpperCase == "QUAND"){
 			res++;
 		}
