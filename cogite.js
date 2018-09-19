@@ -103,7 +103,7 @@ module.exports = {
 		console.log("Nombre d'amélioration : "+nbAmelio);
 
 		if(!reponse) {
-			reponse = "Désolé je ne sais pas quoi répondre ... ";
+			reponse = "désolé je ne sais pas quoi répondre ... ";
 		} 
 
 		return reponse;
