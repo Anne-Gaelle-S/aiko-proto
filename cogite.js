@@ -66,6 +66,21 @@ function correspondance(msg, msgAlea){
 	return res;
 }
 
+function timeQuestion (string msg){
+	let motifs = msg.split(' ');
+	let taille = motifs.length;
+	int res = 0;
+	foreach(word in motifs){
+		if(word.toUpperCase == "QUAND"){
+			res++;
+		}
+		if(word == '?'){
+			res++;
+		}
+	}
+	return (res>1);
+}
+
 
 module.exports = {
    cherchePattern: function(msg) {
@@ -78,29 +93,33 @@ module.exports = {
 		let reste = mesDonnees.length;
 		//console.log("Nb de reste : "+reste);
 		let nonFinFichier = (reste!=0);
+	   
+	   	if(timeQuestion(msg)){
+			reponse = "Dans 10 minuuuutes !!";
+		} else {
+			while( nonFinFichier && nbAmelio<10 ){
+				let nbAlea = getRandomInt(reste);
+				let msgAlea = mesDonnees[nbAlea].input;
 
-		while( nonFinFichier && nbAmelio<10 ){
-			let nbAlea = getRandomInt(reste);
-			let msgAlea = mesDonnees[nbAlea].input;
-
-			let hbis = correspondance(msg, msgAlea);
-			if (hbis>=0.8){
-				if(hbis>h){
-					h = hbis;
-					reponse = mesDonnees[nbAlea].output;
-					nbAmelio ++;
+				let hbis = correspondance(msg, msgAlea);
+				if (hbis>=0.8){
+					if(hbis>h){
+						h = hbis;
+						reponse = mesDonnees[nbAlea].output;
+						nbAmelio ++;
+					}
 				}
+
+				mesDonnees.splice(nbAlea, 1);
+
+				reste --;
+				nonFinFichier = (reste!=0);
 			}
 
-			mesDonnees.splice(nbAlea, 1);
-
-			reste --;
-			nonFinFichier = (reste!=0);
+			console.log("\nFin fichier : "+!nonFinFichier);
+			console.log("Taux de ressemblance: "+h);
+			console.log("Nombre d'amélioration : "+nbAmelio);
 		}
-
-		console.log("\nFin fichier : "+!nonFinFichier);
-		console.log("Taux de ressemblance: "+h);
-		console.log("Nombre d'amélioration : "+nbAmelio);
 
 		if(!reponse) {
 			reponse = "désolé je ne sais pas quoi répondre ... ";
