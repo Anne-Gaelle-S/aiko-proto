@@ -66,7 +66,7 @@ function correspondance(msg, msgAlea){
 	return res;
 }
 
-function timeQuestion (string msg){
+function timeQuestion (msg){
 	let motifs = msg.split(' ');
 	let taille = motifs.length;
 	int res = 0;
