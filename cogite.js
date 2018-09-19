@@ -69,7 +69,7 @@ function correspondance(msg, msgAlea){
 function timeQuestion (msg){
 	let motifs = msg.split(' ');
 	let taille = motifs.length;
-	int res = 0;
+	let res = 0;
 	foreach(word in motifs){
 		if(word.toUpperCase == "QUAND"){
 			res++;
