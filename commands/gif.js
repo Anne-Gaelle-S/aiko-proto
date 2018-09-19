@@ -18,7 +18,7 @@ module.exports = {
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/aiko-ohayo.gif']);
     	possibilites.push(['C\'était trop simple!',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/ez.gif']);
-    	possibilites.push(['Elle entree souvent des idées à la con...',
+    	possibilites.push(['Elle a souvent des idées à la con...',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/AG.gif']);
     	possibilites.push(['Shigoto, shigoto ! ',
                            'https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/TrioWork.gif']);
