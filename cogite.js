@@ -67,19 +67,15 @@ function correspondance(msg, msgAlea){
 }
 
 function timeQuestion (msg){
-	console.log("time question");
 	let motifs = msg.split(' ');
 	let taille = motifs.length;
 	let res = 0;
 	
 	motifs.forEach(function(word) { 
-		console.log(word);
-	   	if(word.toUpperCase() == "QUAND"){ res++; console.log("res++ quand"+res); }
-		if(word == '?'){ res++; console.log("res++ ?"+res); }
+	   	if(word.toUpperCase() == "QUAND"){ res++; }
+		if(word == '?'){ res++; }
 	});
 	
-	console.log("res: "+res);
-	console.log(res>1);
 	
 	return (res>1);
 }
@@ -119,7 +115,7 @@ module.exports = {
 				nonFinFichier = (reste!=0);
 			}
 
-			console.log("\nFin fichier : "+!nonFinFichier);
+			//console.log("\nFin fichier : "+!nonFinFichier);
 			console.log("Taux de ressemblance: "+h);
 			console.log("Nombre d'amélioration : "+nbAmelio);
 		}
