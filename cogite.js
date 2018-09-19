@@ -70,14 +70,12 @@ function timeQuestion (msg){
 	let motifs = msg.split(' ');
 	let taille = motifs.length;
 	let res = 0;
-	for each(var word in motifs){
-		if(word.toUpperCase == "QUAND"){
-			res++;
-		}
-		if(word == '?'){
-			res++;
-		}
-	}
+	
+	motifs.forEach(function(word) { 
+	   	if(word.toUpperCase == "QUAND"){ res++; }
+		if(word == '?'){ res++; }
+	});
+	
 	return (res>1);
 }
 
