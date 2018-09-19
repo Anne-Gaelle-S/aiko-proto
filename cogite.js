@@ -94,7 +94,7 @@ module.exports = {
 		let nonFinFichier = (reste!=0);
 	   
 	   	if(timeQuestion(msg)){
-			reponse = "Dans 10 minuuuutes !!";
+			reponse = "dans 10 minuuuutes !!";
 		} else {
 			while( nonFinFichier && nbAmelio<10 ){
 				let nbAlea = getRandomInt(reste);
