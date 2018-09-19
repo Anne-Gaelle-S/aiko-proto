@@ -74,8 +74,8 @@ function timeQuestion (msg){
 	
 	motifs.forEach(function(word) { 
 		console.log(word);
-	   	if(word.toUpperCase == "QUAND"){ res++; console.log("res++"+res); }
-		if(word == '?'){ res++; console.log("res++"+res); }
+	   	if(word.toUpperCase == "QUAND"){ res++; console.log("res++ quand"+res); }
+		if(word == '?'){ res++; console.log("res++ ?"+res); }
 	});
 	
 	console.log("res: "+res);
