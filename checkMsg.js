@@ -28,10 +28,8 @@ module.exports = {
 			if(word == '?'){ res++; }
 		});
 
-		console.log("res : "+res);
-
 		if(res>1){
-			message.reply(", dans 10 minuuuuutes !!!");
+			message.reply(" dans 10 minuuuuutes !!!");
 		}
 
    }
