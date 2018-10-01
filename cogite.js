@@ -118,7 +118,7 @@ function commandesAPart(message, mutes){
 			break;
 		case 6: 
 			mutes[0]=0;
-			reponse = "dans 10 minuuuutes !!";
+			message.channel.send("dans 10 minuuuutes !!");
 			break;
 		default: 
 			mutes[0]=1;
