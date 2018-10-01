@@ -22,12 +22,13 @@ module.exports = {
 		let msg = message.toString().substring(1);
 		let motifs = msg.split(' ');
 		let res = 0;
-		let reponse = "";
 		
 		motifs.forEach(function(word) { 
 		   	if(word.toUpperCase() == "QUAND"){ res++; }
 			if(word == '?'){ res++; }
 		});
+
+		console.log("res : "+res);
 
 		if(res>1){
 			message.reply(", dans 10 minuuuuutes !!!");
