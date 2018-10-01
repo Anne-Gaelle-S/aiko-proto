@@ -80,9 +80,6 @@ function commandesAPart(message, mutes){
 			word.toUpperCase() == "LIBERE") 
 			{ res=2; }
 
-	   	if(word.toUpperCase() == "QUAND"){ res+=3; }
-		if(word == '?'){ res+=3; }
-
 	});
 
 	let auteur = (message.author.username).toUpperCase();
@@ -115,10 +112,6 @@ function commandesAPart(message, mutes){
 		     	   }
 		     	}
 	    	}
-			break;
-		case 6: 
-			mutes[0]=0;
-			message.channel.send("dans 10 minuuuutes !!");
 			break;
 		default: 
 			mutes[0]=1;
