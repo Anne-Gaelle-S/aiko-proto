@@ -92,20 +92,28 @@ function commandesAPart(message, mutes){
 		case 1:
 			mutes[0]=0;
 			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
-				message.channel.send(taggedUser+", tu parles trop, tais toi un peu.");
-        		mutes.push(taggedUser.toString());
+				if(taggedUser=="KRYSTHALIA"){
+					message.channel.send("YOU SCHALL NOT MUTE !");
+				} else {
+					message.channel.send(taggedUser+", tu parles trop, tais toi un peu.");
+        			mutes.push(taggedUser.toString());
+        		}
         	}
 			break;
 		case 2:
 			mutes[0]=0;
 			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
-				message.channel.send(taggedUser+", tu peux à nouveau parler.");
-	        	for(var i= 0; i < mutes.length; i++)
-	        	{
-	            	if(mutes[i]==taggedUser.toString()){
-	            	    delete mutes[i];
-	        	    }
-	     	   }
+				if(taggedUser=="KRYSTHALIA"){
+					message.channel.send("YOU SCHALL NOT UNMUTE !");
+				} else {
+					message.channel.send(taggedUser+", tu peux à nouveau parler.");
+		        	for(var i= 0; i < mutes.length; i++)
+		        	{
+		            	if(mutes[i]==taggedUser.toString()){
+		            	    delete mutes[i];
+		        	    }
+		     	   }
+		     	}
 	    	}
 			break;
 		case 4: 
