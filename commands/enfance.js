@@ -4,7 +4,7 @@ module.exports = {
     usage: ``,
     description: `merci l\'Internet.`,
     execute(message, args) {
-      let alea = parseInt(Math.random() * 21);
+      let alea = parseInt(Math.random() * 22);
       
     	let possibilites = [['Level up!',`https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/0.gif`]];
     	possibilites.push(['C\'est donc à ça que les jambes servent ... ', 
@@ -28,6 +28,7 @@ module.exports = {
     	possibilites.push(['T\'en a trop pris!','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/18.gif']);
     	possibilites.push(['Fin de l\'histoire (bis)!','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/19.gif']);
     	possibilites.push(['Hoooooooo !!!','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/20.gif']);
+        possibilites.push(['des truites.','https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/enfance.jpg']);
 
         let res = possibilites[alea];
       message.channel.send(res[0], {
