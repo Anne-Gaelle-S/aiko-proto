@@ -1,4 +1,5 @@
 const fs = require('fs');
+const c = require('./checkMsg.js');
 const Discord = require('discord.js'); // require the discord.js module
 const { prefix } = require('./config.json');
 
@@ -23,15 +24,9 @@ client.on('ready', () => {
     client.user.setActivity(`se créer. (-aide)`);
 });
 
+var mutes = [0]; //si 0 => mutes si 1 => reponse lambda
 client.on('message', message => {
-    let neeep = parseInt(Math.random() * 1000);
-	if (neeep==0)  { 
-		let nep = "nep";
-        do { continu = (parseInt(Math.random() * 5) == 0); 
-            nep += " nep";
-        } while (continu)
-        message.channel.send(nep);
-	}
+	c.checkMsg(message,mutes);
 
     if (!message.content.startsWith(prefix)) return;
 
@@ -43,8 +38,8 @@ client.on('message', message => {
 
 	if (!command) {
 		const co = require('./cogite.js');
-		if(message.toString()[1]!='>'){
-			message.reply(co.cherchePattern(message));
+		if(message.toString()[1]!='>'){ //pour eviter les conflits avec mantaro
+			mutes = co.cherchePattern(message,mutes);
 		}
 	} else {
 

@@ -34,7 +34,6 @@ function encode(maChaine){
 const articles = 'LA LE LES DE DU UN UNE DES';
 
 function correspondance(msg, msgAlea){
-	//let tailleMsg = msg.length;
 
 	msgAlea = encode(msgAlea);
 	msg = encode(msg);
@@ -57,45 +56,84 @@ function correspondance(msg, msgAlea){
 		return acc;
 	} , 0);
 
-	/*if(tailleMsg<30 && (res>=1)){
-		res = res - 1;
-	}*/
-
 	res = res / taille;
 	
 	return res;
 }
 
-function timeQuestion (msg){
+
+function commandesAPart(message, mutes){
+	let msg = message.toString().substring(1);
 	let motifs = msg.split(' ');
-	let taille = motifs.length;
 	let res = 0;
+	let reponse = "";
 	
 	motifs.forEach(function(word) { 
-	   	if(word.toUpperCase() == "QUAND"){ res++; }
-		if(word == '?'){ res++; }
+
+		if(word.toUpperCase() == "CHUT" || 
+			   		word.toUpperCase() == "TG" ||
+			   		word.toUpperCase() == "SHUTUP" )
+			   		{ res=1; }
+
+		if(word.toUpperCase() == "DECHUT" ||
+			word.toUpperCase() == "PARLE" ||
+			word.toUpperCase() == "LIBERE") 
+			{ res=2; }
+
+	   	if(word.toUpperCase() == "QUAND"){ res+=2; }
+		if(word == '?'){ res+=2; }
+
 	});
-	
-	
-	return (res>1);
+
+	let auteur = (message.author.username).toUpperCase();
+	const taggedUser = message.mentions.users.first();
+
+	switch (res) {
+		case 1:
+			mutes[0]=0;
+			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+				message.channel.send(taggedUser+", tu parles trop, tais toi un peu.");
+        		mutes.push(taggedUser.toString());
+        	}
+			break;
+		case 2:
+			mutes[0]=0;
+			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+				message.channel.send(taggedUser+", tu peux à nouveau parler.");
+	        	for(var i= 0; i < mutes.length; i++)
+	        	{
+	            	if(mutes[i]==taggedUser.toString()){
+	            	    delete mutes[i];
+	        	    }
+	     	   }
+	    	}
+			break;
+		case 4: 
+			mutes[0]=0;
+			reponse = "dans 10 minuuuutes !!";
+			break;
+		default: 
+			mutes[0]=1;
+	}
+
+	return mutes;
 }
 
 
 module.exports = {
-   cherchePattern: function(msg) {
-   		msg = msg.toString().substring(1);
+   cherchePattern: function(message, mutes) {
+   		let msg = message.toString().substring(1);
 
 		var fs = require('fs');
 		var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 		let h = 0; let nbAmelio = 0; let reponse = ""; 
 		let reste = mesDonnees.length;
-		//console.log("Nb de reste : "+reste);
 		let nonFinFichier = (reste!=0);
+
+		mutes = commandesAPart(message, mutes);
 	   
-	   	if(timeQuestion(msg)){
-			reponse = "dans 10 minuuuutes !!";
-		} else {
+	   	if(mutes[0]==1){
 			while( nonFinFichier && nbAmelio<10 ){
 				let nbAlea = getRandomInt(reste);
 				let msgAlea = mesDonnees[nbAlea].input;
@@ -115,15 +153,15 @@ module.exports = {
 				nonFinFichier = (reste!=0);
 			}
 
-			//console.log("\nFin fichier : "+!nonFinFichier);
 			console.log("Taux de ressemblance: "+h);
 			console.log("Nombre d'amélioration : "+nbAmelio);
+			if(!reponse) {
+				reponse = "désolé je ne sais pas quoi répondre ... ";
+			} 
+			message.reply(reponse);
 		}
 
-		if(!reponse) {
-			reponse = "désolé je ne sais pas quoi répondre ... ";
-		} 
 
-		return reponse;
+		return mutes;
    }
 }
