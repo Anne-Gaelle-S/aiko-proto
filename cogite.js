@@ -87,8 +87,6 @@ function commandesAPart(message, mutes){
 
 	let auteur = (message.author.username).toUpperCase();
 	const taggedUser = message.mentions.users.first();
-	console.log(taggedUser);
-	console.log(taggedUser.username);
 
 	switch (res) {
 		case 1:
