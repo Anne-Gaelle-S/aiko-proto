@@ -87,12 +87,14 @@ function commandesAPart(message, mutes){
 
 	let auteur = (message.author.username).toUpperCase();
 	const taggedUser = message.mentions.users.first();
+	console.log(taggedUser);
+	console.log(taggedUser.username);
 
 	switch (res) {
 		case 1:
 			mutes[0]=0;
 			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
-				if(taggedUser.username=="KRYSTHALIA"){
+				if(taggedUser.username=="Krysthalia"){
 					message.channel.send("YOU SCHALL NOT MUTE !");
 				} else {
 					message.channel.send(taggedUser+", tu parles trop, tais toi un peu.");
@@ -103,7 +105,7 @@ function commandesAPart(message, mutes){
 		case 2:
 			mutes[0]=0;
 			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
-				if(taggedUser.username=="KRYSTHALIA"){
+				if(taggedUser.username=="Krysthalia"){
 					message.channel.send("YOU SCHALL NOT UNMUTE !");
 				} else {
 					message.channel.send(taggedUser+", tu peux à nouveau parler.");
