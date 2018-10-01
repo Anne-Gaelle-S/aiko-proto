@@ -1,6 +1,6 @@
 module.exports = {
     name: 'pervers',
-    aliases: ['lewd', 'smirk', 'lenny', 'wut', 'regard', "c dur", 'cdur'],
+    aliases: ['lewd', 'smirk', 'lenny', 'wut', 'regard', 'cdur'],
     usage: '',
     description: '( ͡° ͜ʖ ͡°)',
     execute(message, args) {
