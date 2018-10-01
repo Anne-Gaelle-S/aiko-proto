@@ -80,8 +80,8 @@ function commandesAPart(message, mutes){
 			word.toUpperCase() == "LIBERE") 
 			{ res=2; }
 
-	   	if(word.toUpperCase() == "QUAND"){ res+=2; }
-		if(word == '?'){ res+=2; }
+	   	if(word.toUpperCase() == "QUAND"){ res+=3; }
+		if(word == '?'){ res+=3; }
 
 	});
 
@@ -116,7 +116,7 @@ function commandesAPart(message, mutes){
 		     	}
 	    	}
 			break;
-		case 4: 
+		case 6: 
 			mutes[0]=0;
 			reponse = "dans 10 minuuuutes !!";
 			break;
