@@ -88,18 +88,19 @@ function commandesAPart(message, mutes){
 	switch (res) {
 		case 1:
 			mutes[0]=0;
-			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			//if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
 				if(taggedUser.username.toUpperCase()=="KRYSTHALIA"){
 					message.channel.send("YOU SCHALL NOT MUTE !");
 				} else {
 					message.channel.send(taggedUser+", tu parles trop, tais toi un peu.");
         			mutes.push(taggedUser.toString());
-        		}
+        		//}
         	}
 			break;
 		case 2:
 			mutes[0]=0;
-			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			//if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			if(auteur != "XELJIRA"){
 				if(taggedUser.username.toUpperCase()=="KRYSTHALIA"){
 					message.channel.send("YOU SCHALL NOT UNMUTE !");
 				} else {
