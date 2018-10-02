@@ -1,5 +1,393 @@
 [
   {
+    "input": "Attention mon petit Numérobis je connais des gens très haut placés, des gens de haut rang.",
+    "output": "Ça serait mieux s'ils étaient d'Alexandrie."
+  },
+  {
+    "input": "Ça serait mieux s'ils étaient d'Alexandrie.",
+    "output": "Numérobis, l'Égypte est-il le plus puissant empire du monde ?"
+  },
+  {
+    "input": "Numérobis, l'Égypte est-il le plus puissant empire du monde ?",
+    "output": "Oui… euh… exactement madame. Y'a pas d'empire plus puissant dans le monde ! Bien sûr je connais pas non plus, euh, tout le monde dans l'monde mais, euh, à mon avis non."
+  },
+  {
+    "input": "Oui… euh… exactement madame. Y'a pas d'empire plus puissant dans le monde ! Bien sûr je connais pas non plus, euh, tout le monde dans l'monde mais, euh, à mon avis non.",
+    "output": "Le monde romain en la personne de César en doute ! Je vais donc lui montrer de quoi l'Égypte est capable."
+  },
+  {
+    "input": "Le monde romain en la personne de César en doute ! Je vais donc lui montrer de quoi l'Égypte est capable.",
+    "output": "D'accord !"
+  },
+  {
+    "input": "D'accord !",
+    "output": "Je vais lui construire le plus magnifique des palais !"
+  },
+  {
+    "input": "Je vais lui construire le plus magnifique des palais !",
+    "output": "D'accord !"
+  },
+  {
+    "input": "D'accord !",
+    "output": "Et c'est toi, Numérobis, qui en sera l'architecte."
+  },
+  {
+    "input": "Et c'est toi, Numérobis, qui en sera l'architecte.",
+    "output": "D'accord… Euh c'est moi, c'est moi qui en serai l'architecte… c'est-à, c'est-à-dire ? C'est moi qui vais architecter tout le…"
+  },
+  {
+    "input": "D'accord… Euh c'est moi, c'est moi qui en serai l'architecte… c'est-à, c'est-à-dire ? C'est moi qui vais architecter tout le…",
+    "output": "Hum !"
+  },
+  {
+    "input": "Hum !",
+    "output": "Tous mes architectes sont occupés."
+  },
+  {
+    "input": "Tous mes architectes sont occupés.",
+    "output": "Ah non, moi je je je suis pas occupé !"
+  },
+  {
+    "input": "Ah non, moi je je je suis pas occupé !",
+    "output": "Il est pas occupé lui !"
+  },
+  {
+    "input": "Il est pas occupé lui !",
+    "output": "Numérobis, tu es le seul disponible."
+  },
+  {
+    "input": "Numérobis, tu es le seul disponible.",
+    "output": "C'est que… J'suis un p'tit peu charrette en ce moment… J'ai j'ai le chantier de Malococsis à terminer… Euh, il y a ce petit problème de carrelage qu'est pas très important mais faut quand même…"
+  },
+  {
+    "input": "C'est que… J'suis un p'tit peu charrette en ce moment… J'ai j'ai le chantier de Malococsis à terminer… Euh, il y a ce petit problème de carrelage qu'est pas très important mais faut quand même…",
+    "output": "Ma reine, euh, en tant que votre architecte, je me permets de proposer mes services dès que j'ai changé l'eau des crocos, je peux tout à fait…"
+  },
+  {
+    "input": "Ma reine, euh, en tant que votre architecte, je me permets de proposer mes services dès que j'ai changé l'eau des crocos, je peux tout à fait…",
+    "output": "Non Amonbofils, tu es un bon architecte mais un peu classique."
+  },
+  {
+    "input": "Non Amonbofils, tu es un bon architecte mais un peu classique.",
+    "output": "Classique ? c'est-à-dire ?"
+  },
+  {
+    "input": "Classique ? c'est-à-dire ?",
+    "output": "J'ai envie d'un oeil neuf sur ce chantier, d'une vision jeune, mais tu vas aider tu lui trouveras le terrain."
+  },
+  {
+    "input": "J'ai envie d'un oeil neuf sur ce chantier, d'une vision jeune, mais tu vas aider tu lui trouveras le terrain.",
+    "output": "Le terrain ? comme vous voudrez…"
+  },
+  {
+    "input": "Le terrain ? comme vous voudrez…",
+    "output": "Va Numérobis, construis ce palais ! Tu as trois mois."
+  },
+  {
+    "input": "Va Numérobis, construis ce palais ! Tu as trois mois.",
+    "output": "Trois mois ? Mais euh à partir, euh, avec combien de temps de retard ? Parce que trois mois euh… En trois mois maximum on peut avoir les plans ça c'est bon j'en fais mon affaire, les fondations, faut compter deux, trois mois… trois fois quatre… neuf euh trois mois ça sera euh ça ne me euh semble pas très faisable euh madame."
+  },
+  {
+    "input": "Trois mois ? Mais euh à partir, euh, avec combien de temps de retard ? Parce que trois mois euh… En trois mois maximum on peut avoir les plans ça c'est bon j'en fais mon affaire, les fondations, faut compter deux, trois mois… trois fois quatre… neuf euh trois mois ça sera euh ça ne me euh semble pas très faisable euh madame.",
+    "output": "Numérobis ! Tu as trois mois jour pour jour ! Top Chronos !"
+  },
+  {
+    "input": "Numérobis ! Tu as trois mois jour pour jour ! Top Chronos !",
+    "output": "Trois mois ? "
+  },
+  {
+    "input": "Trois mois ? ",
+    "output": "Convoque tous les ouvriers que tu pourras trouver… Fais creuser les fondations là-bas… Là on fera une grande allée avec plein de statues qu'on appellera « La grande allée avec plein de statues »… Là-bas, les jardins, avec des oliviers, des orangeades, des saules pleureurs, des soles meunières… Et là-bas, le palais, luxuriant, magnifique, chamarré avec une grande cour où il y aura plein de danseuses qui pourront danser… et juste là un petit géranium. Ouais, ça va être bien, ça va être très bien même… Bon, bien sûr, y faut imaginer."
+  },
+  {
+    "input": "Convoque tous les ouvriers que tu pourras trouver… Fais creuser les fondations là-bas… Là on fera une grande allée avec plein de statues qu'on appellera « La grande allée avec plein de statues »… Là-bas, les jardins, avec des oliviers, des orangeades, des saules pleureurs, des soles meunières… Et là-bas, le palais, luxuriant, magnifique, chamarré avec une grande cour où il y aura plein de danseuses qui pourront danser… et juste là un petit géranium. Ouais, ça va être bien, ça va être très bien même… Bon, bien sûr, y faut imaginer.",
+    "output": "Bien sûr !"
+  },
+  {
+    "input": "Bien sûr !",
+    "output": "J'y vais ! À dans un mois !"
+  },
+  {
+    "input": "J'y vais ! À dans un mois !",
+    "output": "Dans un mois ?"
+  },
+  {
+    "input": "Dans un mois ?",
+    "output": "Maximum ! Le temps de trouver Panobéménix et de revenir… Allez hue Cannabis… hue… hue Cannabis… Allez… Tu n'avances pas du tout Cannabis. Allez hue… hue !"
+  },
+  {
+    "input": "Maximum ! Le temps de trouver Panobéménix et de revenir… Allez hue Cannabis… hue… hue Cannabis… Allez… Tu n'avances pas du tout Cannabis. Allez hue… hue !",
+    "output": "Et il habite où ton amix ?"
+  },
+  {
+    "input": "Et il habite où ton amix ?",
+    "output": "Il habite au nord… au nord… bien plus au nord… allez hue hue galope… galope… get on up… get on up…"
+  },
+  {
+    "input": "Il habite au nord… au nord… bien plus au nord… allez hue hue galope… galope… get on up… get on up…",
+    "output": "Je suis mon cher ami, très heureux de te voir."
+  },
+  {
+    "input": "Je suis mon cher ami, très heureux de te voir.",
+    "output": "C'est un Alexandrin !"
+  },
+  {
+    "input": "C'est un Alexandrin !",
+    "output": "Amonbofis, il faut changer l'eau des crocodiles, c'est une infection !"
+  },
+  {
+    "input": "Amonbofis, il faut changer l'eau des crocodiles, c'est une infection !",
+    "output": "Bah pourtant j'ai installé le système d'évacuation des eaux usées comme on fait tout le temps !"
+  },
+  {
+    "input": "Bah pourtant j'ai installé le système d'évacuation des eaux usées comme on fait tout le temps !",
+    "output": "C'est bien ça le problème avec vous Amonbofis, vous faites toujours comme on fait tout le temps !"
+  },
+  {
+    "input": "C'est bien ça le problème avec vous Amonbofis, vous faites toujours comme on fait tout le temps !",
+    "output": "Bah oui, puisqu'on a tout le temps fait comme ça…"
+  },
+  {
+    "input": "Bah oui, puisqu'on a tout le temps fait comme ça…",
+    "output": "Forcément avec des moyens pareils, moi aussi j'y arrive."
+  },
+  {
+    "input": "Forcément avec des moyens pareils, moi aussi j'y arrive.",
+    "output": "Oh, mais ce n'est pas qu'une question de moyens."
+  },
+  {
+    "input": "Oh, mais ce n'est pas qu'une question de moyens.",
+    "output": "Oh si."
+  },
+  {
+    "input": "Oh si.",
+    "output": "Oh non."
+  },
+  {
+    "input": "Oh non.",
+    "output": "Si."
+  },
+  {
+    "input": "Si.",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Si !"
+  },
+  {
+    "input": "Si !",
+    "output": "ARRhhh."
+  },
+  {
+    "input": "ARRhhh.",
+    "output": "ssssshhhhh !"
+  },
+  {
+    "input": "ssssshhhhh !",
+    "output": "C'est quoi ces gros raisins ?"
+  },
+  {
+    "input": "C'est quoi ces gros raisins ?",
+    "output": "Ce sont des dattes Obélix, ça pousse en haut des grands arbres là bas."
+  },
+  {
+    "input": "Ce sont des dattes Obélix, ça pousse en haut des grands arbres là bas.",
+    "output": "MMmm, Pas mauvais… C'est croquant au milieu…"
+  },
+  {
+    "input": "MMmm, Pas mauvais… C'est croquant au milieu…",
+    "output": "Normal c'est le noyau."
+  },
+  {
+    "input": "Normal c'est le noyau.",
+    "output": "C'est quoi ces lumières là-bas au loin ?"
+  },
+  {
+    "input": "C'est quoi ces lumières là-bas au loin ?",
+    "output": "C'est les lumières du port d'Alexandrie…"
+  },
+  {
+    "input": "C'est les lumières du port d'Alexandrie…",
+    "output": "… font naufrager les papillons de ma jeunesse."
+  },
+  {
+    "input": "… font naufrager les papillons de ma jeunesse.",
+    "output": "Hein ?"
+  },
+  {
+    "input": "Hein ?",
+    "output": "Non, je ne sais pas pourquoi je dis ça…"
+  },
+  {
+    "input": "Non, je ne sais pas pourquoi je dis ça…",
+    "output": "J'ai faim… en tout cas, j'ai plus d'appétit qu'un barracuda."
+  },
+  {
+    "input": "J'ai faim… en tout cas, j'ai plus d'appétit qu'un barracuda.",
+    "output": "Bar-ra-cu-da !"
+  },
+  {
+    "input": "Bar-ra-cu-da !",
+    "output": "Et là, je ferme la porte et je crie : « Ce tombeau sera votre tombeau ! »"
+  },
+  {
+    "input": "Et là, je ferme la porte et je crie : « Ce tombeau sera votre tombeau ! »",
+    "output": "Ah pas mal !"
+  },
+  {
+    "input": "Ah pas mal !",
+    "output": "J'avais aussi pensé à « Bande de chacals, vous allez crever comme des chacals ! » mais ça faisait deux fois chacal donc… Quoi ? on dit des chacaux ?"
+  },
+  {
+    "input": "J'avais aussi pensé à « Bande de chacals, vous allez crever comme des chacals ! » mais ça faisait deux fois chacal donc… Quoi ? on dit des chacaux ?",
+    "output": "\nGarçons ! Pas de chance, la dernière fois nous sommes tombés sur ces Gaulois… Gavés de potion magique… Et leur molosse !"
+  },
+  {
+    "input": "\nGarçons ! Pas de chance, la dernière fois nous sommes tombés sur ces Gaulois… Gavés de potion magique… Et leur molosse !",
+    "output": "Oh !"
+  },
+  {
+    "input": "Oh !",
+    "output": "Submergés par leur nombre de deux, nous n'avons rien pu faire, et nous avons dû…"
+  },
+  {
+    "input": "Submergés par leur nombre de deux, nous n'avons rien pu faire, et nous avons dû…",
+    "output": "… Fuir !"
+  },
+  {
+    "input": "… Fuir !",
+    "output": "Non, pas vraiment ! Nous avons quitté le navire un peu précipitamment, disons…"
+  },
+  {
+    "input": "Non, pas vraiment ! Nous avons quitté le navire un peu précipitamment, disons…",
+    "output": "À la nage et elle était glacée !"
+  },
+  {
+    "input": "À la nage et elle était glacée !",
+    "output": "Non elle était bonne."
+  },
+  {
+    "input": "Non elle était bonne.",
+    "output": "Elle était glacée !"
+  },
+  {
+    "input": "Elle était glacée !",
+    "output": "Bon."
+  },
+  {
+    "input": "Bon.",
+    "output": "C'est une bonne situation, ça, scribe ?"
+  },
+  {
+    "input": "C'est une bonne situation, ça, scribe ?",
+    "output": "Mais vous savez, moi je ne crois pas qu'il y ait de bonnes ou de mauvaises situations. Moi, si je devais résumer ma vie, aujourd'hui avec vous, je dirais que c'est d´abord des rencontres, des gens qui m'ont tendu la main peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée. Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l'interlocuteur en face, je dirais le miroir qui vous aide à avancer.\nAlors ce n'est pas mon cas, comme je disais là, puisque moi au contraire j'ai pu, et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie, je ne suis qu'amour. Et finalement quand beaucoup de gens aujourd'hui me disent : « Mais comment fais-tu pour avoir cette humanité ? » eh bien je leur réponds très simplement, je leur dis : « C'est ce goût de l´amour », ce goût donc, qui m'a poussé aujourd'hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi."
+  },
+  {
+    "input": "Mais vous savez, moi je ne crois pas qu'il y ait de bonnes ou de mauvaises situations. Moi, si je devais résumer ma vie, aujourd'hui avec vous, je dirais que c'est d´abord des rencontres, des gens qui m'ont tendu la main peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée. Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l'interlocuteur en face, je dirais le miroir qui vous aide à avancer.\nAlors ce n'est pas mon cas, comme je disais là, puisque moi au contraire j'ai pu, et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie, je ne suis qu'amour. Et finalement quand beaucoup de gens aujourd'hui me disent : « Mais comment fais-tu pour avoir cette humanité ? » eh bien je leur réponds très simplement, je leur dis : « C'est ce goût de l´amour », ce goût donc, qui m'a poussé aujourd'hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi.",
+    "output": "Tu sais trouver les mots pour parler aux femmes."
+  },
+  {
+    "input": "Tu sais trouver les mots pour parler aux femmes.",
+    "output": "Oh ! c'est une tradition chez nous… C'est la Gaule !"
+  },
+  {
+    "input": "Oh ! c'est une tradition chez nous… C'est la Gaule !",
+    "output": "Qu'est ce que tu cherches ?"
+  },
+  {
+    "input": "Qu'est ce que tu cherches ?",
+    "output": "J'ai perdu ma lentille."
+  },
+  {
+    "input": "J'ai perdu ma lentille.",
+    "output": "Ouvrières, ouvriers, camarades, sommes nous revenus au temps des pharaons, à trimer sous les coups de fouets ? Et pour qui ? Pour César !"
+  },
+  {
+    "input": "Ouvrières, ouvriers, camarades, sommes nous revenus au temps des pharaons, à trimer sous les coups de fouets ? Et pour qui ? Pour César !",
+    "output": "Oh ! Ah !"
+  },
+  {
+    "input": "Oh ! Ah !",
+    "output": "Hum ! Qu'il aille se le faire construire à ROME son palais ! Chacun chez soi et les hippopotames seront bien gardés !"
+  },
+  {
+    "input": "Hum ! Qu'il aille se le faire construire à ROME son palais ! Chacun chez soi et les hippopotames seront bien gardés !",
+    "output": "Ouais c'est vrai ça !"
+  },
+  {
+    "input": "Ouais c'est vrai ça !",
+    "output": "Ipagou oupou, Irrroutchèèn ioutchènémi aoutchép! "
+  },
+  {
+    "input": "Ipagou oupou, Irrroutchèèn ioutchènémi aoutchép! ",
+    "output": "Ouais"
+  },
+  {
+    "input": "Ouais",
+    "output": "Camarades on vous exploite, on vous crève à la tâche ! Et… Franchement…"
+  },
+  {
+    "input": "Camarades on vous exploite, on vous crève à la tâche ! Et… Franchement…",
+    "output": "Voilà !"
+  },
+  {
+    "input": "Voilà !",
+    "output": "Il a raison !"
+  },
+  {
+    "input": "Il a raison !",
+    "output": "Amonbofils c'est ridicule ! Associons nous et finissons le palais ensemble !"
+  },
+  {
+    "input": "Amonbofils c'est ridicule ! Associons nous et finissons le palais ensemble !",
+    "output": "Le lion ne s'associe pas avec le cafard !"
+  },
+  {
+    "input": "Le lion ne s'associe pas avec le cafard !",
+    "output": "Qu… quoi ?"
+  },
+  {
+    "input": "Qu… quoi ?",
+    "output": "Heu… un… un lion ne s'associe pas… ben avec le cafard !"
+  },
+  {
+    "input": "Heu… un… un lion ne s'associe pas… ben avec le cafard !",
+    "output": "Non parce que je me disais un nion il n'a pas de… pl… placard ! J'me disais c'est n'importe quoi quand même."
+  },
+  {
+    "input": "Non parce que je me disais un nion il n'a pas de… pl… placard ! J'me disais c'est n'importe quoi quand même.",
+    "output": "Non c'est pas ça."
+  },
+  {
+    "input": "Non c'est pas ça.",
+    "output": "Et c'est qui le lion maintenant ?"
+  },
+  {
+    "input": "Et c'est qui le lion maintenant ?",
+    "output": "Un, deux, trois, quatre, cinq, triplette ! Antilope et lion."
+  },
+  {
+    "input": "Un, deux, trois, quatre, cinq, triplette ! Antilope et lion.",
+    "output": "Quel est le présage ?"
+  },
+  {
+    "input": "Quel est le présage ?",
+    "output": "Un message, et un amoureux."
+  },
+  {
+    "input": "Un message, et un amoureux.",
+    "output": "Pff, c'est n'importe quoi ce jeu !"
+  },
+  {
+    "input": "Pff, c'est n'importe quoi ce jeu !",
+    "output": "Et voilà le message !"
+  },
+  {
+    "input": "Et voilà le message !",
+    "output": "Et voilà l'amoureux..."
+  },
+  {
     "input": "Je vais te poser des questions. Tu vas me donner ton avis.",
     "output": "D’accord."
   },
