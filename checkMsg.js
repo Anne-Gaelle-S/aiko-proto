@@ -29,7 +29,7 @@ module.exports = {
 		});
 
 		if(res>1){
-			message.reply(" dans 10 minuuuuutes !!!");
+			message.reply("** DANS 10 MINUUUUUUTES !!!**");
 		}
 
    }
