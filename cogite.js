@@ -89,7 +89,7 @@ function commandesAPart(message, mutes){
 		case 1:
 			mutes[0]=0;
 			//if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
-			if(auteur != "XELJIRA" && auteur != "ANDERSON" && auteur != "STALKER-SAN" )
+			if(auteur != "XELJIRA" && auteur != "ANDERSON" && auteur != "STALKER-SAN" ){
 				if(taggedUser.username.toUpperCase()=="KRYSTHALIA"){
 					message.channel.send("YOU SCHALL NOT MUTE !");
 				} else {
