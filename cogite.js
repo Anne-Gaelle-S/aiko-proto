@@ -122,13 +122,12 @@ function commandesAPart(message, mutes){
 	return mutes;
 }
 
+var fs = require('fs');
+var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 module.exports = {
    cherchePattern: function(message, mutes) {
    		let msg = message.toString().substring(1);
-
-		var fs = require('fs');
-		var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 		let h = 0; let nbAmelio = 0; let reponse = ""; 
 		let reste = mesDonnees.length;
