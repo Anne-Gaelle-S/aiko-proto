@@ -9,11 +9,12 @@ module.exports = {
 	        } while (continu)
 	        message.channel.send(nep);
 		}
+	   	let auteur = (message.author.username).toUpperCase();
 
 		for(var i=0; i < mutes.length; i++)
 		{
 			if(message.author == mutes[i]){
-				if(message.author.username.toUpperCase() != "KRYSTHALIA"){
+				if(auteur != "KRYSTHALIA"){
 					message.delete();
 				}
 			}
@@ -31,6 +32,19 @@ module.exports = {
 		if(res>1){
 			message.reply("** DANS 10 MINUUUUUUTES !!!**");
 		}
+	   
+		const taggedUser = message.mentions.users.first();
+
+		console.log("test auteur");
+		if(auteur == "KRYSTHALIA"){
+			console.log(message.content);
+			if((message.content) == "Soleil :sun_with_face: !") {
+				console.log("EGAL OK");
+				message.channel.send("VOS GUEULE LES BOTS !");
+				message.channel.send("*/flip_table");
+			}
+		}
+
 
    }
 }
