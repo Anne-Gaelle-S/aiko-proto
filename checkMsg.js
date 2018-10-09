@@ -36,6 +36,8 @@ module.exports = {
 		const taggedUser = message.mentions.users.first();
 
 		if(auteur == "ANDERSON"){
+			console.log("Anderson author");
+			console.log(message.content);
 			if((message.content) == "Soleil 🌞 !") {
 				message.channel.send("VOS GUEULES LES BOTS !");
 				message.channel.send("*/flip_table");
