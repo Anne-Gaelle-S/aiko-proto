@@ -85,7 +85,7 @@ function commandesAPart(message, mutes){
 	let auteur = (message.author.username).toUpperCase();
 	const taggedUser = message.mentions.users.first();
 	
-	console.log("test auteur);
+	console.log("test auteur");
 	if(auteur == "KRYSTHALIA"){
 		console.log(message.content);
 		if((message.content) == "Soleil :sun_with_face: !") {
