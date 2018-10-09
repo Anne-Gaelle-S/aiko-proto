@@ -85,16 +85,6 @@ function commandesAPart(message, mutes){
 	let auteur = (message.author.username).toUpperCase();
 	const taggedUser = message.mentions.users.first();
 	
-	console.log("test auteur");
-	if(auteur == "KRYSTHALIA"){
-		console.log(message.content);
-		if((message.content) == "Soleil :sun_with_face: !") {
-			console.log("EGAL OK");
-		   	message.channel.send("VOS GUEULE LES BOTS !");
-			message.channel.send("*/flip_table");
-	   	}
-	}
-
 	switch (res) {
 		case 1:
 			mutes[0]=0;
@@ -138,7 +128,6 @@ var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 module.exports = {
    cherchePattern: function(message, mutes) {
-	   	console.log("Chercher pattern");
    		let msg = message.toString().substring(1);
 
 		let h = 0; let nbAmelio = 0; let reponse = ""; 
