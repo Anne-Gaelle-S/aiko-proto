@@ -41,6 +41,10 @@ module.exports = {
 				message.channel.send("*/flip_table");
 			}
 		}
+		
+	   	if(message.content == "ckc"){
+			message.channel.send("https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/tenor.gif");
+		}
 
 
    }
