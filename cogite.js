@@ -159,7 +159,7 @@ module.exports = {
 			console.log("Taux de ressemblance: "+h);
 			console.log("Nombre d'amélioration : "+nbAmelio);
 			if(!reponse) {
-				reponse = "désolé je ne sais pas quøi répondre ... ";
+				reponse = "stroustrup. ";
 			} 
 			message.reply(reponse);
 		}
