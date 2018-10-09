@@ -50,7 +50,7 @@ module.exports = {
 			});
 		}
 		
-		if(m == "mdr" || m == "jpp" || m == ":joy:"){
+		if(m == "mdr" || m == "jpp" || m == ":joy:" || m==":')"){
 			message.channel.send(":regional_indicator_l:  :regional_indicator_o:  :regional_indicator_u:  :regional_indicator_l: ");
 		}
    }
