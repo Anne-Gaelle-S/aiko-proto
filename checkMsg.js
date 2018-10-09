@@ -44,7 +44,7 @@ module.exports = {
 		
 	   	if(message.content == "ckc"){
 			message.channel.send('*Cassé!!!*', {
-				file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/tenor.gif")
+				file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/tenor.gif"
 			});
 		}
 
