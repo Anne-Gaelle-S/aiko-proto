@@ -138,6 +138,7 @@ var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 module.exports = {
    cherchePattern: function(message, mutes) {
+	   	console.log("Chercher pattern");
    		let msg = message.toString().substring(1);
 
 		let h = 0; let nbAmelio = 0; let reponse = ""; 
