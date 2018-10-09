@@ -35,10 +35,10 @@ module.exports = {
 	   
 		const taggedUser = message.mentions.users.first();
 
-		console.log("test auteur");
 		if(auteur == "KRYSTHALIA"){
 			console.log(message.content);
-			if((message.content) == "Soleil :sun_with_face: !") {
+			
+			if((message.content) == "Soleil 🌞 !") {
 				console.log("EGAL OK");
 				message.channel.send("VOS GUEULE LES BOTS !");
 				message.channel.send("*/flip_table");
