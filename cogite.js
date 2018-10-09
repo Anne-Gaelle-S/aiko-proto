@@ -120,8 +120,8 @@ function commandesAPart(message, mutes){
 	}
 	
 	if(auteur == "KRYSTHALIA"){
-		console.log(message);
-		if(message == "Soleil :sun_with_face: !") {
+		console.log(message.content);
+		if(message.content == "Soleil :sun_with_face: !") {
 		   	message.channel.send("VOS GUEULE LES BOTS !");
 			message.channel.send("*/flip_table");
 	   	}
