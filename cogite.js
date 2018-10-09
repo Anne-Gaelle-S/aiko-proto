@@ -118,6 +118,14 @@ function commandesAPart(message, mutes){
 		default: 
 			mutes[0]=1;
 	}
+	
+	if(auteur == "KRYSTHALIA"){
+		if(message == "Soleil :sun_with_face: !") {
+		   	message.channel.send("VOS GUEULE LES BOTS !");
+			message.channel.send("*/flip_table");
+	   	}
+	}
+	
 
 	return mutes;
 }
