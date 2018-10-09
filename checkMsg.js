@@ -41,13 +41,17 @@ module.exports = {
 				message.channel.send("*/flip_table");
 			}
 		}
+	   
+	   	let m = message.content;
 		
-	   	if(message.content == "ckc"){
+	   	if(m == "ckc"){
 			message.channel.send('*Cassé!!!*', {
 				file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/tenor.gif"
 			});
 		}
-
-
+		
+		if(m == "mdr" || m == "jpp" || m == ":joy:"){
+			message.channel.send(":regional_indicator_l:  :regional_indicator_o:  :regional_indicator_u:  :regional_indicator_l: ");
+		}
    }
 }
