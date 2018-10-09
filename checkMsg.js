@@ -35,12 +35,9 @@ module.exports = {
 	   
 		const taggedUser = message.mentions.users.first();
 
-		if(auteur == "KRYSTHALIA"){
-			console.log(message.content);
-			
+		if(auteur == "ANDERSON"){
 			if((message.content) == "Soleil 🌞 !") {
-				console.log("EGAL OK");
-				message.channel.send("VOS GUEULE LES BOTS !");
+				message.channel.send("VOS GUEULES LES BOTS !");
 				message.channel.send("*/flip_table");
 			}
 		}
