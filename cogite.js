@@ -138,6 +138,7 @@ module.exports = {
 	   
 	   	console.log("C'est pas un mute : "+mutes[0]);
 	   	console.log("nonFinFichier: "+nonFinFichier);
+	   	console.log("reste / mesDonnees.length : "+reste);
 	   	if(mutes[0]==1){
 			while( nonFinFichier && nbAmelio<10 ){
 				let nbAlea = getRandomInt(reste);
