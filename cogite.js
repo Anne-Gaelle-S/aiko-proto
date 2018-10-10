@@ -136,9 +136,6 @@ module.exports = {
 
 		mutes = commandesAPart(message, mutes);
 	   
-	   	console.log("C'est pas un mute : "+mutes[0]);
-	   	console.log("nonFinFichier: "+nonFinFichier);
-	   	console.log("reste / mesDonnees.length : "+reste);
 	   	if(mutes[0]==1){
 			let data = Array(...mesDonnees);
 			while( nonFinFichier && nbAmelio<10 ){
@@ -151,7 +148,6 @@ module.exports = {
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
 						nbAmelio ++;
-						console.log("AMELIO++");
 					}
 				}
 
@@ -161,9 +157,6 @@ module.exports = {
 				nonFinFichier = (reste!=0);
 			}
 
-			console.log("Taux de ressemblance: "+h);
-			console.log("Nombre d'amélioration : "+nbAmelio);
-			console.log("-----------------------------------");
 			if(!reponse) {
 				reponse = "stroustrup. ";
 			} 
