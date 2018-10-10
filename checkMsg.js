@@ -43,7 +43,6 @@ module.exports = {
 		}
 	   
 	   	let m = message.content;
-	   	console.log(m);
 		
 	   	if(m == "ckc"){
 			message.channel.send('*Cassé!!!*', {
