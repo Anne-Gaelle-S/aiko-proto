@@ -139,7 +139,7 @@ module.exports = {
 	   
 	   	if(mutes[0]==1){
 			let data = Array(...mesDonnees);
-			for(int test=0; test<10; test++){
+			for(var test=0; test<10; test++){
 				data[test];	
 			}
 			while( nonFinFichier && nbAmelio<10 ){
