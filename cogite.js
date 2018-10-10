@@ -44,7 +44,8 @@ function correspondance(msg, msgAlea){
 			let reg = new RegExp("("+val+")");
 
 			if (!articles.match(reg)){
-				if(msgAlea.match(reg)) {acc++; console.log("Amelio. Val : "+val+"\tAcc: "+acc);}
+				if(msgAlea.match(reg)) {acc++; //console.log("Amelio. Val : "+val+"\tAcc: "+acc);}
+						       }
 			} else {
 				taille--;
 			}
@@ -162,9 +163,10 @@ module.exports = {
 				reponse = "stroustrup. ";
 			} 
 			message.channel.send(reponse);
+
+			console.log("Taux de ressemblance: "+h);
+			console.log("Nombre d'amélioration : "+nbAmelio);
 		}
-	   	console.log("nonFinFichier: "+nonFinFichier);
-	   	console.log("reste / mesDonnees.length : "+reste);
 
 
 		return mutes;
