@@ -25,11 +25,11 @@ module.exports = {
 		let res = 0;
 		
 		motifs.forEach(function(word) { 
-		   	if(word.toUpperCase() == "QUAND"){ res++; }
+		   	if(word.toUpperCase() == "QUAND"){ res+=10; }
 			if(word == '?'){ res++; }
 		});
 
-		if(res>1){
+		if(res>10){
 			message.reply("** DANS 10 MINUUUUUUTES !!!**");
 		}
 	   
