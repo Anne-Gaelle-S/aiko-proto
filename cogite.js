@@ -161,7 +161,7 @@ module.exports = {
 			if(!reponse) {
 				reponse = "stroustrup. ";
 			} 
-			message.reply(reponse);
+			message.channel.send(reponse);
 		}
 
 
