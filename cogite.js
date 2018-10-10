@@ -84,7 +84,6 @@ function commandesAPart(message, mutes){
 	});
 
 	let auteur = (message.author.username).toUpperCase();
-	console.log(auteur);
 	const taggedUser = message.mentions.users.first();
 	
 	switch (res) {
@@ -140,6 +139,9 @@ module.exports = {
 	   
 	   	if(mutes[0]==1){
 			let data = Array(...mesDonnees);
+			for(int test=0; test<10; test++){
+				data[test];	
+			}
 			while( nonFinFichier && nbAmelio<10 ){
 				let nbAlea = getRandomInt(reste);
 				let msgAlea = data[nbAlea].input;
