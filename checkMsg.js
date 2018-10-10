@@ -54,5 +54,10 @@ module.exports = {
 		if(m == "mdr" || m == "jpp" || m == ":joy:" || m==":')" || m=="😂" || m=="haha"){
 			message.channel.send(":regional_indicator_l:  :regional_indicator_o:  :regional_indicator_u:  :regional_indicator_l: ");
 		}
+	   
+	   	if(m== "nani ?" || m == "Nani ?" || m=="NANI ?"){
+			message.channel.send("C'est quoi ?");	
+		}
+			
    }
 }
