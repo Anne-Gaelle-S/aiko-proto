@@ -136,7 +136,7 @@ module.exports = {
 
 		mutes = commandesAPart(message, mutes);
 	   
-	   	if(mutes[0]==1){
+	   	//if(mutes[0]==1){
 			while( nonFinFichier && nbAmelio<10 ){
 				let nbAlea = getRandomInt(reste);
 				let msgAlea = mesDonnees[nbAlea].input;
@@ -165,7 +165,7 @@ module.exports = {
 				reponse = "stroustrup. ";
 			} 
 			message.channel.send(reponse);
-		}
+		//}
 
 
 		return mutes;
