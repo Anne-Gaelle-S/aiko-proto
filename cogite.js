@@ -20,10 +20,10 @@ function encode(maChaine){
    	maChaine = maChaine.replace(regAccentE, 'e');
 
 	var indices = [], i;
-    for(i = 0; i < maChaine.length; i++){
-        if (maChaine[i] == '!' || maChaine[i] == '?' || maChaine[i] == ',' || maChaine[i] == '.')
-            maChaine = ajouteEspace(maChaine, i);
-    }
+	    for(i = 0; i < maChaine.length; i++){
+		if (maChaine[i] == '!' || maChaine[i] == '?' || maChaine[i] == ',' || maChaine[i] == '.')
+		    maChaine = ajouteEspace(maChaine, i);
+	    }
 
 
 	maChaine = maChaine.toUpperCase();
@@ -83,6 +83,7 @@ function commandesAPart(message, mutes){
 	});
 
 	let auteur = (message.author.username).toUpperCase();
+	console.log(auteur);
 	const taggedUser = message.mentions.users.first();
 	
 	switch (res) {
