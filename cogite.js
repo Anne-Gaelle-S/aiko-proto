@@ -140,22 +140,22 @@ module.exports = {
 	   	console.log("nonFinFichier: "+nonFinFichier);
 	   	console.log("reste / mesDonnees.length : "+reste);
 	   	if(mutes[0]==1){
+			let data = Array(...mesDonnees);
 			while( nonFinFichier && nbAmelio<10 ){
 				let nbAlea = getRandomInt(reste);
-				let msgAlea = mesDonnees[nbAlea].input;
+				let msgAlea = data[nbAlea].input;
 
 				let hbis = correspondance(msg, msgAlea);
-				console.log("Correspondance :"+ hbis);
 				if (hbis>=0.8){
 					if(hbis>h){
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
 						nbAmelio ++;
-						console.log("AMELIO");
+						console.log("AMELIO++");
 					}
 				}
 
-				mesDonnees.splice(nbAlea, 1);
+				data.splice(nbAlea, 1);
 
 				reste --;
 				nonFinFichier = (reste!=0);
