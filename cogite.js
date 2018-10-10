@@ -169,6 +169,8 @@ module.exports = {
 			} 
 			message.channel.send(reponse);
 		}
+	   	console.log("nonFinFichier: "+nonFinFichier);
+	   	console.log("reste / mesDonnees.length : "+reste);
 
 
 		return mutes;
