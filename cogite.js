@@ -142,12 +142,13 @@ module.exports = {
 				let msgAlea = mesDonnees[nbAlea].input;
 
 				let hbis = correspondance(msg, msgAlea);
-				console.log(hbis);
+				console.log("Correspondance :"+ hbis);
 				if (hbis>=0.8){
 					if(hbis>h){
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
 						nbAmelio ++;
+						console.log("AMELIO");
 					}
 				}
 
@@ -159,6 +160,7 @@ module.exports = {
 
 			console.log("Taux de ressemblance: "+h);
 			console.log("Nombre d'amélioration : "+nbAmelio);
+			console.log("-----------------------------------");
 			if(!reponse) {
 				reponse = "stroustrup. ";
 			} 
