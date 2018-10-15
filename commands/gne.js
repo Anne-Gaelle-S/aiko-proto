@@ -5,8 +5,8 @@ module.exports = {
     usage: ``,
     description: 'GNEEEEEEEEEEEEEEEEEEEEEEEEEEE',
     execute(message, args) {
-
-		message.channel.send('Gné.', {
+	    
+	message.channel.send('Gné.', {
             file : "https://raw.githubusercontent.com/Krysthalia/aiko-proto/master/img/gneXeljira.png"
         });
 
