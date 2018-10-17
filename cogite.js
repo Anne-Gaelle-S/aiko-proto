@@ -147,7 +147,7 @@ module.exports = {
 				let msgAlea = data[nbAlea].input;
 
 				let hbis = correspondance(msg, msgAlea);
-				if (hbis>=0.8){
+				if (hbis>=0.7){
 					if(hbis>h){
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
