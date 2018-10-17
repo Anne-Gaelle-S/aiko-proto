@@ -139,7 +139,7 @@ module.exports = {
 	   
 	   	if(mutes[0]==1){
 			let data = Array(...mesDonnees);
-			for(var test=0; test<10; test++){
+			for(var test=0; test<30; test++){
 				data[test];	
 			}
 			while( nonFinFichier && nbAmelio<10 ){
@@ -147,7 +147,7 @@ module.exports = {
 				let msgAlea = data[nbAlea].input;
 
 				let hbis = correspondance(msg, msgAlea);
-				if (hbis>=0.7){
+				if (hbis>=0.65){
 					if(hbis>h){
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
