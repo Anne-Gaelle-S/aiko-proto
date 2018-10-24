@@ -20,10 +20,10 @@ function encode(maChaine){
    	maChaine = maChaine.replace(regAccentE, 'e');
 
 	var indices = [], i;
-    for(i = 0; i < maChaine.length; i++){
-        if (maChaine[i] == '!' || maChaine[i] == '?' || maChaine[i] == ',' || maChaine[i] == '.')
-            maChaine = ajouteEspace(maChaine, i);
-    }
+	    for(i = 0; i < maChaine.length; i++){
+		if (maChaine[i] == '!' || maChaine[i] == '?' || maChaine[i] == ',' || maChaine[i] == '.')
+		    maChaine = ajouteEspace(maChaine, i);
+	    }
 
 
 	maChaine = maChaine.toUpperCase();
@@ -44,7 +44,8 @@ function correspondance(msg, msgAlea){
 			let reg = new RegExp("("+val+")");
 
 			if (!articles.match(reg)){
-				if(msgAlea.match(reg)) {acc++; console.log("Amelio. Val : "+val+"\tAcc: "+acc);}
+				if(msgAlea.match(reg)) {acc++; //console.log("Amelio. Val : "+val+"\tAcc: "+acc);}
+						       }
 			} else {
 				taille--;
 			}
@@ -84,11 +85,12 @@ function commandesAPart(message, mutes){
 
 	let auteur = (message.author.username).toUpperCase();
 	const taggedUser = message.mentions.users.first();
-
+	
 	switch (res) {
 		case 1:
 			mutes[0]=0;
-			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			//if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			if(auteur != "XELJIRA" && auteur != "ANDERSON" && auteur != "STALKER-SAN" && auteur != taggedUser.username.toUpperCase() ){
 				if(taggedUser.username.toUpperCase()=="KRYSTHALIA"){
 					message.channel.send("YOU SCHALL NOT MUTE !");
 				} else {
@@ -99,7 +101,8 @@ function commandesAPart(message, mutes){
 			break;
 		case 2:
 			mutes[0]=0;
-			if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			//if(auteur == "KRYSTHALIA" || auteur=="KAINNALY"){
+			if(auteur != "XELJIRA" && auteur != "ANDERSON" && auteur != "STALKER-SAN" && auteur != taggedUser.username.toUpperCase()){
 				if(taggedUser.username.toUpperCase()=="KRYSTHALIA"){
 					message.channel.send("YOU SCHALL NOT UNMUTE !");
 				} else {
@@ -116,17 +119,17 @@ function commandesAPart(message, mutes){
 		default: 
 			mutes[0]=1;
 	}
+	
 
 	return mutes;
 }
 
+var fs = require('fs');
+var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 module.exports = {
    cherchePattern: function(message, mutes) {
    		let msg = message.toString().substring(1);
-
-		var fs = require('fs');
-		var mesDonnees = JSON.parse(fs.readFileSync('./data/out/data.json', 'utf8'));
 
 		let h = 0; let nbAmelio = 0; let reponse = ""; 
 		let reste = mesDonnees.length;
@@ -135,12 +138,14 @@ module.exports = {
 		mutes = commandesAPart(message, mutes);
 	   
 	   	if(mutes[0]==1){
-			while( nonFinFichier && nbAmelio<10 ){
+			let data = Array(...mesDonnees);
+
+			while( nonFinFichier && nbAmelio<30 ){
 				let nbAlea = getRandomInt(reste);
-				let msgAlea = mesDonnees[nbAlea].input;
+				let msgAlea = data[nbAlea].input;
 
 				let hbis = correspondance(msg, msgAlea);
-				if (hbis>=0.8){
+				if (hbis>=0.4){
 					if(hbis>h){
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
@@ -148,18 +153,19 @@ module.exports = {
 					}
 				}
 
-				mesDonnees.splice(nbAlea, 1);
+				data.splice(nbAlea, 1);
 
 				reste --;
 				nonFinFichier = (reste!=0);
 			}
 
+			if(!reponse) {
+				reponse = "stroustrup. ";
+			} 
+			message.channel.send(reponse);
+
 			console.log("Taux de ressemblance: "+h);
 			console.log("Nombre d'amélioration : "+nbAmelio);
-			if(!reponse) {
-				reponse = "désolé je ne sais pas quoi répondre ... ";
-			} 
-			message.reply(reponse);
 		}
 
 
