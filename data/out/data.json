@@ -1,5 +1,2257 @@
 [
   {
+    "input": "Profite de ta retraite pour ...",
+    "output": "Pour quoi faire?"
+  },
+  {
+    "input": "Pour quoi faire?",
+    "output": "Pour voyager, Tu n'as jamais quitté Enghien."
+  },
+  {
+    "input": "Pour voyager, Tu n'as jamais quitté Enghien.",
+    "output": "Quand on était jeunes, avec ta mère, on aurait bien voyagé, mais on ne pouvait pas. À cause de ton coeur."
+  },
+  {
+    "input": "Quand on était jeunes, avec ta mère, on aurait bien voyagé, mais on ne pouvait pas. À cause de ton coeur.",
+    "output": "Oui, je sais."
+  },
+  {
+    "input": "Oui, je sais.",
+    "output": "Maintenant, euh, maintenant . . ."
+  },
+  {
+    "input": "Maintenant, euh, maintenant . . .",
+    "output": "Parfois, Amélie va au cinéma."
+  },
+  {
+    "input": "Parfois, Amélie va au cinéma.",
+    "output": "Ah! La petite du 5ième.Ce n'est pas souvent qu'on vous voit."
+  },
+  {
+    "input": "Ah! La petite du 5ième.Ce n'est pas souvent qu'on vous voit.",
+    "output": "Excusez-moi. Un garçon habitait chez moi dans les années 50?"
+  },
+  {
+    "input": "Excusez-moi. Un garçon habitait chez moi dans les années 50?",
+    "output": "Venez boire un verre de porto."
+  },
+  {
+    "input": "Venez boire un verre de porto.",
+    "output": "Non, merci."
+  },
+  {
+    "input": "Non, merci.",
+    "output": "Si, venez. Fermez la porte. Oh, des gamins. J'en ai connu tellement! Au début, c'est mignon et après, c'est les boules de neige, croyez-moi."
+  },
+  {
+    "input": "Si, venez. Fermez la porte. Oh, des gamins. J'en ai connu tellement! Au début, c'est mignon et après, c'est les boules de neige, croyez-moi.",
+    "output": "Vous êtes ici depuis quand?"
+  },
+  {
+    "input": "Vous êtes ici depuis quand?",
+    "output": "Soixante-quatre. Les gens ont dû vous raconter."
+  },
+  {
+    "input": "Soixante-quatre. Les gens ont dû vous raconter.",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Asseyez-vous. Mon mari travaillait à la Coccinelle Assurances. Les gens aiment dire qu'il couchait avec sa secrétaire. Faut dire qu'ils ont visité tous les hôtels des Batignolles. Et pas les plus miteux. Parce que la petite amie aimait\nseulement le satin! Mon mari s'est mis à piquer dans la caisse..."
+  },
+  {
+    "input": "Asseyez-vous. Mon mari travaillait à la Coccinelle Assurances. Les gens aiment dire qu'il couchait avec sa secrétaire. Faut dire qu'ils ont visité tous les hôtels des Batignolles. Et pas les plus miteux. Parce que la petite amie aimait\nseulement le satin! Mon mari s'est mis à piquer dans la caisse...",
+    "output": "Mado chérie..."
+  },
+  {
+    "input": "Mado chérie...",
+    "output": "Je ne dors plus. Je ne mange plus. J'ai laissé ma seule raison de vivre à Paris. "
+  },
+  {
+    "input": "Je ne dors plus. Je ne mange plus. J'ai laissé ma seule raison de vivre à Paris. ",
+    "output": "Je la retrouverai vendredi 15, en voyant apparaître ma belette adorée."
+  },
+  {
+    "input": "Je la retrouverai vendredi 15, en voyant apparaître ma belette adorée.",
+    "output": "Voilà. On vous a déjà écrit des lettres comme ça?"
+  },
+  {
+    "input": "Voilà. On vous a déjà écrit des lettres comme ça?",
+    "output": "Non. Je suis la belette de personne."
+  },
+  {
+    "input": "Non. Je suis la belette de personne.",
+    "output": "Je m'appelle Aiko. "
+  },
+  {
+    "input": "Je m'appelle Aiko. ",
+    "output": "Amélie"
+  },
+  {
+    "input": "Amélie",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Et Walace. "
+  },
+  {
+    "input": "Et Walace. ",
+    "output": "Ah, bonjour, l'Amélie-mélo! Une figue et 3 noisettes, comme d'habitude?"
+  },
+  {
+    "input": "Ah, bonjour, l'Amélie-mélo! Une figue et 3 noisettes, comme d'habitude?",
+    "output": "Ceux qui habitaient chez moi en 50 . . . Vous vous souvenez?"
+  },
+  {
+    "input": "Ceux qui habitaient chez moi en 50 . . . Vous vous souvenez?",
+    "output": "Pardon?"
+  },
+  {
+    "input": "Pardon?",
+    "output": "C'est le nom que vous cherchez. Mais venant de moi, ça compte pas, je suis “gâteux”."
+  },
+  {
+    "input": "C'est le nom que vous cherchez. Mais venant de moi, ça compte pas, je suis “gâteux”.",
+    "output": "Ne l'écoutez pas, il est gâteux. "
+  },
+  {
+    "input": "Ne l'écoutez pas, il est gâteux. ",
+    "output": "Ben quoi?"
+  },
+  {
+    "input": "Ben quoi?",
+    "output": "Dis-moi, papa. Si tu retrouvais une chose de ton enfance, un trésor pour toi, ça te rendrait heureux, triste, nostalgique? Ça te ferait quoi?"
+  },
+  {
+    "input": "Dis-moi, papa. Si tu retrouvais une chose de ton enfance, un trésor pour toi, ça te rendrait heureux, triste, nostalgique? Ça te ferait quoi?",
+    "output": "Si tu parles du nain je ne l’avais pas quand j'étais petit."
+  },
+  {
+    "input": "Si tu parles du nain je ne l’avais pas quand j'étais petit.",
+    "output": "Non, ce qu'on garde en secret comme si ça avait"
+  },
+  {
+    "input": "Non, ce qu'on garde en secret comme si ça avait",
+    "output": "ll faudra que je le revernisse avant l'automne."
+  },
+  {
+    "input": "ll faudra que je le revernisse avant l'automne.",
+    "output": "Je vais faire du thé. Tu en veux?"
+  },
+  {
+    "input": "Je vais faire du thé. Tu en veux?",
+    "output": "Oui?"
+  },
+  {
+    "input": "Oui?",
+    "output": "Dans vos endives, il y a de la sauce béchamel?"
+  },
+  {
+    "input": "Dans vos endives, il y a de la sauce béchamel?",
+    "output": "Oui, et alors?"
+  },
+  {
+    "input": "Oui, et alors?",
+    "output": "Je ne digère pas la béchamel. Comme toi, la viande de cheval."
+  },
+  {
+    "input": "Je ne digère pas la béchamel. Comme toi, la viande de cheval.",
+    "output": "C'est pas une question de digestion mais de souvenir. Je préférerais encore la viande humaine!"
+  },
+  {
+    "input": "C'est pas une question de digestion mais de souvenir. Je préférerais encore la viande humaine!",
+    "output": "Madame Suzanne?"
+  },
+  {
+    "input": "Madame Suzanne?",
+    "output": "Je peux finir plus tôt?"
+  },
+  {
+    "input": "Je peux finir plus tôt?",
+    "output": "ll s'appelle comment?"
+  },
+  {
+    "input": "ll s'appelle comment?",
+    "output": "Dominique Bredoteau."
+  },
+  {
+    "input": "Dominique Bredoteau.",
+    "output": "Oui?"
+  },
+  {
+    "input": "Oui?",
+    "output": "Ben C'est pour la pétition."
+  },
+  {
+    "input": "Ben C'est pour la pétition.",
+    "output": "C'est pour quoi? La pétition?"
+  },
+  {
+    "input": "C'est pour quoi? La pétition?",
+    "output": "Oui, euh . . . la pétition pour faire canoniser Lady Di."
+  },
+  {
+    "input": "Oui, euh . . . la pétition pour faire canoniser Lady Di.",
+    "output": "Ah oui. Ah non, merci!"
+  },
+  {
+    "input": "Ah oui. Ah non, merci!",
+    "output": "Bonjour!"
+  },
+  {
+    "input": "Bonjour!",
+    "output": "Oui?"
+  },
+  {
+    "input": "Oui?",
+    "output": "Dominique Bredoteau? "
+  },
+  {
+    "input": "Dominique Bredoteau? ",
+    "output": "C'est pour le recensement de l'Union européenne."
+  },
+  {
+    "input": "C'est pour le recensement de l'Union européenne.",
+    "output": "Montez. 3e étage."
+  },
+  {
+    "input": "Montez. 3e étage.",
+    "output": "Bonjour, mon chaton. Earl Grey? Bergamote? Jasmin? Vous prendrez bien quelque chose?"
+  },
+  {
+    "input": "Bonjour, mon chaton. Earl Grey? Bergamote? Jasmin? Vous prendrez bien quelque chose?",
+    "output": "Non. J'ai du travail."
+  },
+  {
+    "input": "Non. J'ai du travail.",
+    "output": "Bonjour, je cherche Dominique Bredoteau."
+  },
+  {
+    "input": "Bonjour, je cherche Dominique Bredoteau.",
+    "output": "Ma pauvre petite dame! Vous le manquez de peu. Le voilà qui descend."
+  },
+  {
+    "input": "Ma pauvre petite dame! Vous le manquez de peu. Le voilà qui descend.",
+    "output": "Bretodeau. Pas Bredoteau. Vous avez besoin d'un vin chaud à la cannelle. Venez!"
+  },
+  {
+    "input": "Bretodeau. Pas Bredoteau. Vous avez besoin d'un vin chaud à la cannelle. Venez!",
+    "output": "Depuis cinq ans que j'habite ici, c'est la première fois que je vous croise."
+  },
+  {
+    "input": "Depuis cinq ans que j'habite ici, c'est la première fois que je vous croise.",
+    "output": "Je ne sors jamais sur le palier. J'ai pas envie de rencontrer n'importe qui. "
+  },
+  {
+    "input": "Je ne sors jamais sur le palier. J'ai pas envie de rencontrer n'importe qui. ",
+    "output": "Et y a rien que des cloportes!"
+  },
+  {
+    "input": "Et y a rien que des cloportes!",
+    "output": "Vous pensez pas que vous avez fait assez de mal comme ça?"
+  },
+  {
+    "input": "Vous pensez pas que vous avez fait assez de mal comme ça?",
+    "output": "Gina est assez grande pour se défendre toute seule."
+  },
+  {
+    "input": "Gina est assez grande pour se défendre toute seule.",
+    "output": "C'est pas à Gina que je pense, mais à Georgette."
+  },
+  {
+    "input": "C'est pas à Gina que je pense, mais à Georgette.",
+    "output": "Georgette?!"
+  },
+  {
+    "input": "Georgette?!",
+    "output": "Ouvre les yeux! Elle espère et tu n'aimes que Gina! La pauvre! "
+  },
+  {
+    "input": "Ouvre les yeux! Elle espère et tu n'aimes que Gina! La pauvre! ",
+    "output": "Regardes ce qu'elle fait pour essayer d'attirer ton attention. Tu es aveugle!"
+  },
+  {
+    "input": "Regardes ce qu'elle fait pour essayer d'attirer ton attention. Tu es aveugle!",
+    "output": "Je file, j'ai rendez-vous. Salut!"
+  },
+  {
+    "input": "Je file, j'ai rendez-vous. Salut!",
+    "output": "Au revoir. "
+  },
+  {
+    "input": "Au revoir. ",
+    "output": "Joseph est pas si timbré que ça. ll souffre, c'est tout."
+  },
+  {
+    "input": "Joseph est pas si timbré que ça. ll souffre, c'est tout.",
+    "output": "Ça fait deux mois que c'est fini entre eux, et il vient tous les jours. ll aime souffrir!"
+  },
+  {
+    "input": "Ça fait deux mois que c'est fini entre eux, et il vient tous les jours. ll aime souffrir!",
+    "output": "Ne me dites pas que vous vous êtes rendu compte de rien."
+  },
+  {
+    "input": "Ne me dites pas que vous vous êtes rendu compte de rien.",
+    "output": "Comment ça?"
+  },
+  {
+    "input": "Comment ça?",
+    "output": "ll s'assoit toujours là?"
+  },
+  {
+    "input": "ll s'assoit toujours là?",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Assis toi. Tu vois quoi là ? "
+  },
+  {
+    "input": "Assis toi. Tu vois quoi là ? ",
+    "output": "Mon tabac."
+  },
+  {
+    "input": "Mon tabac.",
+    "output": "Et il manque rien? "
+  },
+  {
+    "input": "Et il manque rien? ",
+    "output": "Ben, non."
+  },
+  {
+    "input": "Ben, non.",
+    "output": "Faites un effort."
+  },
+  {
+    "input": "Faites un effort.",
+    "output": "Ben, non. Y a rien, je ne vois pas!"
+  },
+  {
+    "input": "Ben, non. Y a rien, je ne vois pas!",
+    "output": "Je vous laisse réfléchir. Bonne nuit."
+  },
+  {
+    "input": "Je vous laisse réfléchir. Bonne nuit.",
+    "output": "Vieille et moche, ça aurait été moins grave?"
+  },
+  {
+    "input": "Vieille et moche, ça aurait été moins grave?",
+    "output": "Oui, regardez Mère Thérésa. "
+  },
+  {
+    "input": "Oui, regardez Mère Thérésa. ",
+    "output": "Et lui? ll court toujours après Gina?"
+  },
+  {
+    "input": "Et lui? ll court toujours après Gina?",
+    "output": "Non, après quelqu'un d'autre."
+  },
+  {
+    "input": "Non, après quelqu'un d'autre.",
+    "output": "Dis moi, c'est quelqu'un que je connais?"
+  },
+  {
+    "input": "Dis moi, c'est quelqu'un que je connais?",
+    "output": "Oui. C'est drôle, cette histoire de glacier."
+  },
+  {
+    "input": "Oui. C'est drôle, cette histoire de glacier.",
+    "output": "C'est aux Deux Moulins? C'est quand même pas vous!"
+  },
+  {
+    "input": "C'est aux Deux Moulins? C'est quand même pas vous!",
+    "output": "Non!"
+  },
+  {
+    "input": "Non!",
+    "output": "C'est pas Mme Suzanne"
+  },
+  {
+    "input": "C'est pas Mme Suzanne",
+    "output": "Non!"
+  },
+  {
+    "input": "Non!",
+    "output": "Si!"
+  },
+  {
+    "input": "Si!",
+    "output": "Regardez, il est encore là."
+  },
+  {
+    "input": "Regardez, il est encore là.",
+    "output": "Mais oui, c'est étrange."
+  },
+  {
+    "input": "Mais oui, c'est étrange.",
+    "output": "C'est un mort!"
+  },
+  {
+    "input": "C'est un mort!",
+    "output": "Un mort?!"
+  },
+  {
+    "input": "Un mort?!",
+    "output": "ll a peur d’être oublié. ll se sert des photomatons pour rappeler son visage aux vivants. "
+  },
+  {
+    "input": "ll a peur d’être oublié. ll se sert des photomatons pour rappeler son visage aux vivants. ",
+    "output": "Pour eux, en tout cas, c'est gagné! lls sont morts depuis longtemps. Mais ils ne basculeront jamais dans l'oubli."
+  },
+  {
+    "input": "Pour eux, en tout cas, c'est gagné! lls sont morts depuis longtemps. Mais ils ne basculeront jamais dans l'oubli.",
+    "output": "Vous savez, la fille au verre d'eau, elle pense peut-être à quelqu'un."
+  },
+  {
+    "input": "Vous savez, la fille au verre d'eau, elle pense peut-être à quelqu'un.",
+    "output": "À quelqu'un du tableau?"
+  },
+  {
+    "input": "À quelqu'un du tableau?",
+    "output": "Non. Plutôt un garçon qu'elle a croisé ailleurs. "
+  },
+  {
+    "input": "Non. Plutôt un garçon qu'elle a croisé ailleurs. ",
+    "output": "Elle préfère imaginer une relation avec quelqu'un d'absent, que de créer des liens avec ceux qui sont présents?"
+  },
+  {
+    "input": "Elle préfère imaginer une relation avec quelqu'un d'absent, que de créer des liens avec ceux qui sont présents?",
+    "output": "Non. Peut-être même qu'elle fait tout pour arranger la vie des autres."
+  },
+  {
+    "input": "Non. Peut-être même qu'elle fait tout pour arranger la vie des autres.",
+    "output": "Mais elle? La sienne, de vie qui va s'en occuper?"
+  },
+  {
+    "input": "Mais elle? La sienne, de vie qui va s'en occuper?",
+    "output": "En attendant, mieux vaut se consacrer aux autres qu'à un nain de jardin."
+  },
+  {
+    "input": "En attendant, mieux vaut se consacrer aux autres qu'à un nain de jardin.",
+    "output": "Alors, ce coup-ci, c'est une asperge,ou les archives du\nquartier ? "
+  },
+  {
+    "input": "Alors, ce coup-ci, c'est une asperge,ou les archives du\nquartier ? ",
+    "output": "-Rien."
+  },
+  {
+    "input": "-Rien.",
+    "output": "Alors, on dirait que ça va mieux, vos migraines."
+  },
+  {
+    "input": "Alors, on dirait que ça va mieux, vos migraines.",
+    "output": "Oui, mais j'ai pas dormi à cause de ma sciatique."
+  },
+  {
+    "input": "Oui, mais j'ai pas dormi à cause de ma sciatique.",
+    "output": "Mais ça fait longtemps que vous avez si bonne mine!"
+  },
+  {
+    "input": "Mais ça fait longtemps que vous avez si bonne mine!",
+    "output": "Ah bon?"
+  },
+  {
+    "input": "Ah bon?",
+    "output": "Une femme sans amour, c'est une fleur sans soleil."
+  },
+  {
+    "input": "Une femme sans amour, c'est une fleur sans soleil.",
+    "output": "Combien de temps ça t'a pris? T'as vu l'heure?"
+  },
+  {
+    "input": "Combien de temps ça t'a pris? T'as vu l'heure?",
+    "output": "Et ton travail, alors?"
+  },
+  {
+    "input": "Et ton travail, alors?",
+    "output": "Tu m'as déjà posé la question."
+  },
+  {
+    "input": "Tu m'as déjà posé la question.",
+    "output": "Oui, oui. Tu vas bien, en ce moment?"
+  },
+  {
+    "input": "Oui, oui. Tu vas bien, en ce moment?",
+    "output": "Plutôt bien. Quelque chose change. "
+  },
+  {
+    "input": "Plutôt bien. Quelque chose change. ",
+    "output": "J'ai eu deux crises cardiaques, j'ai dû me faire avorter parce que j'avais pris\ndu crack enceinte. En dehors de ça, tout va bien."
+  },
+  {
+    "input": "J'ai eu deux crises cardiaques, j'ai dû me faire avorter parce que j'avais pris\ndu crack enceinte. En dehors de ça, tout va bien.",
+    "output": "Tant mieux. Tant mieux. "
+  },
+  {
+    "input": "Tant mieux. Tant mieux. ",
+    "output": "Il y a quelque chose qui ne va pas?"
+  },
+  {
+    "input": "Il y a quelque chose qui ne va pas?",
+    "output": "Non, non, rien"
+  },
+  {
+    "input": "Non, non, rien",
+    "output": "Ton nain de jardin est plus là? ll est retourné dans la cabane à outils?"
+  },
+  {
+    "input": "Ton nain de jardin est plus là? ll est retourné dans la cabane à outils?",
+    "output": "Pas d'explication."
+  },
+  {
+    "input": "Pas d'explication.",
+    "output": "ll avait peut-être envie de voir le monde."
+  },
+  {
+    "input": "ll avait peut-être envie de voir le monde.",
+    "output": "Je ne comprends pas. Je ne comprends pas."
+  },
+  {
+    "input": "Je ne comprends pas. Je ne comprends pas.",
+    "output": "Elle serait pas en train de tomber amoureuse?"
+  },
+  {
+    "input": "Elle serait pas en train de tomber amoureuse?",
+    "output": "Et toi? Des poireaux et deux artichauts?"
+  },
+  {
+    "input": "Et toi? Des poireaux et deux artichauts?",
+    "output": "Où est le patron?"
+  },
+  {
+    "input": "Où est le patron?",
+    "output": "Chut! ll dort dans les choux-fleurs."
+  },
+  {
+    "input": "Chut! ll dort dans les choux-fleurs.",
+    "output": "Quoi?!?"
+  },
+  {
+    "input": "Quoi?!?",
+    "output": "ll dort dans les choux-fleurs."
+  },
+  {
+    "input": "ll dort dans les choux-fleurs.",
+    "output": "Ah bon."
+  },
+  {
+    "input": "Ah bon.",
+    "output": "Vous me désirez? Euh ... vous désirez?"
+  },
+  {
+    "input": "Vous me désirez? Euh ... vous désirez?",
+    "output": "Un Tac-O-Tac, s'il vous plaît."
+  },
+  {
+    "input": "Un Tac-O-Tac, s'il vous plaît.",
+    "output": "Voilà."
+  },
+  {
+    "input": "Voilà.",
+    "output": "C'est la première fois, je sais pas comment on fait."
+  },
+  {
+    "input": "C'est la première fois, je sais pas comment on fait.",
+    "output": "Écoutez. On va en faire un ensemble. "
+  },
+  {
+    "input": "Écoutez. On va en faire un ensemble. ",
+    "output": "Alors, il faut gratter là de manière latérale. Voilà. Ben, rien. Et\nvous?"
+  },
+  {
+    "input": "Alors, il faut gratter là de manière latérale. Voilà. Ben, rien. Et\nvous?",
+    "output": "Non, rien non plus. Malheureux au jeu ..."
+  },
+  {
+    "input": "Non, rien non plus. Malheureux au jeu ...",
+    "output": "Et oui! C'est ce qu'on dit!"
+  },
+  {
+    "input": "Et oui! C'est ce qu'on dit!",
+    "output": "Bon allez! Faut que j'y retourne."
+  },
+  {
+    "input": "Bon allez! Faut que j'y retourne.",
+    "output": "Oui. Vas-y."
+  },
+  {
+    "input": "Oui. Vas-y.",
+    "output": "Palace Vidéo, roi du porno."
+  },
+  {
+    "input": "Palace Vidéo, roi du porno.",
+    "output": "Bonjour, j'appelle pour l'annonce."
+  },
+  {
+    "input": "Bonjour, j'appelle pour l'annonce.",
+    "output": "Oui. Vous êtes majeure?"
+  },
+  {
+    "input": "Oui. Vous êtes majeure?",
+    "output": "Pardon? ......."
+  },
+  {
+    "input": "Pardon? .......",
+    "output": "Voilà ce que tu as commandé."
+  },
+  {
+    "input": "Voilà ce que tu as commandé.",
+    "output": "Ça me surprendrait. J'ai horreur des artichauts."
+  },
+  {
+    "input": "Ça me surprendrait. J'ai horreur des artichauts.",
+    "output": "Vous avez tort. Laissez-moi vous montrer."
+  },
+  {
+    "input": "Vous avez tort. Laissez-moi vous montrer.",
+    "output": "Surprise!"
+  },
+  {
+    "input": "Surprise!",
+    "output": "Ben, je préfère ça!"
+  },
+  {
+    "input": "Ben, je préfère ça!",
+    "output": "Attention . . ."
+  },
+  {
+    "input": "Attention . . .",
+    "output": "Tu es un magicien!"
+  },
+  {
+    "input": "Tu es un magicien!",
+    "output": "Aux frais de M. Collignon!"
+  },
+  {
+    "input": "Aux frais de M. Collignon!",
+    "output": "De? M. Collignon? Lucien!"
+  },
+  {
+    "input": "De? M. Collignon? Lucien!",
+    "output": "J'ai pas fait attention, "
+  },
+  {
+    "input": "J'ai pas fait attention, ",
+    "output": "Essaie un peu, mon petit Lucien!"
+  },
+  {
+    "input": "Essaie un peu, mon petit Lucien!",
+    "output": "Non!"
+  },
+  {
+    "input": "Non!",
+    "output": "Essaie!! Répète après moi. Collignon, crêpe chignon."
+  },
+  {
+    "input": "Essaie!! Répète après moi. Collignon, crêpe chignon.",
+    "output": "Collignon, crêpe chignon."
+  },
+  {
+    "input": "Collignon, crêpe chignon.",
+    "output": "C'est ça! A toi, maintenant. Collignon . . ."
+  },
+  {
+    "input": "C'est ça! A toi, maintenant. Collignon . . .",
+    "output": "Collignon, face de fion."
+  },
+  {
+    "input": "Collignon, face de fion.",
+    "output": "Ah, voilà! Tu vois, quand tu veux. Allez, Collignon . . ."
+  },
+  {
+    "input": "Ah, voilà! Tu vois, quand tu veux. Allez, Collignon . . .",
+    "output": "Collignon, tête à gnons!"
+  },
+  {
+    "input": "Collignon, tête à gnons!",
+    "output": "Très bien!"
+  },
+  {
+    "input": "Très bien!",
+    "output": "Lucien Collignon, tête à gnons! Collignon mange des oignons!"
+  },
+  {
+    "input": "Lucien Collignon, tête à gnons! Collignon mange des oignons!",
+    "output": "Lucien!! Ça va pour aujourd'hui!! Ça suffit pour aujourd'hui. C'est très bien."
+  },
+  {
+    "input": "Lucien!! Ça va pour aujourd'hui!! Ça suffit pour aujourd'hui. C'est très bien.",
+    "output": "Bravo! Vive la France! Me voilà ébouillantée! "
+  },
+  {
+    "input": "Bravo! Vive la France! Me voilà ébouillantée! ",
+    "output": "20 sur 20, Amélie!"
+  },
+  {
+    "input": "20 sur 20, Amélie!",
+    "output": "Merci."
+  },
+  {
+    "input": "Merci.",
+    "output": "Je crois que j'ai été un peu dur avec la fille au verre d'eau."
+  },
+  {
+    "input": "Je crois que j'ai été un peu dur avec la fille au verre d'eau.",
+    "output": "Racontez-moi, le garçon qu'elle a croisé, elle l'a revu?"
+  },
+  {
+    "input": "Racontez-moi, le garçon qu'elle a croisé, elle l'a revu?",
+    "output": "Non. En fait, ils ne s'intéressent pas aux mêmes choses."
+  },
+  {
+    "input": "Non. En fait, ils ne s'intéressent pas aux mêmes choses.",
+    "output": "Bonjour, je peux vous aider?"
+  },
+  {
+    "input": "Bonjour, je peux vous aider?",
+    "output": "Excusez-moi. J'ai trouvé ça dans la rue."
+  },
+  {
+    "input": "Excusez-moi. J'ai trouvé ça dans la rue.",
+    "output": "Ça alors! C'est Nino qui va être content."
+  },
+  {
+    "input": "Ça alors! C'est Nino qui va être content.",
+    "output": "Pour sa petite amie, ça ne doit pas être facile tous les\njours."
+  },
+  {
+    "input": "Pour sa petite amie, ça ne doit pas être facile tous les\njours.",
+    "output": "ll a jamais su en garder une! Les temps sont durs pour les rêveurs."
+  },
+  {
+    "input": "ll a jamais su en garder une! Les temps sont durs pour les rêveurs.",
+    "output": "C'est pour quand, ces cafés, Eva?"
+  },
+  {
+    "input": "C'est pour quand, ces cafés, Eva?",
+    "output": "J'y vais. Merci pour l'album."
+  },
+  {
+    "input": "J'y vais. Merci pour l'album.",
+    "output": "Psst! Tu voudrais en savoir plus?"
+  },
+  {
+    "input": "Psst! Tu voudrais en savoir plus?",
+    "output": "Tu l'as vue?"
+  },
+  {
+    "input": "Tu l'as vue?",
+    "output": "Bien sûr. On était dans sa poche! Contre son sein !"
+  },
+  {
+    "input": "Bien sûr. On était dans sa poche! Contre son sein !",
+    "output": "Elle est jolie?"
+  },
+  {
+    "input": "Elle est jolie?",
+    "output": "Pas mal."
+  },
+  {
+    "input": "Pas mal.",
+    "output": "Pas mal."
+  },
+  {
+    "input": "Pas mal.",
+    "output": "Pas mal."
+  },
+  {
+    "input": "Pas mal.",
+    "output": "Belle!"
+  },
+  {
+    "input": "Belle!",
+    "output": "Jolie?"
+  },
+  {
+    "input": "Jolie?",
+    "output": "Non, belle!"
+  },
+  {
+    "input": "Non, belle!",
+    "output": "Jolie."
+  },
+  {
+    "input": "Jolie.",
+    "output": "Elle me veut quoi?"
+  },
+  {
+    "input": "Elle me veut quoi?",
+    "output": "Elle est fauchée. Elle espère une récompense."
+  },
+  {
+    "input": "Elle est fauchée. Elle espère une récompense.",
+    "output": "Ou elle fait la même collection."
+  },
+  {
+    "input": "Ou elle fait la même collection.",
+    "output": "Mais non, crétin ! Elle est amoureuse."
+  },
+  {
+    "input": "Mais non, crétin ! Elle est amoureuse.",
+    "output": "Je ne la connais même pas."
+  },
+  {
+    "input": "Je ne la connais même pas.",
+    "output": "Mais si, tu la connais!"
+  },
+  {
+    "input": "Mais si, tu la connais!",
+    "output": "Depuis quand?"
+  },
+  {
+    "input": "Depuis quand?",
+    "output": "Depuis toujours. Dans tes rêves!"
+  },
+  {
+    "input": "Depuis toujours. Dans tes rêves!",
+    "output": "C'est beau, la vie, quand même!"
+  },
+  {
+    "input": "C'est beau, la vie, quand même!",
+    "output": "Elle n’avait pas encore attrapé cette maladie-là: le coup de foudre! "
+  },
+  {
+    "input": "Elle n’avait pas encore attrapé cette maladie-là: le coup de foudre! ",
+    "output": "Personne n'est à l'abri."
+  },
+  {
+    "input": "Personne n'est à l'abri.",
+    "output": "Moi, ça me fait des vacances."
+  },
+  {
+    "input": "Moi, ça me fait des vacances.",
+    "output": "Elle est comment? "
+  },
+  {
+    "input": "Elle est comment? ",
+    "output": "Disons de taille moyenne. Pas une naine ni une girafe. "
+  },
+  {
+    "input": "Disons de taille moyenne. Pas une naine ni une girafe. ",
+    "output": "Grande, petite , blonde, brune?"
+  },
+  {
+    "input": "Grande, petite , blonde, brune?",
+    "output": "Normale, quoi. Jolie dans son genre."
+  },
+  {
+    "input": "Normale, quoi. Jolie dans son genre.",
+    "output": "Blonde ou brune?"
+  },
+  {
+    "input": "Blonde ou brune?",
+    "output": "C'est difficile à dire. Mais elle n’était pas rousse."
+  },
+  {
+    "input": "C'est difficile à dire. Mais elle n’était pas rousse.",
+    "output": "Elle a cherché à savoir si t'avais une petite amie."
+  },
+  {
+    "input": "Elle a cherché à savoir si t'avais une petite amie.",
+    "output": "Et?"
+  },
+  {
+    "input": "Et?",
+    "output": "J'ai dit que ça t'intéressait pas. J'ai bien fait?"
+  },
+  {
+    "input": "J'ai dit que ça t'intéressait pas. J'ai bien fait?",
+    "output": "Tu n'as pas dit ça!"
+  },
+  {
+    "input": "Tu n'as pas dit ça!",
+    "output": "Tu la connais même pas!"
+  },
+  {
+    "input": "Tu la connais même pas!",
+    "output": "Justement, c'est le mystère."
+  },
+  {
+    "input": "Justement, c'est le mystère.",
+    "output": "Le mystère, tu ne le trouveras pas ici!"
+  },
+  {
+    "input": "Le mystère, tu ne le trouveras pas ici!",
+    "output": "Des brugnons, s'il te plaît."
+  },
+  {
+    "input": "Des brugnons, s'il te plaît.",
+    "output": "Ceux-là sont bien plus beaux."
+  },
+  {
+    "input": "Ceux-là sont bien plus beaux.",
+    "output": "Monsieur est un artiste! Le jour, il vend des poireaux, et le\nsoir, il les dessine! Espèce de légume! [You vegetable!]"
+  },
+  {
+    "input": "Monsieur est un artiste! Le jour, il vend des poireaux, et le\nsoir, il les dessine! Espèce de légume! [You vegetable!]",
+    "output": "Un autre café?"
+  },
+  {
+    "input": "Un autre café?",
+    "output": "Non, merci. Ça ira."
+  },
+  {
+    "input": "Non, merci. Ça ira.",
+    "output": "Alors c'est l'autre, là, le type qui lève la main?"
+  },
+  {
+    "input": "Alors c'est l'autre, là, le type qui lève la main?",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Elle est amoureuse de lui?"
+  },
+  {
+    "input": "Elle est amoureuse de lui?",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Le moment est venu pour elle de prendre un vrai risque."
+  },
+  {
+    "input": "Le moment est venu pour elle de prendre un vrai risque.",
+    "output": "Justement, elle y pense. Elle réfléchit à un stratagème."
+  },
+  {
+    "input": "Justement, elle y pense. Elle réfléchit à un stratagème.",
+    "output": "Elle aime bien ça, les stratagèmes!"
+  },
+  {
+    "input": "Elle aime bien ça, les stratagèmes!",
+    "output": "Oui. elle est un peu lâche."
+  },
+  {
+    "input": "Oui. elle est un peu lâche.",
+    "output": "Dix vidéo-cassettes achetées, 1 gratuite."
+  },
+  {
+    "input": "Dix vidéo-cassettes achetées, 1 gratuite.",
+    "output": "Non, merci."
+  },
+  {
+    "input": "Non, merci.",
+    "output": "Tu peux me remplacer?"
+  },
+  {
+    "input": "Tu peux me remplacer?",
+    "output": "Un instant, j'ai presque terminé."
+  },
+  {
+    "input": "Un instant, j'ai presque terminé.",
+    "output": "Excusez-moi. C'est de vous?"
+  },
+  {
+    "input": "Excusez-moi. C'est de vous?",
+    "output": "Oui, mais c'est pas moi."
+  },
+  {
+    "input": "Oui, mais c'est pas moi.",
+    "output": "Je sais. Où est-ce que je peux la trouver?"
+  },
+  {
+    "input": "Je sais. Où est-ce que je peux la trouver?",
+    "output": "Elle est chez son père. "
+  },
+  {
+    "input": "Elle est chez son père. ",
+    "output": "Ça m'ennuie, je voudrais vous parler. Je termine à 18 h. "
+  },
+  {
+    "input": "Ça m'ennuie, je voudrais vous parler. Je termine à 18 h. ",
+    "output": "Vous pouvez repasser?"
+  },
+  {
+    "input": "Vous pouvez repasser?",
+    "output": "D'accord."
+  },
+  {
+    "input": "D'accord.",
+    "output": "À tout à l'heure."
+  },
+  {
+    "input": "À tout à l'heure.",
+    "output": "C'est salutaire!"
+  },
+  {
+    "input": "C'est salutaire!",
+    "output": "Oh toi, l'écrivain raté!"
+  },
+  {
+    "input": "Oh toi, l'écrivain raté!",
+    "output": "Oui .Écrivain raté. J'ai quand même des idées à moi."
+  },
+  {
+    "input": "Oui .Écrivain raté. J'ai quand même des idées à moi.",
+    "output": "On me les pique toujours. Un peu comme toi avec les femmes."
+  },
+  {
+    "input": "On me les pique toujours. Un peu comme toi avec les femmes.",
+    "output": "Parle pour toi, espèce de . . ."
+  },
+  {
+    "input": "Parle pour toi, espèce de . . .",
+    "output": "Espèce de quoi, hein?!?"
+  },
+  {
+    "input": "Espèce de quoi, hein?!?",
+    "output": "Arrêtez! Qu'est-ce qui se passe, ici?"
+  },
+  {
+    "input": "Arrêtez! Qu'est-ce qui se passe, ici?",
+    "output": "Georgette a voulu prendre l'air et Joseph en fait un Paris-Brest!"
+  },
+  {
+    "input": "Georgette a voulu prendre l'air et Joseph en fait un Paris-Brest!",
+    "output": "Prendre l'air! Oui, comme Gina avec le type au sac en plastique. Attends, j'ai vu la manoeuvre. D'abord,le mot dans la veste. À 16 h 08. Du coup, le mec revient aujourd'hui et hop! Ils “prennent l’air”."
+  },
+  {
+    "input": "Prendre l'air! Oui, comme Gina avec le type au sac en plastique. Attends, j'ai vu la manoeuvre. D'abord,le mot dans la veste. À 16 h 08. Du coup, le mec revient aujourd'hui et hop! Ils “prennent l’air”.",
+    "output": "Le problème, c'est que vous m'êtes sympathique."
+  },
+  {
+    "input": "Le problème, c'est que vous m'êtes sympathique.",
+    "output": "C'est-à-dire ... ?"
+  },
+  {
+    "input": "C'est-à-dire ... ?",
+    "output": "Plus je trouve un gars sympa, moins il est structuré mentalement. Je voudrais en savoir plus."
+  },
+  {
+    "input": "Plus je trouve un gars sympa, moins il est structuré mentalement. Je voudrais en savoir plus.",
+    "output": "Posez-moi des questions."
+  },
+  {
+    "input": "Posez-moi des questions.",
+    "output": "Qu'est-ce que ne fait pas une hirondelle?"
+  },
+  {
+    "input": "Qu'est-ce que ne fait pas une hirondelle?",
+    "output": "Une hirondelle? Le printemps."
+  },
+  {
+    "input": "Une hirondelle? Le printemps.",
+    "output": "Et l'habit?"
+  },
+  {
+    "input": "Et l'habit?",
+    "output": "Le moine."
+  },
+  {
+    "input": "Le moine.",
+    "output": "A bon chat . . ."
+  },
+  {
+    "input": "A bon chat . . .",
+    "output": "Bon rat."
+  },
+  {
+    "input": "Bon rat.",
+    "output": "Petit à petit . . ."
+  },
+  {
+    "input": "Petit à petit . . .",
+    "output": "L'oiseau fait son nid."
+  },
+  {
+    "input": "L'oiseau fait son nid.",
+    "output": "Pierre qui roule . . ."
+  },
+  {
+    "input": "Pierre qui roule . . .",
+    "output": "N'amasse pas mousse."
+  },
+  {
+    "input": "N'amasse pas mousse.",
+    "output": "Qui vole un oeuf . . ."
+  },
+  {
+    "input": "Qui vole un oeuf . . .",
+    "output": "Vole un boeuf."
+  },
+  {
+    "input": "Vole un boeuf.",
+    "output": "Coeur qui soupire . . ."
+  },
+  {
+    "input": "Coeur qui soupire . . .",
+    "output": "N'a pas ce qu'il désire."
+  },
+  {
+    "input": "N'a pas ce qu'il désire.",
+    "output": "Pas mal!"
+  },
+  {
+    "input": "Pas mal!",
+    "output": "Encore?"
+  },
+  {
+    "input": "Encore?",
+    "output": "Je crois que celui qui connaît les proverbes ne peut être mauvais."
+  },
+  {
+    "input": "Je crois que celui qui connaît les proverbes ne peut être mauvais.",
+    "output": "Oh, la jolie petite demoiselle du 5e! Faut que je vous\nraconte. Vous croyez aux miracles?"
+  },
+  {
+    "input": "Oh, la jolie petite demoiselle du 5e! Faut que je vous\nraconte. Vous croyez aux miracles?",
+    "output": "Pas aujourd'hui, non."
+  },
+  {
+    "input": "Pas aujourd'hui, non.",
+    "output": "Vous allez être surprise. \n"
+  },
+  {
+    "input": "De retour dans cette émission dédiée à Marseille aujourd’hui, alors Bernard nous allons passer à la fameuse bouillabaisse.",
+    "output": "Bouillabaisse borgne."
+  },
+  {
+    "input": "Bouillabaisse borgne.",
+    "output": "Borgne. Bon vous allez nous expliquer."
+  },
+  {
+    "input": "Borgne. Bon vous allez nous expliquer.",
+    "output": "Sans le poisson. "
+  },
+  {
+    "input": "Sans le poisson. ",
+    "output": "Pourquoi ? Oui, ça, c’est étonnant. Alors on va lister d’ailleurs tous les ingrédients avant d’aller plus loin. Alors dites-nous ce dont on a besoin."
+  },
+  {
+    "input": "Pourquoi ? Oui, ça, c’est étonnant. Alors on va lister d’ailleurs tous les ingrédients avant d’aller plus loin. Alors dites-nous ce dont on a besoin.",
+    "output": "Alors jeunes pousses d’épinards, oignons,[oui] fenouil, tomates,"
+  },
+  {
+    "input": "Alors jeunes pousses d’épinards, oignons,[oui] fenouil, tomates,",
+    "output": "Poireaux."
+  },
+  {
+    "input": "Poireaux.",
+    "output": "Poireaux."
+  },
+  {
+    "input": "Poireaux.",
+    "output": "Pommes de terre."
+  },
+  {
+    "input": "Pommes de terre.",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Ail, le thym et laurier pour le bouquet garni."
+  },
+  {
+    "input": "Ail, le thym et laurier pour le bouquet garni.",
+    "output": "Euheun"
+  },
+  {
+    "input": "Euheun",
+    "output": "L’écorce d’orange, safran, œuf et une tranche de pain."
+  },
+  {
+    "input": "L’écorce d’orange, safran, œuf et une tranche de pain.",
+    "output": "Bon pas l’ombre d’un poisson."
+  },
+  {
+    "input": "Bon pas l’ombre d’un poisson.",
+    "output": "Non, pas de poisson. Tous les ingrédients de la bouillabaisse sans poi… sans poisson."
+  },
+  {
+    "input": "Non, pas de poisson. Tous les ingrédients de la bouillabaisse sans poi… sans poisson.",
+    "output": "Ça, c’est typiquement marseillais ?"
+  },
+  {
+    "input": "Ça, c’est typiquement marseillais ?",
+    "output": "C’est typique, c’est un plat ancien qui est relevé dans la cuisine marseillaise, qui m’avait d’ailleurs été demandé quand je suis allé au Japon par des Japonais parce que eux avaient étudié l’histoire de la cuisine marseillaise et connaissaient la bouillabaisse borgne. Donc ils m’ont… j’avais étudié aussi, moi."
+  },
+  {
+    "input": "C’est typique, c’est un plat ancien qui est relevé dans la cuisine marseillaise, qui m’avait d’ailleurs été demandé quand je suis allé au Japon par des Japonais parce que eux avaient étudié l’histoire de la cuisine marseillaise et connaissaient la bouillabaisse borgne. Donc ils m’ont… j’avais étudié aussi, moi.",
+    "output": "Sur les influences européennes, Marseille, c’est, ça dépasse"
+  },
+  {
+    "input": "Sur les influences européennes, Marseille, c’est, ça dépasse",
+    "output": "J’ai pu la réaliser pour eux au Japon."
+  },
+  {
+    "input": "J’ai pu la réaliser pour eux au Japon.",
+    "output": "Ça donne quoi, une bouillabaisse japonaise ? (rires)"
+  },
+  {
+    "input": "Ça donne quoi, une bouillabaisse japonaise ? (rires)",
+    "output": "Euh-euf. Les poissons n’ont pas tout à fait le même goût."
+  },
+  {
+    "input": "Euh-euf. Les poissons n’ont pas tout à fait le même goût.",
+    "output": "Oui, bon d’accord."
+  },
+  {
+    "input": "Oui, bon d’accord.",
+    "output": "Les légumes non plus d’ailleurs."
+  },
+  {
+    "input": "Les légumes non plus d’ailleurs.",
+    "output": "Chauvin, ce Bernard."
+  },
+  {
+    "input": "Chauvin, ce Bernard.",
+    "output": "(rires)"
+  },
+  {
+    "input": "(rires)",
+    "output": "Bon alors. On a une marmite ici."
+  },
+  {
+    "input": "Bon alors. On a une marmite ici.",
+    "output": "Alors, on va mettre de l’huile d’olive."
+  },
+  {
+    "input": "Alors, on va mettre de l’huile d’olive.",
+    "output": "Oui.Hop là ! Un bon peu, euh."
+  },
+  {
+    "input": "Oui.Hop là ! Un bon peu, euh.",
+    "output": "Un bon peu."
+  },
+  {
+    "input": "Un bon peu.",
+    "output": "Faites comme moi."
+  },
+  {
+    "input": "Faites comme moi.",
+    "output": "Ouais, ouais."
+  },
+  {
+    "input": "Ouais, ouais.",
+    "output": "C’est bien. (rires) Et on va faire revenir. Alors qu’est-ce qu’on va faire revenir ?"
+  },
+  {
+    "input": "C’est bien. (rires) Et on va faire revenir. Alors qu’est-ce qu’on va faire revenir ?",
+    "output": "On va faire revenir des oignons."
+  },
+  {
+    "input": "On va faire revenir des oignons.",
+    "output": "Oui, Des poireaux."
+  },
+  {
+    "input": "Oui, Des poireaux.",
+    "output": "Des poireaux."
+  },
+  {
+    "input": "Des poireaux.",
+    "output": "Alors émincés très finement."
+  },
+  {
+    "input": "Alors émincés très finement.",
+    "output": "Émincés très fins. Il faut que ça cuise très vite."
+  },
+  {
+    "input": "Émincés très fins. Il faut que ça cuise très vite.",
+    "output": "D’accord… C’est joli."
+  },
+  {
+    "input": "D’accord… C’est joli.",
+    "output": "C’est joli, hein ?"
+  },
+  {
+    "input": "C’est joli, hein ?",
+    "output": "Ouais…Vous mettez pas tout ?"
+  },
+  {
+    "input": "Ouais…Vous mettez pas tout ?",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Non.. on fait une petite quantité ?"
+  },
+  {
+    "input": "Non.. on fait une petite quantité ?",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Bon."
+  },
+  {
+    "input": "Bon.",
+    "output": "Voilà."
+  },
+  {
+    "input": "Voilà.",
+    "output": "Bien, chef…au moins on aura trouvé le principe. Alors les oignons fine-,,,"
+  },
+  {
+    "input": "Bien, chef…au moins on aura trouvé le principe. Alors les oignons fine-,,,",
+    "output": "Les oignons, les poireaux."
+  },
+  {
+    "input": "Les oignons, les poireaux.",
+    "output": "Les poireaux finement émincés…les oignons nous y voilà."
+  },
+  {
+    "input": "Les poireaux finement émincés…les oignons nous y voilà.",
+    "output": "Les oignons pareil"
+  },
+  {
+    "input": "Les oignons pareil",
+    "output": "Très bien."
+  },
+  {
+    "input": "Très bien.",
+    "output": "Il faut pas tout mettre parce que…"
+  },
+  {
+    "input": "Il faut pas tout mettre parce que…",
+    "output": "Euheun"
+  },
+  {
+    "input": "Euheun",
+    "output": "Alors ensuite."
+  },
+  {
+    "input": "Alors ensuite.",
+    "output": "Le fenouil…haché"
+  },
+  {
+    "input": "Le fenouil…haché",
+    "output": "Le fenouil, … qu’est-ce que je peux faire, moi ? je peux peut-être préparer l’ail, tiens "
+  },
+  {
+    "input": "Le fenouil, … qu’est-ce que je peux faire, moi ? je peux peut-être préparer l’ail, tiens ",
+    "output": "Voilà."
+  },
+  {
+    "input": "Voilà.",
+    "output": "Voilà."
+  },
+  {
+    "input": "Voilà.",
+    "output": "Je détache… à la hauteur…trois gousses d’ail ?"
+  },
+  {
+    "input": "Je détache… à la hauteur…trois gousses d’ail ?",
+    "output": "Trois gousses d’ail épluchées, je vais émincer aussi."
+  },
+  {
+    "input": "Trois gousses d’ail épluchées, je vais émincer aussi.",
+    "output": "D’accord, hop…hop.…alors un petit couteau un petit couteau. Ah oui…j’aurais pas fait une gousse d’ail, vous aurez déjà fait une bonne dizaine de céleris, quoi."
+  },
+  {
+    "input": "D’accord, hop…hop.…alors un petit couteau un petit couteau. Ah oui…j’aurais pas fait une gousse d’ail, vous aurez déjà fait une bonne dizaine de céleris, quoi.",
+    "output": "D’accord."
+  },
+  {
+    "input": "D’accord.",
+    "output": "C’est toujours la même histoire avec les chefs…voilà."
+  },
+  {
+    "input": "C’est toujours la même histoire avec les chefs…voilà.",
+    "output": "Le fenouil…la tomate concassée qu’on a concassée avant."
+  },
+  {
+    "input": "Le fenouil…la tomate concassée qu’on a concassée avant.",
+    "output": "Euhun…euh…dites-moi, chef, le… l’origine de la bouillabaisse…"
+  },
+  {
+    "input": "Euhun…euh…dites-moi, chef, le… l’origine de la bouillabaisse…",
+    "output": "Alors, ça."
+  },
+  {
+    "input": "Alors, ça.",
+    "output": "Vous la connaissez, vous ?"
+  },
+  {
+    "input": "Vous la connaissez, vous ?",
+    "output": "Bien sûr."
+  },
+  {
+    "input": "Bien sûr.",
+    "output": "Ah voilà."
+  },
+  {
+    "input": "Ah voilà.",
+    "output": "Ce sont les pêcheurs qui donc…qui cuisaient leurs poissons en rentrant de pêche, les poissons qu’i vendaient pas, qui étaient abîmés ou dans les filets ou qu’i vendaient pas, qui étaient pas des poissons nobles."
+  },
+  {
+    "input": "Ce sont les pêcheurs qui donc…qui cuisaient leurs poissons en rentrant de pêche, les poissons qu’i vendaient pas, qui étaient abîmés ou dans les filets ou qu’i vendaient pas, qui étaient pas des poissons nobles.",
+    "output": "Euhun"
+  },
+  {
+    "input": "Euhun",
+    "output": "Ben, ils les gardaient pour eux, voilà."
+  },
+  {
+    "input": "Ben, ils les gardaient pour eux, voilà.",
+    "output": "D’accord, ils les…se débrouillaient en…c’est le plat du pauvre finalement."
+  },
+  {
+    "input": "D’accord, ils les…se débrouillaient en…c’est le plat du pauvre finalement.",
+    "output": "C’était…c’était un plat du pauvre comme le trois-quarts…des plats"
+  },
+  {
+    "input": "C’était…c’était un plat du pauvre comme le trois-quarts…des plats",
+    "output": "Des plats…marseillais. (rires)"
+  },
+  {
+    "input": "Des plats…marseillais. (rires)",
+    "output": "Pas que marseillais.. pas que marseillais Comme la choucroute, comme le cassoulet, comme tous ces plats…"
+  },
+  {
+    "input": "Pas que marseillais.. pas que marseillais Comme la choucroute, comme le cassoulet, comme tous ces plats…",
+    "output": "En tout cas, quand on voit le prix de la bouillabaisse maintenant, han…han ç’a changé, hein."
+  },
+  {
+    "input": "En tout cas, quand on voit le prix de la bouillabaisse maintenant, han…han ç’a changé, hein.",
+    "output": "C’est très cher."
+  },
+  {
+    "input": "C’est très cher.",
+    "output": "Oui,"
+  },
+  {
+    "input": "Oui,",
+    "output": "Le poisson est devenu très, très cher."
+  },
+  {
+    "input": "Le poisson est devenu très, très cher.",
+    "output": "Donc fenouil, tomates … Je sais pas si je vous ai bien émincé comme vous vouliez."
+  },
+  {
+    "input": "Donc fenouil, tomates … Je sais pas si je vous ai bien émincé comme vous vouliez.",
+    "output": "C’est bon..non…c’est bon. Ah oui, Ça va faire."
+  },
+  {
+    "input": "C’est bon..non…c’est bon. Ah oui, Ça va faire.",
+    "output": "En lamelles, en morceaux, peu importe, ça va fondre."
+  },
+  {
+    "input": "En lamelles, en morceaux, peu importe, ça va fondre.",
+    "output": "Ça va faire."
+  },
+  {
+    "input": "Ça va faire.",
+    "output": "Vous êtes gentil, Bernard."
+  },
+  {
+    "input": "Vous êtes gentil, Bernard.",
+    "output": "Voilà, merci."
+  },
+  {
+    "input": "Voilà, merci.",
+    "output": "Voilà, on mélange…qu’est-ce qu’on n’a pas mis ?"
+  },
+  {
+    "input": "Voilà, on mélange…qu’est-ce qu’on n’a pas mis ?",
+    "output": "Le bouquet garni."
+  },
+  {
+    "input": "Le bouquet garni.",
+    "output": "Le bouquet garni, voilà."
+  },
+  {
+    "input": "Le bouquet garni, voilà.",
+    "output": "Quelles épices est-ce que vous utilisez?"
+  },
+  {
+    "input": "Quelles épices est-ce que vous utilisez?",
+    "output": "Ras el hanout."
+  },
+  {
+    "input": "Ras el hanout.",
+    "output": "Célèbre."
+  },
+  {
+    "input": "Et pourquoi vous ne lui téléphonez pas?",
+    "output": "A qui ?"
+  },
+  {
+    "input": "A qui ?",
+    "output": "Ben à lui, pour savoir si elle est retournée chez lui."
+  },
+  {
+    "input": "Ben à lui, pour savoir si elle est retournée chez lui.",
+    "output": "C'est ça. Je lui ai pas parlé depuis deux ans, je l’appelle et je lui dis :\nest-ce que la femme que je t'ai piquée est revenue chez toi?"
+  },
+  {
+    "input": "C'est ça. Je lui ai pas parlé depuis deux ans, je l’appelle et je lui dis :\nest-ce que la femme que je t'ai piquée est revenue chez toi?",
+    "output": "Au moins vous seriez fixé. Moi j'ai appelé Jean-Patrice Benjamin.\nJe lui ai dit est-ce que tu es partie avec Florence ? Il a dit oui et il a raccroché.\nJ'étais fixé. Vous voulez que je l'appelle ?"
+  },
+  {
+    "input": "Au moins vous seriez fixé. Moi j'ai appelé Jean-Patrice Benjamin.\nJe lui ai dit est-ce que tu es partie avec Florence ? Il a dit oui et il a raccroché.\nJ'étais fixé. Vous voulez que je l'appelle ?",
+    "output": "Vous?"
+  },
+  {
+    "input": "Vous?",
+    "output": "Oui j'appelle, je lui dis je suis un vieil ami de Madame Brochant,\nest-ce que vous savez où je peux la joindre?"
+  },
+  {
+    "input": "Oui j'appelle, je lui dis je suis un vieil ami de Madame Brochant,\nest-ce que vous savez où je peux la joindre?",
+    "output": "Et il ne va pas se méfier du tout"
+  },
+  {
+    "input": "Et il ne va pas se méfier du tout",
+    "output": "J'essaie seulement de vous aider."
+  },
+  {
+    "input": "J'essaie seulement de vous aider.",
+    "output": "Vous êtes gentil, mais elle n'est sûrement pas retournée chez lui"
+  },
+  {
+    "input": "Vous êtes gentil, mais elle n'est sûrement pas retournée chez lui",
+    "output": "Je n’insiste pas. Bonne nuit Monsieur Brochant."
+  },
+  {
+    "input": "Je n’insiste pas. Bonne nuit Monsieur Brochant.",
+    "output": "Monsieur Pignon."
+  },
+  {
+    "input": "Monsieur Pignon.",
+    "output": "Oui ?"
+  },
+  {
+    "input": "Oui ?",
+    "output": "Si je vous dis précisément ce qu'il faut lui dire, vous pensez que vous pouvez le faire ?"
+  },
+  {
+    "input": "Si je vous dis précisément ce qu'il faut lui dire, vous pensez que vous pouvez le faire ?",
+    "output": "Il y a des moments où j'ai l'impression que vous me prenez pour un imbécile."
+  },
+  {
+    "input": "Il y a des moments où j'ai l'impression que vous me prenez pour un imbécile.",
+    "output": "Mais bien sûr que je peux le faire, qu'est-ce que je dois dire ?"
+  },
+  {
+    "input": "Mais bien sûr que je peux le faire, qu'est-ce que je dois dire ?",
+    "output": "On pourrait se servir du bouquin qu'ils ont écrit ensemble."
+  },
+  {
+    "input": "On pourrait se servir du bouquin qu'ils ont écrit ensemble.",
+    "output": "Oui ?"
+  },
+  {
+    "input": "Oui ?",
+    "output": "Vous appelez Leblanc et vous lui dites que vous êtes producteur de films."
+  },
+  {
+    "input": "Vous appelez Leblanc et vous lui dites que vous êtes producteur de films.",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Vous avez lu le roman et vous voulez lui acheter les droits pour le cinéma."
+  },
+  {
+    "input": "Vous avez lu le roman et vous voulez lui acheter les droits pour le cinéma.",
+    "output": "Oui. C’est bien ça."
+  },
+  {
+    "input": "Oui. C’est bien ça.",
+    "output": "Et, en fin de conversation, vous lui demandez où vous pouvez joindre sa\ncollaboratrice."
+  },
+  {
+    "input": "Et, en fin de conversation, vous lui demandez où vous pouvez joindre sa\ncollaboratrice.",
+    "output": "Quelle collaboratrice ?"
+  },
+  {
+    "input": "Quelle collaboratrice ?",
+    "output": "Ma femme ! Je vous ai dit qu'il avait écrit un bouquin avec elle !"
+  },
+  {
+    "input": "Ma femme ! Je vous ai dit qu'il avait écrit un bouquin avec elle !",
+    "output": "Ah oui, exact, O.K, d'accord, excusez-moi."
+  },
+  {
+    "input": "Ah oui, exact, O.K, d'accord, excusez-moi.",
+    "output": "Ça ne marchera jamais."
+  },
+  {
+    "input": "Ça ne marchera jamais.",
+    "output": "Mais si, j'ai compris. C'est pas simple, mais j'ai compris."
+  },
+  {
+    "input": "Mais si, j'ai compris. C'est pas simple, mais j'ai compris.",
+    "output": "Quoi, c'est pas simple ! C'est tout simple : vous êtes producteur, O.K. ?"
+  },
+  {
+    "input": "Quoi, c'est pas simple ! C'est tout simple : vous êtes producteur, O.K. ?",
+    "output": "O.K., O.K."
+  },
+  {
+    "input": "O.K., O.K.",
+    "output": "Vous avez une maison de production à Paris. (Il se reprend.) Non, pas à Paris, il\nconnaît tout le monde...Vous êtes producteur étranger."
+  },
+  {
+    "input": "Vous avez une maison de production à Paris. (Il se reprend.) Non, pas à Paris, il\nconnaît tout le monde...Vous êtes producteur étranger.",
+    "output": "OK, américain, allemand?"
+  },
+  {
+    "input": "OK, américain, allemand?",
+    "output": "Non, non. Vous êtes belge, tiens !...Oui, c'est parfait, ça, belge !"
+  },
+  {
+    "input": "Non, non. Vous êtes belge, tiens !...Oui, c'est parfait, ça, belge !",
+    "output": "Pourquoi belge ?"
+  },
+  {
+    "input": "Pourquoi belge ?",
+    "output": "Parce que c'est très bien, belge, vous êtes un gros producteur belge, vous avez\nlu Le Petit Cheval de manège - c'est le titre du roman - et vous voulez lui acheter les droits pour le cinéma, O.K. ?"
+  },
+  {
+    "input": "Parce que c'est très bien, belge, vous êtes un gros producteur belge, vous avez\nlu Le Petit Cheval de manège - c'est le titre du roman - et vous voulez lui acheter les droits pour le cinéma, O.K. ?",
+    "output": "C'est un bon livre ?"
+  },
+  {
+    "input": "C'est un bon livre ?",
+    "output": "Très mauvais, quelle importance ?"
+  },
+  {
+    "input": "Très mauvais, quelle importance ?",
+    "output": "Ça m'embête un peu ça."
+  },
+  {
+    "input": "Ça m'embête un peu ça.",
+    "output": "Pourquoi ?"
+  },
+  {
+    "input": "Pourquoi ?",
+    "output": "Si le bouquin est mauvais, pourquoi j'irais acheter les droits ?"
+  },
+  {
+    "input": "Si le bouquin est mauvais, pourquoi j'irais acheter les droits ?",
+    "output": "Monsieur Pignon...\nOui ?"
+  },
+  {
+    "input": "Monsieur Pignon...\nOui ?",
+    "output": "Vous n'êtes pas producteur ?"
+  },
+  {
+    "input": "Vous n'êtes pas producteur ?",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Vous n'êtes pas belge, non plus ?"
+  },
+  {
+    "input": "Vous n'êtes pas belge, non plus ?",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Ça n'est donc pas pour acheter les droits du livre que vous téléphonez, mais\npour essayer de savoir où est ma femme."
+  },
+  {
+    "input": "Ça n'est donc pas pour acheter les droits du livre que vous téléphonez, mais\npour essayer de savoir où est ma femme.",
+    "output": "C'est quoi, son numéro ?"
+  },
+  {
+    "input": "C'est quoi, son numéro ?",
+    "output": "C'est le 01.47... Je vais le faire moi-même. "
+  },
+  {
+    "input": "C'est le 01.47... Je vais le faire moi-même. ",
+    "output": "Il s'appelle Juste Leblanc."
+  },
+  {
+    "input": "Il s'appelle Juste Leblanc.",
+    "output": "Il n'a pas de prénom ?"
+  },
+  {
+    "input": "Il n'a pas de prénom ?",
+    "output": "Je viens de vous le dire, Juste Leblanc... Leblanc c’est son nom, et c’est Juste son prénom."
+  },
+  {
+    "input": "Je viens de vous le dire, Juste Leblanc... Leblanc c’est son nom, et c’est Juste son prénom.",
+    "output": "Hm"
+  },
+  {
+    "input": "Hm",
+    "output": "M. Pignon, votre prénom à vous c’est François, c’est juste ?\nEh bien lui c’est pareil, c’est Juste. ... "
+  },
+  {
+    "input": "M. Pignon, votre prénom à vous c’est François, c’est juste ?\nEh bien lui c’est pareil, c’est Juste. ... ",
+    "output": "Bon, on a assez perdu de temps comme ça. Ma femme a signé le roman de son nom de jeune fille, Christine Le Guirrec."
+  },
+  {
+    "input": "Bon, on a assez perdu de temps comme ça. Ma femme a signé le roman de son nom de jeune fille, Christine Le Guirrec.",
+    "output": "Ah bon, elle est bretonne ?"
+  },
+  {
+    "input": "Ah bon, elle est bretonne ?",
+    "output": "Je vous en prie, restez concentré."
+  },
+  {
+    "input": "Je vous en prie, restez concentré.",
+    "output": "Oui, excusez-moi."
+  },
+  {
+    "input": "Oui, excusez-moi.",
+    "output": "Et n'oubliez pas, en fin de conversation, vous lui demandez où vous pouvez\njoindre Christine Le Guirrec... Ça sonne, je vous mets sur haut-parleur.\n(Il appuie sur une touche, la sonnerie, amplifiée, retentit dans la pièce. \ntend avec appréhension le téléphone à ). C'est à vous."
+  },
+  {
+    "input": "Et n'oubliez pas, en fin de conversation, vous lui demandez où vous pouvez\njoindre Christine Le Guirrec... Ça sonne, je vous mets sur haut-parleur.\n(Il appuie sur une touche, la sonnerie, amplifiée, retentit dans la pièce. \ntend avec appréhension le téléphone à ). C'est à vous.",
+    "output": "Je prends l'accent belge ?"
+  },
+  {
+    "input": "Je prends l'accent belge ?",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Allô ?"
+  },
+  {
+    "input": "Allô ?",
+    "output": "Allô, pourrais-je parler à monsieur Leblanc, juste une fois ?\n lève les yeux au ciel."
+  },
+  {
+    "input": "Allô, pourrais-je parler à monsieur Leblanc, juste une fois ?\n lève les yeux au ciel.",
+    "output": "C'est moi."
+  },
+  {
+    "input": "C'est moi.",
+    "output": "Bonsoir, monsieur Leblanc, Georges Van Brueghel à l'appareil, pardonnez-moi\nde vous déranger à une heure aussi tardive, mais je suis producteur belge, n'est-ce pas, j'arrive de Belgique une fois, et je suis très intéressé par votre roman... par votre roman...Le Petit Cheval de manège, et j'aimerais discuter l'achat des droits pour le\ncinéma."
+  },
+  {
+    "input": "Bonsoir, monsieur Leblanc, Georges Van Brueghel à l'appareil, pardonnez-moi\nde vous déranger à une heure aussi tardive, mais je suis producteur belge, n'est-ce pas, j'arrive de Belgique une fois, et je suis très intéressé par votre roman... par votre roman...Le Petit Cheval de manège, et j'aimerais discuter l'achat des droits pour le\ncinéma.",
+    "output": "C'est une blague ou quoi ?"
+  },
+  {
+    "input": "C'est une blague ou quoi ?",
+    "output": "Pas du tout, pourquoi une blague ?"
+  },
+  {
+    "input": "Pas du tout, pourquoi une blague ?",
+    "output": "Etienne ?"
+  },
+  {
+    "input": "Etienne ?",
+    "output": "Pardon ?"
+  },
+  {
+    "input": "Pardon ?",
+    "output": "Arrête tes conneries, Etienne, je t'ai reconnu."
+  },
+  {
+    "input": "Arrête tes conneries, Etienne, je t'ai reconnu.",
+    "output": "Vous faites erreur, monsieur Leblanc, je ne suis pas Etienne du tout, je suis\nproducteur et j'arrive de Bruxelles."
+  },
+  {
+    "input": "Vous faites erreur, monsieur Leblanc, je ne suis pas Etienne du tout, je suis\nproducteur et j'arrive de Bruxelles.",
+    "output": "Quelle production ?"
+  },
+  {
+    "input": "Quelle production ?",
+    "output": "Pardon ?"
+  },
+  {
+    "input": "Pardon ?",
+    "output": "Votre maison de production, c'est quoi ?"
+  },
+  {
+    "input": "Votre maison de production, c'est quoi ?",
+    "output": "Les Films du Plat Pays."
+  },
+  {
+    "input": "Les Films du Plat Pays.",
+    "output": "Les Films du Plat Pays ?"
+  },
+  {
+    "input": "Les Films du Plat Pays ?",
+    "output": "C'est ça, c'est une maison de production jeune, mais dynamique, monsieur\nLeblanc."
+  },
+  {
+    "input": "C'est ça, c'est une maison de production jeune, mais dynamique, monsieur\nLeblanc.",
+    "output": "Et vous êtes intéressé par mon roman ?"
+  },
+  {
+    "input": "Et vous êtes intéressé par mon roman ?",
+    "output": "Absolument, très intéressé, oui."
+  },
+  {
+    "input": "Absolument, très intéressé, oui.",
+    "output": "C'est pour le cinéma ou la télé ?"
+  },
+  {
+    "input": "C'est pour le cinéma ou la télé ?",
+    "output": "Pour le cinéma, monsieur Leblanc, pour le grand écran, pas pour la petite\nlucarne !"
+  },
+  {
+    "input": "Pour le cinéma, monsieur Leblanc, pour le grand écran, pas pour la petite\nlucarne !",
+    "output": "Je dois vous prévenir que j'aimerais faire l'adaptation moi-même."
+  },
+  {
+    "input": "Je dois vous prévenir que j'aimerais faire l'adaptation moi-même.",
+    "output": "Ça ne paraît pas poser de problèmes, monsieur Leblanc, mais vous devez\nseulement savoir que nous ne sommes pas une grosse production et que nous\nn'avons pas d'énormes moyens, mais si vous n'êtes pas trop gourmand...LEBLANC"
+  },
+  {
+    "input": "Ça ne paraît pas poser de problèmes, monsieur Leblanc, mais vous devez\nseulement savoir que nous ne sommes pas une grosse production et que nous\nn'avons pas d'énormes moyens, mais si vous n'êtes pas trop gourmand...LEBLANC",
+    "output": "On réglera les questions d'argent plus tard, quand puis-je vous rencontrer,\nmonsieur... monsieur ?"
+  },
+  {
+    "input": "On réglera les questions d'argent plus tard, quand puis-je vous rencontrer,\nmonsieur... monsieur ?",
+    "output": "Van Brueghel. Alors écoutez, je vous appelle chez vous demain et on prend\nrendez-vous, une fois."
+  },
+  {
+    "input": "Van Brueghel. Alors écoutez, je vous appelle chez vous demain et on prend\nrendez-vous, une fois.",
+    "output": "Entendu, à demain !"
+  },
+  {
+    "input": "Entendu, à demain !",
+    "output": "À demain, monsieur Leblanc.\nEt voilà ! On a les droits ! Et pour pas cher, sûrement !\nIl a marché, il a marché à fond !"
+  },
+  {
+    "input": "À demain, monsieur Leblanc.\nEt voilà ! On a les droits ! Et pour pas cher, sûrement !\nIl a marché, il a marché à fond !",
+    "output": "Et ma femme ?"
+  },
+  {
+    "input": "Et ma femme ?",
+    "output": "Quoi ?"
+  },
+  {
+    "input": "Quoi ?",
+    "output": "Il a oublié ma femme ! Il fait le clown pendant cinq minutes, et il oublie ma\nfemme!"
+  },
+  {
+    "input": "Il a oublié ma femme ! Il fait le clown pendant cinq minutes, et il oublie ma\nfemme!",
+    "output": "Ah, la boulette !"
+  },
+  {
+    "input": "Ah, la boulette !",
+    "output": "Ça dépasse tout ce que j'ai pu imaginer."
+  },
+  {
+    "input": "Ça dépasse tout ce que j'ai pu imaginer.",
+    "output": "Ah ! oui, j'ai fait la boulette."
+  },
+  {
+    "input": "Ah ! oui, j'ai fait la boulette.",
+    "output": "On a repoussé les limites, là."
+  },
+  {
+    "input": "On a repoussé les limites, là.",
+    "output": "Je le rappelle."
+  },
+  {
+    "input": "Je le rappelle.",
+    "output": "Donnez-moi ce téléphone !"
+  },
+  {
+    "input": "Donnez-moi ce téléphone !",
+    "output": "Je le rappelle. Je lui dis: « À propos, monsieur Leblanc, j'ai oublié de vous\ndemander où je pouvais joindre votre collaboratrice, Christine Le Guirrec », c'est\ntout simple !"
+  },
+  {
+    "input": "Je le rappelle. Je lui dis: « À propos, monsieur Leblanc, j'ai oublié de vous\ndemander où je pouvais joindre votre collaboratrice, Christine Le Guirrec », c'est\ntout simple !",
+    "output": "Rendez-moi ce téléphone."
+  },
+  {
+    "input": "Rendez-moi ce téléphone.",
+    "output": "C'est dommage, on allait être fixé."
+  },
+  {
+    "input": "C'est dommage, on allait être fixé.",
+    "output": "(Il le regarde un petit instant, de nouveau torturé.)\nVous ne lui direz rien de plus que: « À propos, j'ai oublié de vous demander où je\npouvais joindre votre collaboratrice, Christine Le Guirrec » ?"
+  },
+  {
+    "input": "(Il le regarde un petit instant, de nouveau torturé.)\nVous ne lui direz rien de plus que: « À propos, j'ai oublié de vous demander où je\npouvais joindre votre collaboratrice, Christine Le Guirrec » ?",
+    "output": "Pas un mot de plus."
+  },
+  {
+    "input": "Pas un mot de plus.",
+    "output": "Non, un type avec un accent impossible. Van Brueghel. Sa maison de production\nc’est Les films du Plat Pays. Non, moi non plus ça ne me dit rien. Attends, on\nm’appelle sur l’autre ligne. Bouge pas. Allô ?"
+  },
+  {
+    "input": "Non, un type avec un accent impossible. Van Brueghel. Sa maison de production\nc’est Les films du Plat Pays. Non, moi non plus ça ne me dit rien. Attends, on\nm’appelle sur l’autre ligne. Bouge pas. Allô ?",
+    "output": "Allô, Monsieur Leblanc, pardon de vous déranger, c'est encore monsieur Van Brueghel à l'appareil..."
+  },
+  {
+    "input": "Allô, Monsieur Leblanc, pardon de vous déranger, c'est encore monsieur Van Brueghel à l'appareil...",
+    "output": "Excusez-moi, je suis sur l'autre ligne avec mon agent, je vous appelle dans une minute, quel est votre numéro ?"
+  },
+  {
+    "input": "Excusez-moi, je suis sur l'autre ligne avec mon agent, je vous appelle dans une minute, quel est votre numéro ?",
+    "output": "Zéro un, quarante-cinq, nonente, cinquante-six, zéro trois. (0145905603)"
+  },
+  {
+    "input": "Zéro un, quarante-cinq, nonente, cinquante-six, zéro trois. (0145905603)",
+    "output": "Oh, nom de Dieu ! (Il coupe la communication.)"
+  },
+  {
+    "input": "Oh, nom de Dieu ! (Il coupe la communication.)",
+    "output": "Allô ?... Allô ?... Il a coupé."
+  },
+  {
+    "input": "Allô ?... Allô ?... Il a coupé.",
+    "output": "Mais non, c'est moi, abruti !"
+  },
+  {
+    "input": "Mais non, c'est moi, abruti !",
+    "output": "Commet ça, abruti?"
+  },
+  {
+    "input": "Commet ça, abruti?",
+    "output": "Vous lui avez donné mon numéro de téléphone !"
+  },
+  {
+    "input": "Vous lui avez donné mon numéro de téléphone !",
+    "output": "Eh bien, oui, il me demande où il peut me rappeler !"
+  },
+  {
+    "input": "Eh bien, oui, il me demande où il peut me rappeler !",
+    "output": "Vous ne vous reposez jamais, vous, hein ?"
+  },
+  {
+    "input": "Il y a beaucoup de sérénité qui se dégage de ce tableau, il y a même une certaine violence…",
+    "output": "Je le trouve très touchant aussi…"
+  },
+  {
+    "input": "Je le trouve très touchant aussi…",
+    "output": "C’est touchant des taches rouges sur un fond blanc ? Et ça coûte combien ça ?"
+  },
+  {
+    "input": "C’est touchant des taches rouges sur un fond blanc ? Et ça coûte combien ça ?",
+    "output": "Je crois qu’il est à 30000 euros, mais je peux vérifier si vous voulez…"
+  },
+  {
+    "input": "Je crois qu’il est à 30000 euros, mais je peux vérifier si vous voulez…",
+    "output": "Oui vaut mieux vérifier quand même, parce que ça me parait exagéré comme prix !"
+  },
+  {
+    "input": "Oui vaut mieux vérifier quand même, parce que ça me parait exagéré comme prix !",
+    "output": "La s’éloigne. s’approche."
+  },
+  {
+    "input": "La s’éloigne. s’approche.",
+    "output": "Vous allez pas acheter cette croûte-là. 30000 euros ! C’est pas possible ça !"
+  },
+  {
+    "input": "Vous allez pas acheter cette croûte-là. 30000 euros ! C’est pas possible ça !",
+    "output": "Ah ben si si, c’est possible…"
+  },
+  {
+    "input": "Ah ben si si, c’est possible…",
+    "output": "Mais le mec il a saigné du nez sur un fond blanc et il demande 30000 euros !"
+  },
+  {
+    "input": "Mais le mec il a saigné du nez sur un fond blanc et il demande 30000 euros !",
+    "output": "Dites-moi à votre avis, pourquoi les gens s’intéressent à l’art ?"
+  },
+  {
+    "input": "Dites-moi à votre avis, pourquoi les gens s’intéressent à l’art ?",
+    "output": "Je sais pas c’est un business."
+  },
+  {
+    "input": "Je sais pas c’est un business.",
+    "output": "Non. C’est parce que c’est la seule trace de notre passage sur terre…"
+  },
+  {
+    "input": "Non. C’est parce que c’est la seule trace de notre passage sur terre…",
+    "output": "C’est une connerie ça … Mais moi, pour 50 euros je vais chez Casto et je vous la fais la trace de mn passage sur terre hein. Je vous mets même du bleu en bonus si vous voulez !"
+  },
+  {
+    "input": "C’est une connerie ça … Mais moi, pour 50 euros je vais chez Casto et je vous la fais la trace de mn passage sur terre hein. Je vous mets même du bleu en bonus si vous voulez !",
+    "output": "Allez, arrêtez de dire n’importe quoi donnez-moi un chocolat."
+  },
+  {
+    "input": "Allez, arrêtez de dire n’importe quoi donnez-moi un chocolat.",
+    "output": "Non !"
+  },
+  {
+    "input": "Non !",
+    "output": "Un temps."
+  },
+  {
+    "input": "Un temps.",
+    "output": "Donnez-moi un chocolat !"
+  },
+  {
+    "input": "Donnez-moi un chocolat !",
+    "output": "Encore un temps."
+  },
+  {
+    "input": "Encore un temps.",
+    "output": "« Pas de bras, pas de chocolat ! »"
+  },
+  {
+    "input": "« Pas de bras, pas de chocolat ! »",
+    "output": "C’est une vanne ! Oh je déconne !"
+  },
+  {
+    "input": "C’est une vanne ! Oh je déconne !",
+    "output": "Ah c’est une blague."
+  },
+  {
+    "input": "Ah c’est une blague.",
+    "output": "Elle est bien quand même ! "
+  },
+  {
+    "input": "Elle est bien quand même ! ",
+    "output": "Très bonne, c’est une très bonne blague."
+  },
+  {
+    "input": "Très bonne, c’est une très bonne blague.",
+    "output": "C’est une vanne connue : »Pas de bras, pas de chocolat », mais avec vous… "
+  },
+  {
+    "input": "C’est une vanne connue : »Pas de bras, pas de chocolat », mais avec vous… ",
+    "output": "Allez…"
+  },
+  {
+    "input": "Allez…",
+    "output": "Elle est chan-mé !"
+  },
+  {
+    "input": "Elle est chan-mé !",
+    "output": "C’est une bonne blague."
+  },
+  {
+    "input": "C’est une bonne blague.",
+    "output": "Mais oui, vous n’avez pas de bras  ! Je vais la faire à Marge Simpson, c’est dommage qu’y ait pas de public "
+  },
+  {
+    "input": "Mais oui, vous n’avez pas de bras  ! Je vais la faire à Marge Simpson, c’est dommage qu’y ait pas de public ",
+    "output": "La revient."
+  },
+  {
+    "input": "La revient.",
+    "output": "Pardon, j’ai fait une petite erreur sur le prix…"
+  },
+  {
+    "input": "Pardon, j’ai fait une petite erreur sur le prix…",
+    "output": "Ah voilà"
+  },
+  {
+    "input": "Ah voilà",
+    "output": "Oui, il est à 41500 Euro."
+  },
+  {
+    "input": "Oui, il est à 41500 Euro.",
+    "output": "Je le prends !"
+  },
+  {
+    "input": "Je le prends !",
+    "output": "Ah bon ?"
+  },
+  {
+    "input": "Ah bon ?",
+    "output": "Elle vient de Dunkerque, c’est pas bon. J’ai jamais vu une miss France qui vient de Dunkerque. En général elles sont « cheum » là-bas."
+  },
+  {
+    "input": "Elle vient de Dunkerque, c’est pas bon. J’ai jamais vu une miss France qui vient de Dunkerque. En général elles sont « cheum » là-bas.",
+    "output": "Appelle-moi, je vais te lécher l’oreille !"
+  },
+  {
+    "input": "Appelle-moi, je vais te lécher l’oreille !",
+    "output": "La piplette, gros tchatcheur en fait "
+  },
+  {
+    "input": "La piplette, gros tchatcheur en fait ",
+    "output": "Tout le monde s’embrasse, tout le monde se lèche l’oreille. Très bien. "
+  },
+  {
+    "input": "Tout le monde s’embrasse, tout le monde se lèche l’oreille. Très bien. ",
+    "output": "Y’a du bon : 53 kilos !"
+  },
+  {
+    "input": "Y’a du bon : 53 kilos !",
+    "output": "53kg c'est bien ! Sauf si elle fait un mètre. "
+  },
+  {
+    "input": "53kg c'est bien ! Sauf si elle fait un mètre. ",
+    "output": "On bouge pas, enfin, surtout lui."
+  },
+  {
+    "input": "On bouge pas, enfin, surtout lui.",
+    "output": "Qu’est-ce qu’elles cherchent les femmes à votre avis ?"
+  },
+  {
+    "input": "Qu’est-ce qu’elles cherchent les femmes à votre avis ?",
+    "output": "Je sais pas. La beauté ? le charme ? l’élégance ?"
+  },
+  {
+    "input": "Je sais pas. La beauté ? le charme ? l’élégance ?",
+    "output": "Mon cul, elles cherchent l’oseille, la sécurité."
+  },
+  {
+    "input": "Mon cul, elles cherchent l’oseille, la sécurité.",
+    "output": "Je suis peut-être naïf mais j’espère que je peux encore séduire avec autre chose que mon compte en banque."
+  },
+  {
+    "input": "Je suis peut-être naïf mais j’espère que je peux encore séduire avec autre chose que mon compte en banque.",
+    "output": "Quoi chut ? "
+  },
+  {
+    "input": "Quoi chut ? ",
+    "output": "C’est l’opéra en allemand."
+  },
+  {
+    "input": "C’est l’opéra en allemand.",
+    "output": "Ca dure combien de temps ?"
+  },
+  {
+    "input": "Ca dure combien de temps ?",
+    "output": "4 heures"
+  },
+  {
+    "input": "4 heures",
+    "output": "Ah la galère."
+  },
+  {
+    "input": "Ah la galère.",
+    "output": "J’ai kiffé grave."
+  },
+  {
+    "input": "J’ai kiffé grave.",
+    "output": "Je suis vos bras et vos jambes, j’aimerais bien lui en coller une."
+  },
+  {
+    "input": "Je suis vos bras et vos jambes, j’aimerais bien lui en coller une.",
+    "output": "Non, non, non, non, reste bien sur l’oreille."
+  },
+  {
+    "input": "Non, non, non, non, reste bien sur l’oreille.",
+    "output": "C’est encore votre anniversaire surprise"
+  },
+  {
+    "input": "C’est encore votre anniversaire surprise",
+    "output": "Moi je fais semblant d’être surpris mais il semblerait qu’on se fait tous un peu chier."
+  },
+  {
+    "input": "Moi je fais semblant d’être surpris mais il semblerait qu’on se fait tous un peu chier.",
+    "output": "On dirait Barack Obama "
+  },
+  {
+    "input": "On dirait Barack Obama ",
+    "output": "C’est comme vous si on vous disait Raffarin ou Georges Marchais."
+  },
+  {
+    "input": "C’est comme vous si on vous disait Raffarin ou Georges Marchais.",
+    "output": "Imodium ? Tu vas juste arrêter de chier pendant 3 mois."
+  },
+  {
+    "input": "Imodium ? Tu vas juste arrêter de chier pendant 3 mois.",
+    "output": "(La musique ?) c’est une pub !"
+  },
+  {
+    "input": "(La musique ?) c’est une pub !",
+    "output": "Ca glousse."
+  },
+  {
+    "input": "Ca glousse.",
+    "output": "Bach, c’est le Barry White de l’époque."
+  },
+  {
+    "input": "Bach, c’est le Barry White de l’époque.",
+    "output": "Vous êtes bien aux ASSEDICS de Paris, le temps d’attente est d’environ 2 ans."
+  },
+  {
+    "input": "Vous êtes bien aux ASSEDICS de Paris, le temps d’attente est d’environ 2 ans.",
+    "output": "Qu’est-ce qu’elle évoque cette femme pour vous ?"
+  },
+  {
+    "input": "Qu’est-ce qu’elle évoque cette femme pour vous ?",
+    "output": "Je sais pas, elle a l’air bonne."
+  },
+  {
+    "input": "Je sais pas, elle a l’air bonne.",
+    "output": "Vous savez ce que c’est une alitération ?"
+  },
+  {
+    "input": "Vous savez ce que c’est une alitération ?",
+    "output": "Non."
+  },
+  {
+    "input": "Non.",
+    "output": "Je suis pas contre un plan à 3 ... "
+  },
+  {
+    "input": "Je suis pas contre un plan à 3 ... ",
+    "output": "Je déconne."
+  },
+  {
+    "input": "Je déconne.",
+    "output": "Salut les mecs !"
+  },
+  {
+    "input": "Salut les mecs !",
+    "output": "Question de principe."
+  },
+  {
+    "input": "Question de principe.",
+    "output": "Enlevez cette blouse, on se croirait dans un asile."
+  },
+  {
+    "input": "Enlevez cette blouse, on se croirait dans un asile.",
+    "output": "Bon, il l'a mis ou pas ?"
+  },
+  {
+    "input": "Bon, il l'a mis ou pas ?",
+    "output": "Quoi donc ?"
+  },
+  {
+    "input": "Quoi donc ?",
+    "output": "Son p'tit concombre... "
+  },
+  {
+    "input": "Son p'tit concombre... ",
+    "output": "Vous aimez la peinture?"
+  },
+  {
+    "input": "Vous aimez la peinture?",
+    "output": "Ah oui ! J'aime bien Goya."
+  },
+  {
+    "input": "Ah oui ! J'aime bien Goya.",
+    "output": "Ouais c'est pas mal. Enfin depuis Pandi Panda, elle a pas fait grand chose. "
+  },
+  {
+    "input": "Ouais c'est pas mal. Enfin depuis Pandi Panda, elle a pas fait grand chose. ",
+    "output": "Je vous en prie asseyez-vous... Vous avez des références ?"
+  },
+  {
+    "input": "Je vous en prie asseyez-vous... Vous avez des références ?",
+    "output": "Oui des références j'en ai."
+  },
+  {
+    "input": "Oui des références j'en ai.",
+    "output": "Oui ? bah on vous écoute."
+  },
+  {
+    "input": "Oui ? bah on vous écoute.",
+    "output": "Je sais pas... Kool & the gang, Earth Wind & Fire. C'est des bonnes références ça, non ? "
+  },
+  {
+    "input": "Je sais pas... Kool & the gang, Earth Wind & Fire. C'est des bonnes références ça, non ? ",
+    "output": "Quelle tête elle a ? C’est peut-être un thon !"
+  },
+  {
+    "input": "Quelle tête elle a ? C’est peut-être un thon !",
+    "output": "Ce n’est pas ça qui m’intéresse. Pour moi, ça passe d’abord par une relation d’esprit à esprit…"
+  },
+  {
+    "input": "Ce n’est pas ça qui m’intéresse. Pour moi, ça passe d’abord par une relation d’esprit à esprit…",
+    "output": "Ouais, ben, si ça se trouve, c’est une relation d’esprit à thon ! "
+  },
+  {
+    "input": "Ouais, ben, si ça se trouve, c’est une relation d’esprit à thon ! ",
+    "output": "Pas de bras, pas de chocolat ! "
+  },
+  {
+    "input": "Pas de bras, pas de chocolat ! ",
+    "output": "C'est touchant des taches rouges sur un fond blanc ? Et ça coute combien ça ?"
+  },
+  {
+    "input": "C'est touchant des taches rouges sur un fond blanc ? Et ça coute combien ça ?",
+    "output": "Je crois qu'il est à 30 000 euros mais je peux vérifier si vous voulez."
+  },
+  {
+    "input": "Je crois qu'il est à 30 000 euros mais je peux vérifier si vous voulez.",
+    "output": "Ouais vaut mieux vérifier quand même. Parce que ça me parait exagéré comme prix. "
+  },
+  {
     "input": "Attention mon petit Numérobis je connais des gens très haut placés, des gens de haut rang.",
     "output": "Ça serait mieux s'ils étaient d'Alexandrie."
   },
@@ -386,6 +2638,286 @@
   {
     "input": "Et voilà le message !",
     "output": "Et voilà l'amoureux..."
+  },
+  {
+    "input": "Donc je suis avec Mina. Mina, tu es étudiante et en même temps, tu travailles comme équipière polyvalente à Burger King. Est-ce que tu peux nous dire un peu comment tu le vis, s’il te plaît?",
+    "output": "Bah, déjà, je le vis très bien, parce que c’est… Il y a une part de responsabilité. Je me sens autonome pour travailler et payer mes études en même temps. Je dépends pas de ma famille."
+  },
+  {
+    "input": "Bah, déjà, je le vis très bien, parce que c’est… Il y a une part de responsabilité. Je me sens autonome pour travailler et payer mes études en même temps. Je dépends pas de ma famille.",
+    "output": "D’accord."
+  },
+  {
+    "input": "D’accord.",
+    "output": "Et… Voilà."
+  },
+  {
+    "input": "Et… Voilà.",
+    "output": "Et du coup, tu fais des études dans quoi?"
+  },
+  {
+    "input": "Et du coup, tu fais des études dans quoi?",
+    "output": "Là, je fais une licence d’anglais mais mon objectif, c’est de devenir hôtesse de l’air."
+  },
+  {
+    "input": "Là, je fais une licence d’anglais mais mon objectif, c’est de devenir hôtesse de l’air.",
+    "output": "D’accord, donc tu fais des études, tu fais une licence d’anglais et en même temps, tu aimerais faire une licence hôtesse de l’air."
+  },
+  {
+    "input": "D’accord, donc tu fais des études, tu fais une licence d’anglais et en même temps, tu aimerais faire une licence hôtesse de l’air.",
+    "output": "Exactement!"
+  },
+  {
+    "input": "Exactement!",
+    "output": "Qu’est-ce qui te passionne le plus ? Enfin, qu’est-ce qui te pousse à vouloir faire hôtesse de l’air?"
+  },
+  {
+    "input": "Qu’est-ce qui te passionne le plus ? Enfin, qu’est-ce qui te pousse à vouloir faire hôtesse de l’air?",
+    "output": "J’ai toujours trouvé ce monde un peu classe et… Comment dire ? Pour moi, c’est…  "
+  },
+  {
+    "input": "J’ai toujours trouvé ce monde un peu classe et… Comment dire ? Pour moi, c’est…  ",
+    "output": "Passionnant ?"
+  },
+  {
+    "input": "Passionnant ?",
+    "output": "… attirant!"
+  },
+  {
+    "input": "… attirant!",
+    "output": "D’accord! Tu aimes bien voyager?"
+  },
+  {
+    "input": "D’accord! Tu aimes bien voyager?",
+    "output": "Exactement, j’aime bien voyager, j’aime bien servir les gens, j’aime bien rencontrer des nouveaux…"
+  },
+  {
+    "input": "Exactement, j’aime bien voyager, j’aime bien servir les gens, j’aime bien rencontrer des nouveaux…",
+    "output": "Des nouvelles personnes."
+  },
+  {
+    "input": "Des nouvelles personnes.",
+    "output": "Des nouvelles personnes. J’aime bien découvrir en fait !"
+  },
+  {
+    "input": "Des nouvelles personnes. J’aime bien découvrir en fait !",
+    "output": "OK, tu aimes t’élargir."
+  },
+  {
+    "input": "OK, tu aimes t’élargir.",
+    "output": "Oui."
+  },
+  {
+    "input": "Oui.",
+    "output": "Tu es passionnée d’histoire, Mina?"
+  },
+  {
+    "input": "Tu es passionnée d’histoire, Mina?",
+    "output": "Non!"
+  },
+  {
+    "input": "Non!",
+    "output": "Tu aimes pas beaucoup l’histoire, mais tu aimes voyager."
+  },
+  {
+    "input": "Tu aimes pas beaucoup l’histoire, mais tu aimes voyager.",
+    "output": "J’aime voyager mais j’aime pas l’histoire."
+  },
+  {
+    "input": "J’aime voyager mais j’aime pas l’histoire.",
+    "output": "D’accord, OK. Et du coup, tu fais une licence d’anglais aussi, tu nous as dis?"
+  },
+  {
+    "input": "D’accord, OK. Et du coup, tu fais une licence d’anglais aussi, tu nous as dis?",
+    "output": "Oui, c’est ça."
+  },
+  {
+    "input": "Oui, c’est ça.",
+    "output": "Tu aimes bien parler anglais ? Tu as déjà voyagé dans des pays anglophones?"
+  },
+  {
+    "input": "Tu aimes bien parler anglais ? Tu as déjà voyagé dans des pays anglophones?",
+    "output": "Oui, j’ai été une fois à Londres, je suis restée environ trois mois. J’ai bien aimé. Et après ça, j’ai été en Italie vite fait mais on parlait anglais entre nous, juste pour se… pour s’améliorer."
+  },
+  {
+    "input": "Oui, j’ai été une fois à Londres, je suis restée environ trois mois. J’ai bien aimé. Et après ça, j’ai été en Italie vite fait mais on parlait anglais entre nous, juste pour se… pour s’améliorer.",
+    "output": "D’accord! Bon bah écoute, je te remercie beaucoup et je te souhaite une bonne continuation."
+  },
+  {
+    "input": "D’accord! Bon bah écoute, je te remercie beaucoup et je te souhaite une bonne continuation.",
+    "output": "De rien, merci!"
+  },
+  {
+    "input": "Bonjour Mademoiselle !",
+    "output": "Bonjour !"
+  },
+  {
+    "input": "Bonjour !",
+    "output": "Pourriez-vous me dire comment arriver à la bibliothèque?"
+  },
+  {
+    "input": "Pourriez-vous me dire comment arriver à la bibliothèque?",
+    "output": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine."
+  },
+  {
+    "input": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine.",
+    "output": "Merci beaucoup, tu es française ?"
+  },
+  {
+    "input": "Merci beaucoup, tu es française ?",
+    "output": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?"
+  },
+  {
+    "input": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?",
+    "output": "Non, je suis italien. Je m’appelle Bobs Adamo."
+  },
+  {
+    "input": "Non, je suis italien. Je m’appelle Bobs Adamo.",
+    "output": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !"
+  },
+  {
+    "input": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !",
+    "output": "Enchanté de faire ta connaissance !"
+  },
+  {
+    "input": "Enchanté de faire ta connaissance !",
+    "output": "D’où viens-tu ?"
+  },
+  {
+    "input": "D’où viens-tu ?",
+    "output": "Je viens d' Italie, de Milan ! Et toi ?"
+  },
+  {
+    "input": "Je viens d' Italie, de Milan ! Et toi ?",
+    "output": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon."
+  },
+  {
+    "input": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon.",
+    "output": "Je t’invite à une soirée italienne demain soir si tu es libre."
+  },
+  {
+    "input": "Je t’invite à une soirée italienne demain soir si tu es libre.",
+    "output": "Merci beaucoup, ça me fera plaisir. À demain soir alors !"
+  },
+  {
+    "input": "Merci beaucoup, ça me fera plaisir. À demain soir alors !",
+    "output": "À demain !"
+  },
+  {
+    "input": "Bonjour.",
+    "output": "Bonjour."
+  },
+  {
+    "input": "Bonjour.",
+    "output": "Comment ça va ?"
+  },
+  {
+    "input": "Comment ça va ?",
+    "output": "Ça va très bien, merci. Et toi ?"
+  },
+  {
+    "input": "Ça va très bien, merci. Et toi ?",
+    "output": "Ça va, merci. "
+  },
+  {
+    "input": "Ça va, merci. ",
+    "output": "Comment tu t'appelles?"
+  },
+  {
+    "input": "Comment tu t'appelles?",
+    "output": "Je m'appelle Aiko."
+  },
+  {
+    "input": "Je m'appelle Aiko.",
+    "output": "Je m'appelle Aiko, et toi ? "
+  },
+  {
+    "input": "Je m'appelle Aiko, et toi ? ",
+    "output": "Enchanté(e), Aiko."
+  },
+  {
+    "input": "Enchanté(e), Aiko.",
+    "output": "Enchanté(e)."
+  },
+  {
+    "input": "Enchanté(e).",
+    "output": "Et tu viens d'où?"
+  },
+  {
+    "input": "Et tu viens d'où?",
+    "output": "Je viens de France. Je suis français(e)."
+  },
+  {
+    "input": "Je viens de France. Je suis français(e).",
+    "output": "Ah, tu es français(e). Je viens des États-Unis. Je suis américain(e)."
+  },
+  {
+    "input": "Ah, tu es français(e). Je viens des États-Unis. Je suis américain(e).",
+    "output": "Ah, tu es américain(e). Tu viens d'où exactement ? "
+  },
+  {
+    "input": "Ah, tu es américain(e). Tu viens d'où exactement ? ",
+    "output": "Je viens de Boston. Je suis étudiant(e)."
+  },
+  {
+    "input": "Je viens de Boston. Je suis étudiant(e).",
+    "output": "Ah, tu es étudiant(e). Moi, je suis professeur, professeur d'anglais.\t"
+  },
+  {
+    "input": "Ah, tu es étudiant(e). Moi, je suis professeur, professeur d'anglais.\t",
+    "output": "Ah, tu es professeur d'anglais ? Tu parles anglais ?\t"
+  },
+  {
+    "input": "Ah, tu es professeur d'anglais ? Tu parles anglais ?\t",
+    "output": "Oui. Et tu parles français ?"
+  },
+  {
+    "input": "Oui. Et tu parles français ?",
+    "output": "Oui. Un petit peu."
+  },
+  {
+    "input": "Oui. Un petit peu.",
+    "output": "OK. Je vais chez moi maintenant."
+  },
+  {
+    "input": "OK. Je vais chez moi maintenant.",
+    "output": "OK. Moi aussi. Au revoir. Bonne journée."
+  },
+  {
+    "input": "OK. Moi aussi. Au revoir. Bonne journée.",
+    "output": "Au revoir. Bonne journée."
+  },
+  {
+    "input": "Qu’est-ce que vous avez fait pendant les vacances ? ",
+    "output": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? "
+  },
+  {
+    "input": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? ",
+    "output": "Moi, je suis allée en Tunisie avec mon mari."
+  },
+  {
+    "input": "Moi, je suis allée en Tunisie avec mon mari.",
+    "output": "Vous étiez où en Tunisie ? "
+  },
+  {
+    "input": "Vous étiez où en Tunisie ? ",
+    "output": "On était à Djerba pendant une semaine, c’était magnifique."
+  },
+  {
+    "input": "On était à Djerba pendant une semaine, c’était magnifique.",
+    "output": "Vous êtes restés tout le temps à Djerba ? "
+  },
+  {
+    "input": "Vous êtes restés tout le temps à Djerba ? ",
+    "output": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. "
+  },
+  {
+    "input": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. ",
+    "output": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? "
+  },
+  {
+    "input": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? ",
+    "output": "Non non, les gens sont très accueillants et dans les lieux touristiques, tout le monde parle français.\n"
   },
   {
     "input": "Je vais te poser des questions. Tu vas me donner ton avis.",
@@ -1428,1054 +3960,6 @@
     "output": "Je crois qu’au lieu de regarder des gens s’écharper sur le sujet à la télé, tu devrais prendre un bon livre et me laisser finir le mien en paix… P. A. I. X,  tu m’as compris.\n"
   },
   {
-    "input": "Bonjour Mademoiselle !",
-    "output": "Bonjour !"
-  },
-  {
-    "input": "Bonjour !",
-    "output": "Pourriez-vous me dire comment arriver à la bibliothèque?"
-  },
-  {
-    "input": "Pourriez-vous me dire comment arriver à la bibliothèque?",
-    "output": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine."
-  },
-  {
-    "input": "Oui, bien sûr. Derrière le bâtiment rouge là-bas il y a la bibliothèque, elle est à côté de la cantine.",
-    "output": "Merci beaucoup, tu es française ?"
-  },
-  {
-    "input": "Merci beaucoup, tu es française ?",
-    "output": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?"
-  },
-  {
-    "input": "Non, je suis belge mais je fais mes études en France. Et toi, tu es français ?",
-    "output": "Non, je suis italien. Je m’appelle Bobs Adamo."
-  },
-  {
-    "input": "Non, je suis italien. Je m’appelle Bobs Adamo.",
-    "output": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !"
-  },
-  {
-    "input": "Enchantée ! J’adore l’Italie ! Et moi c’est Alice !",
-    "output": "Enchanté de faire ta connaissance !"
-  },
-  {
-    "input": "Enchanté de faire ta connaissance !",
-    "output": "D’où viens-tu ?"
-  },
-  {
-    "input": "D’où viens-tu ?",
-    "output": "Je viens d' Italie, de Milan ! Et toi ?"
-  },
-  {
-    "input": "Je viens d' Italie, de Milan ! Et toi ?",
-    "output": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon."
-  },
-  {
-    "input": "Chouette, j’aime bien Milan ! Je viens de Bruges. C’est dans le nord de la Belgique, mais pendant mes études, j’habite en France à Dijon.",
-    "output": "Je t’invite à une soirée italienne demain soir si tu es libre."
-  },
-  {
-    "input": "Je t’invite à une soirée italienne demain soir si tu es libre.",
-    "output": "Merci beaucoup, ça me fera plaisir. À demain soir alors !"
-  },
-  {
-    "input": "Merci beaucoup, ça me fera plaisir. À demain soir alors !",
-    "output": "À demain !"
-  },
-  {
-    "input": "De retour dans cette émission dédiée à Marseille aujourd’hui, alors Bernard nous allons passer à la fameuse bouillabaisse.",
-    "output": "Bouillabaisse borgne."
-  },
-  {
-    "input": "Bouillabaisse borgne.",
-    "output": "Borgne. Bon vous allez nous expliquer."
-  },
-  {
-    "input": "Borgne. Bon vous allez nous expliquer.",
-    "output": "Sans le poisson. "
-  },
-  {
-    "input": "Sans le poisson. ",
-    "output": "Pourquoi ? Oui, ça, c’est étonnant. Alors on va lister d’ailleurs tous les ingrédients avant d’aller plus loin. Alors dites-nous ce dont on a besoin."
-  },
-  {
-    "input": "Pourquoi ? Oui, ça, c’est étonnant. Alors on va lister d’ailleurs tous les ingrédients avant d’aller plus loin. Alors dites-nous ce dont on a besoin.",
-    "output": "Alors jeunes pousses d’épinards, oignons,[oui] fenouil, tomates,"
-  },
-  {
-    "input": "Alors jeunes pousses d’épinards, oignons,[oui] fenouil, tomates,",
-    "output": "Poireaux."
-  },
-  {
-    "input": "Poireaux.",
-    "output": "Poireaux."
-  },
-  {
-    "input": "Poireaux.",
-    "output": "Pommes de terre."
-  },
-  {
-    "input": "Pommes de terre.",
-    "output": "Oui."
-  },
-  {
-    "input": "Oui.",
-    "output": "Ail, le thym et laurier pour le bouquet garni."
-  },
-  {
-    "input": "Ail, le thym et laurier pour le bouquet garni.",
-    "output": "Euheun"
-  },
-  {
-    "input": "Euheun",
-    "output": "L’écorce d’orange, safran, œuf et une tranche de pain."
-  },
-  {
-    "input": "L’écorce d’orange, safran, œuf et une tranche de pain.",
-    "output": "Bon pas l’ombre d’un poisson."
-  },
-  {
-    "input": "Bon pas l’ombre d’un poisson.",
-    "output": "Non, pas de poisson. Tous les ingrédients de la bouillabaisse sans poi… sans poisson."
-  },
-  {
-    "input": "Non, pas de poisson. Tous les ingrédients de la bouillabaisse sans poi… sans poisson.",
-    "output": "Ça, c’est typiquement marseillais ?"
-  },
-  {
-    "input": "Ça, c’est typiquement marseillais ?",
-    "output": "C’est typique, c’est un plat ancien qui est relevé dans la cuisine marseillaise, qui m’avait d’ailleurs été demandé quand je suis allé au Japon par des Japonais parce que eux avaient étudié l’histoire de la cuisine marseillaise et connaissaient la bouillabaisse borgne. Donc ils m’ont… j’avais étudié aussi, moi."
-  },
-  {
-    "input": "C’est typique, c’est un plat ancien qui est relevé dans la cuisine marseillaise, qui m’avait d’ailleurs été demandé quand je suis allé au Japon par des Japonais parce que eux avaient étudié l’histoire de la cuisine marseillaise et connaissaient la bouillabaisse borgne. Donc ils m’ont… j’avais étudié aussi, moi.",
-    "output": "Sur les influences européennes, Marseille, c’est, ça dépasse"
-  },
-  {
-    "input": "Sur les influences européennes, Marseille, c’est, ça dépasse",
-    "output": "J’ai pu la réaliser pour eux au Japon."
-  },
-  {
-    "input": "J’ai pu la réaliser pour eux au Japon.",
-    "output": "Ça donne quoi, une bouillabaisse japonaise ? (rires)"
-  },
-  {
-    "input": "Ça donne quoi, une bouillabaisse japonaise ? (rires)",
-    "output": "Euh-euf. Les poissons n’ont pas tout à fait le même goût."
-  },
-  {
-    "input": "Euh-euf. Les poissons n’ont pas tout à fait le même goût.",
-    "output": "Oui, bon d’accord."
-  },
-  {
-    "input": "Oui, bon d’accord.",
-    "output": "Les légumes non plus d’ailleurs."
-  },
-  {
-    "input": "Les légumes non plus d’ailleurs.",
-    "output": "Chauvin, ce Bernard."
-  },
-  {
-    "input": "Chauvin, ce Bernard.",
-    "output": "(rires)"
-  },
-  {
-    "input": "(rires)",
-    "output": "Bon alors. On a une marmite ici."
-  },
-  {
-    "input": "Bon alors. On a une marmite ici.",
-    "output": "Alors, on va mettre de l’huile d’olive."
-  },
-  {
-    "input": "Alors, on va mettre de l’huile d’olive.",
-    "output": "Oui.Hop là ! Un bon peu, euh."
-  },
-  {
-    "input": "Oui.Hop là ! Un bon peu, euh.",
-    "output": "Un bon peu."
-  },
-  {
-    "input": "Un bon peu.",
-    "output": "Faites comme moi."
-  },
-  {
-    "input": "Faites comme moi.",
-    "output": "Ouais, ouais."
-  },
-  {
-    "input": "Ouais, ouais.",
-    "output": "C’est bien. (rires) Et on va faire revenir. Alors qu’est-ce qu’on va faire revenir ?"
-  },
-  {
-    "input": "C’est bien. (rires) Et on va faire revenir. Alors qu’est-ce qu’on va faire revenir ?",
-    "output": "On va faire revenir des oignons."
-  },
-  {
-    "input": "On va faire revenir des oignons.",
-    "output": "Oui, Des poireaux."
-  },
-  {
-    "input": "Oui, Des poireaux.",
-    "output": "Des poireaux."
-  },
-  {
-    "input": "Des poireaux.",
-    "output": "Alors émincés très finement."
-  },
-  {
-    "input": "Alors émincés très finement.",
-    "output": "Émincés très fins. Il faut que ça cuise très vite."
-  },
-  {
-    "input": "Émincés très fins. Il faut que ça cuise très vite.",
-    "output": "D’accord… C’est joli."
-  },
-  {
-    "input": "D’accord… C’est joli.",
-    "output": "C’est joli, hein ?"
-  },
-  {
-    "input": "C’est joli, hein ?",
-    "output": "Ouais…Vous mettez pas tout ?"
-  },
-  {
-    "input": "Ouais…Vous mettez pas tout ?",
-    "output": "Non."
-  },
-  {
-    "input": "Non.",
-    "output": "Non.. on fait une petite quantité ?"
-  },
-  {
-    "input": "Non.. on fait une petite quantité ?",
-    "output": "Oui."
-  },
-  {
-    "input": "Oui.",
-    "output": "Bon."
-  },
-  {
-    "input": "Bon.",
-    "output": "Voilà."
-  },
-  {
-    "input": "Voilà.",
-    "output": "Bien, chef…au moins on aura trouvé le principe. Alors les oignons fine-,,,"
-  },
-  {
-    "input": "Bien, chef…au moins on aura trouvé le principe. Alors les oignons fine-,,,",
-    "output": "Les oignons, les poireaux."
-  },
-  {
-    "input": "Les oignons, les poireaux.",
-    "output": "Les poireaux finement émincés…les oignons nous y voilà."
-  },
-  {
-    "input": "Les poireaux finement émincés…les oignons nous y voilà.",
-    "output": "Les oignons pareil"
-  },
-  {
-    "input": "Les oignons pareil",
-    "output": "Très bien."
-  },
-  {
-    "input": "Très bien.",
-    "output": "Il faut pas tout mettre parce que…"
-  },
-  {
-    "input": "Il faut pas tout mettre parce que…",
-    "output": "Euheun"
-  },
-  {
-    "input": "Euheun",
-    "output": "Alors ensuite."
-  },
-  {
-    "input": "Alors ensuite.",
-    "output": "Le fenouil…haché"
-  },
-  {
-    "input": "Le fenouil…haché",
-    "output": "Le fenouil, … qu’est-ce que je peux faire, moi ? je peux peut-être préparer l’ail, tiens "
-  },
-  {
-    "input": "Le fenouil, … qu’est-ce que je peux faire, moi ? je peux peut-être préparer l’ail, tiens ",
-    "output": "Voilà."
-  },
-  {
-    "input": "Voilà.",
-    "output": "Voilà."
-  },
-  {
-    "input": "Voilà.",
-    "output": "Je détache… à la hauteur…trois gousses d’ail ?"
-  },
-  {
-    "input": "Je détache… à la hauteur…trois gousses d’ail ?",
-    "output": "Trois gousses d’ail épluchées, je vais émincer aussi."
-  },
-  {
-    "input": "Trois gousses d’ail épluchées, je vais émincer aussi.",
-    "output": "D’accord, hop…hop.…alors un petit couteau un petit couteau. Ah oui…j’aurais pas fait une gousse d’ail, vous aurez déjà fait une bonne dizaine de céleris, quoi."
-  },
-  {
-    "input": "D’accord, hop…hop.…alors un petit couteau un petit couteau. Ah oui…j’aurais pas fait une gousse d’ail, vous aurez déjà fait une bonne dizaine de céleris, quoi.",
-    "output": "D’accord."
-  },
-  {
-    "input": "D’accord.",
-    "output": "C’est toujours la même histoire avec les chefs…voilà."
-  },
-  {
-    "input": "C’est toujours la même histoire avec les chefs…voilà.",
-    "output": "Le fenouil…la tomate concassée qu’on a concassée avant."
-  },
-  {
-    "input": "Le fenouil…la tomate concassée qu’on a concassée avant.",
-    "output": "Euhun…euh…dites-moi, chef, le… l’origine de la bouillabaisse…"
-  },
-  {
-    "input": "Euhun…euh…dites-moi, chef, le… l’origine de la bouillabaisse…",
-    "output": "Alors, ça."
-  },
-  {
-    "input": "Alors, ça.",
-    "output": "Vous la connaissez, vous ?"
-  },
-  {
-    "input": "Vous la connaissez, vous ?",
-    "output": "Bien sûr."
-  },
-  {
-    "input": "Bien sûr.",
-    "output": "Ah voilà."
-  },
-  {
-    "input": "Ah voilà.",
-    "output": "Ce sont les pêcheurs qui donc…qui cuisaient leurs poissons en rentrant de pêche, les poissons qu’i vendaient pas, qui étaient abîmés ou dans les filets ou qu’i vendaient pas, qui étaient pas des poissons nobles."
-  },
-  {
-    "input": "Ce sont les pêcheurs qui donc…qui cuisaient leurs poissons en rentrant de pêche, les poissons qu’i vendaient pas, qui étaient abîmés ou dans les filets ou qu’i vendaient pas, qui étaient pas des poissons nobles.",
-    "output": "Euhun"
-  },
-  {
-    "input": "Euhun",
-    "output": "Ben, ils les gardaient pour eux, voilà."
-  },
-  {
-    "input": "Ben, ils les gardaient pour eux, voilà.",
-    "output": "D’accord, ils les…se débrouillaient en…c’est le plat du pauvre finalement."
-  },
-  {
-    "input": "D’accord, ils les…se débrouillaient en…c’est le plat du pauvre finalement.",
-    "output": "C’était…c’était un plat du pauvre comme le trois-quarts…des plats"
-  },
-  {
-    "input": "C’était…c’était un plat du pauvre comme le trois-quarts…des plats",
-    "output": "Des plats…marseillais. (rires)"
-  },
-  {
-    "input": "Des plats…marseillais. (rires)",
-    "output": "Pas que marseillais.. pas que marseillais Comme la choucroute, comme le cassoulet, comme tous ces plats…"
-  },
-  {
-    "input": "Pas que marseillais.. pas que marseillais Comme la choucroute, comme le cassoulet, comme tous ces plats…",
-    "output": "En tout cas, quand on voit le prix de la bouillabaisse maintenant, han…han ç’a changé, hein."
-  },
-  {
-    "input": "En tout cas, quand on voit le prix de la bouillabaisse maintenant, han…han ç’a changé, hein.",
-    "output": "C’est très cher."
-  },
-  {
-    "input": "C’est très cher.",
-    "output": "Oui,"
-  },
-  {
-    "input": "Oui,",
-    "output": "Le poisson est devenu très, très cher."
-  },
-  {
-    "input": "Le poisson est devenu très, très cher.",
-    "output": "Donc fenouil, tomates … Je sais pas si je vous ai bien émincé comme vous vouliez."
-  },
-  {
-    "input": "Donc fenouil, tomates … Je sais pas si je vous ai bien émincé comme vous vouliez.",
-    "output": "C’est bon..non…c’est bon. Ah oui, Ça va faire."
-  },
-  {
-    "input": "C’est bon..non…c’est bon. Ah oui, Ça va faire.",
-    "output": "En lamelles, en morceaux, peu importe, ça va fondre."
-  },
-  {
-    "input": "En lamelles, en morceaux, peu importe, ça va fondre.",
-    "output": "Ça va faire."
-  },
-  {
-    "input": "Ça va faire.",
-    "output": "Vous êtes gentil, Bernard."
-  },
-  {
-    "input": "Vous êtes gentil, Bernard.",
-    "output": "Voilà, merci."
-  },
-  {
-    "input": "Voilà, merci.",
-    "output": "Voilà, on mélange…qu’est-ce qu’on n’a pas mis ?"
-  },
-  {
-    "input": "Voilà, on mélange…qu’est-ce qu’on n’a pas mis ?",
-    "output": "Le bouquet garni."
-  },
-  {
-    "input": "Le bouquet garni.",
-    "output": "Le bouquet garni, voilà."
-  },
-  {
-    "input": "Le bouquet garni, voilà.",
-    "output": "Quelles épices est-ce que vous utilisez?"
-  },
-  {
-    "input": "Quelles épices est-ce que vous utilisez?",
-    "output": "Ras el hanout."
-  },
-  {
-    "input": "Ras el hanout.",
-    "output": "Célèbre."
-  },
-  {
-    "input": "Et pourquoi vous ne lui téléphonez pas?",
-    "output": "A qui ?"
-  },
-  {
-    "input": "A qui ?",
-    "output": "Ben à lui, pour savoir si elle est retournée chez lui."
-  },
-  {
-    "input": "Ben à lui, pour savoir si elle est retournée chez lui.",
-    "output": "C'est ça. Je lui ai pas parlé depuis deux ans, je l’appelle et je lui dis :\nest-ce que la femme que je t'ai piquée est revenue chez toi?"
-  },
-  {
-    "input": "C'est ça. Je lui ai pas parlé depuis deux ans, je l’appelle et je lui dis :\nest-ce que la femme que je t'ai piquée est revenue chez toi?",
-    "output": "Au moins vous seriez fixé. Moi j'ai appelé Jean-Patrice Benjamin.\nJe lui ai dit est-ce que tu es partie avec Florence ? Il a dit oui et il a raccroché.\nJ'étais fixé. Vous voulez que je l'appelle ?"
-  },
-  {
-    "input": "Au moins vous seriez fixé. Moi j'ai appelé Jean-Patrice Benjamin.\nJe lui ai dit est-ce que tu es partie avec Florence ? Il a dit oui et il a raccroché.\nJ'étais fixé. Vous voulez que je l'appelle ?",
-    "output": "Vous?"
-  },
-  {
-    "input": "Vous?",
-    "output": "Oui j'appelle, je lui dis je suis un vieil ami de Madame Brochant,\nest-ce que vous savez où je peux la joindre?"
-  },
-  {
-    "input": "Oui j'appelle, je lui dis je suis un vieil ami de Madame Brochant,\nest-ce que vous savez où je peux la joindre?",
-    "output": "Et il ne va pas se méfier du tout"
-  },
-  {
-    "input": "Et il ne va pas se méfier du tout",
-    "output": "J'essaie seulement de vous aider."
-  },
-  {
-    "input": "J'essaie seulement de vous aider.",
-    "output": "Vous êtes gentil, mais elle n'est sûrement pas retournée chez lui"
-  },
-  {
-    "input": "Vous êtes gentil, mais elle n'est sûrement pas retournée chez lui",
-    "output": "Je n’insiste pas. Bonne nuit Monsieur Brochant."
-  },
-  {
-    "input": "Je n’insiste pas. Bonne nuit Monsieur Brochant.",
-    "output": "Monsieur Pignon."
-  },
-  {
-    "input": "Monsieur Pignon.",
-    "output": "Oui ?"
-  },
-  {
-    "input": "Oui ?",
-    "output": "Si je vous dis précisément ce qu'il faut lui dire, vous pensez que vous pouvez le faire ?"
-  },
-  {
-    "input": "Si je vous dis précisément ce qu'il faut lui dire, vous pensez que vous pouvez le faire ?",
-    "output": "Il y a des moments où j'ai l'impression que vous me prenez pour un imbécile."
-  },
-  {
-    "input": "Il y a des moments où j'ai l'impression que vous me prenez pour un imbécile.",
-    "output": "Mais bien sûr que je peux le faire, qu'est-ce que je dois dire ?"
-  },
-  {
-    "input": "Mais bien sûr que je peux le faire, qu'est-ce que je dois dire ?",
-    "output": "On pourrait se servir du bouquin qu'ils ont écrit ensemble."
-  },
-  {
-    "input": "On pourrait se servir du bouquin qu'ils ont écrit ensemble.",
-    "output": "Oui ?"
-  },
-  {
-    "input": "Oui ?",
-    "output": "Vous appelez Leblanc et vous lui dites que vous êtes producteur de films."
-  },
-  {
-    "input": "Vous appelez Leblanc et vous lui dites que vous êtes producteur de films.",
-    "output": "Oui."
-  },
-  {
-    "input": "Oui.",
-    "output": "Vous avez lu le roman et vous voulez lui acheter les droits pour le cinéma."
-  },
-  {
-    "input": "Vous avez lu le roman et vous voulez lui acheter les droits pour le cinéma.",
-    "output": "Oui. C’est bien ça."
-  },
-  {
-    "input": "Oui. C’est bien ça.",
-    "output": "Et, en fin de conversation, vous lui demandez où vous pouvez joindre sa\ncollaboratrice."
-  },
-  {
-    "input": "Et, en fin de conversation, vous lui demandez où vous pouvez joindre sa\ncollaboratrice.",
-    "output": "Quelle collaboratrice ?"
-  },
-  {
-    "input": "Quelle collaboratrice ?",
-    "output": "Ma femme ! Je vous ai dit qu'il avait écrit un bouquin avec elle !"
-  },
-  {
-    "input": "Ma femme ! Je vous ai dit qu'il avait écrit un bouquin avec elle !",
-    "output": "Ah oui, exact, O.K, d'accord, excusez-moi."
-  },
-  {
-    "input": "Ah oui, exact, O.K, d'accord, excusez-moi.",
-    "output": "Ça ne marchera jamais."
-  },
-  {
-    "input": "Ça ne marchera jamais.",
-    "output": "Mais si, j'ai compris. C'est pas simple, mais j'ai compris."
-  },
-  {
-    "input": "Mais si, j'ai compris. C'est pas simple, mais j'ai compris.",
-    "output": "Quoi, c'est pas simple ! C'est tout simple : vous êtes producteur, O.K. ?"
-  },
-  {
-    "input": "Quoi, c'est pas simple ! C'est tout simple : vous êtes producteur, O.K. ?",
-    "output": "O.K., O.K."
-  },
-  {
-    "input": "O.K., O.K.",
-    "output": "Vous avez une maison de production à Paris. (Il se reprend.) Non, pas à Paris, il\nconnaît tout le monde...Vous êtes producteur étranger."
-  },
-  {
-    "input": "Vous avez une maison de production à Paris. (Il se reprend.) Non, pas à Paris, il\nconnaît tout le monde...Vous êtes producteur étranger.",
-    "output": "OK, américain, allemand?"
-  },
-  {
-    "input": "OK, américain, allemand?",
-    "output": "Non, non. Vous êtes belge, tiens !...Oui, c'est parfait, ça, belge !"
-  },
-  {
-    "input": "Non, non. Vous êtes belge, tiens !...Oui, c'est parfait, ça, belge !",
-    "output": "Pourquoi belge ?"
-  },
-  {
-    "input": "Pourquoi belge ?",
-    "output": "Parce que c'est très bien, belge, vous êtes un gros producteur belge, vous avez\nlu Le Petit Cheval de manège - c'est le titre du roman - et vous voulez lui acheter les droits pour le cinéma, O.K. ?"
-  },
-  {
-    "input": "Parce que c'est très bien, belge, vous êtes un gros producteur belge, vous avez\nlu Le Petit Cheval de manège - c'est le titre du roman - et vous voulez lui acheter les droits pour le cinéma, O.K. ?",
-    "output": "C'est un bon livre ?"
-  },
-  {
-    "input": "C'est un bon livre ?",
-    "output": "Très mauvais, quelle importance ?"
-  },
-  {
-    "input": "Très mauvais, quelle importance ?",
-    "output": "Ça m'embête un peu ça."
-  },
-  {
-    "input": "Ça m'embête un peu ça.",
-    "output": "Pourquoi ?"
-  },
-  {
-    "input": "Pourquoi ?",
-    "output": "Si le bouquin est mauvais, pourquoi j'irais acheter les droits ?"
-  },
-  {
-    "input": "Si le bouquin est mauvais, pourquoi j'irais acheter les droits ?",
-    "output": "Monsieur Pignon...\nOui ?"
-  },
-  {
-    "input": "Monsieur Pignon...\nOui ?",
-    "output": "Vous n'êtes pas producteur ?"
-  },
-  {
-    "input": "Vous n'êtes pas producteur ?",
-    "output": "Non."
-  },
-  {
-    "input": "Non.",
-    "output": "Vous n'êtes pas belge, non plus ?"
-  },
-  {
-    "input": "Vous n'êtes pas belge, non plus ?",
-    "output": "Non."
-  },
-  {
-    "input": "Non.",
-    "output": "Ça n'est donc pas pour acheter les droits du livre que vous téléphonez, mais\npour essayer de savoir où est ma femme."
-  },
-  {
-    "input": "Ça n'est donc pas pour acheter les droits du livre que vous téléphonez, mais\npour essayer de savoir où est ma femme.",
-    "output": "C'est quoi, son numéro ?"
-  },
-  {
-    "input": "C'est quoi, son numéro ?",
-    "output": "C'est le 01.47... Je vais le faire moi-même. "
-  },
-  {
-    "input": "C'est le 01.47... Je vais le faire moi-même. ",
-    "output": "Il s'appelle Juste Leblanc."
-  },
-  {
-    "input": "Il s'appelle Juste Leblanc.",
-    "output": "Il n'a pas de prénom ?"
-  },
-  {
-    "input": "Il n'a pas de prénom ?",
-    "output": "Je viens de vous le dire, Juste Leblanc... Leblanc c’est son nom, et c’est Juste son prénom."
-  },
-  {
-    "input": "Je viens de vous le dire, Juste Leblanc... Leblanc c’est son nom, et c’est Juste son prénom.",
-    "output": "Hm"
-  },
-  {
-    "input": "Hm",
-    "output": "M. Pignon, votre prénom à vous c’est François, c’est juste ?\nEh bien lui c’est pareil, c’est Juste. ... "
-  },
-  {
-    "input": "M. Pignon, votre prénom à vous c’est François, c’est juste ?\nEh bien lui c’est pareil, c’est Juste. ... ",
-    "output": "Bon, on a assez perdu de temps comme ça. Ma femme a signé le roman de son nom de jeune fille, Christine Le Guirrec."
-  },
-  {
-    "input": "Bon, on a assez perdu de temps comme ça. Ma femme a signé le roman de son nom de jeune fille, Christine Le Guirrec.",
-    "output": "Ah bon, elle est bretonne ?"
-  },
-  {
-    "input": "Ah bon, elle est bretonne ?",
-    "output": "Je vous en prie, restez concentré."
-  },
-  {
-    "input": "Je vous en prie, restez concentré.",
-    "output": "Oui, excusez-moi."
-  },
-  {
-    "input": "Oui, excusez-moi.",
-    "output": "Et n'oubliez pas, en fin de conversation, vous lui demandez où vous pouvez\njoindre Christine Le Guirrec... Ça sonne, je vous mets sur haut-parleur.\n(Il appuie sur une touche, la sonnerie, amplifiée, retentit dans la pièce. \ntend avec appréhension le téléphone à ). C'est à vous."
-  },
-  {
-    "input": "Et n'oubliez pas, en fin de conversation, vous lui demandez où vous pouvez\njoindre Christine Le Guirrec... Ça sonne, je vous mets sur haut-parleur.\n(Il appuie sur une touche, la sonnerie, amplifiée, retentit dans la pièce. \ntend avec appréhension le téléphone à ). C'est à vous.",
-    "output": "Je prends l'accent belge ?"
-  },
-  {
-    "input": "Je prends l'accent belge ?",
-    "output": "Non."
-  },
-  {
-    "input": "Non.",
-    "output": "Allô ?"
-  },
-  {
-    "input": "Allô ?",
-    "output": "Allô, pourrais-je parler à monsieur Leblanc, juste une fois ?\n lève les yeux au ciel."
-  },
-  {
-    "input": "Allô, pourrais-je parler à monsieur Leblanc, juste une fois ?\n lève les yeux au ciel.",
-    "output": "C'est moi."
-  },
-  {
-    "input": "C'est moi.",
-    "output": "Bonsoir, monsieur Leblanc, Georges Van Brueghel à l'appareil, pardonnez-moi\nde vous déranger à une heure aussi tardive, mais je suis producteur belge, n'est-ce pas, j'arrive de Belgique une fois, et je suis très intéressé par votre roman... par votre roman...Le Petit Cheval de manège, et j'aimerais discuter l'achat des droits pour le\ncinéma."
-  },
-  {
-    "input": "Bonsoir, monsieur Leblanc, Georges Van Brueghel à l'appareil, pardonnez-moi\nde vous déranger à une heure aussi tardive, mais je suis producteur belge, n'est-ce pas, j'arrive de Belgique une fois, et je suis très intéressé par votre roman... par votre roman...Le Petit Cheval de manège, et j'aimerais discuter l'achat des droits pour le\ncinéma.",
-    "output": "C'est une blague ou quoi ?"
-  },
-  {
-    "input": "C'est une blague ou quoi ?",
-    "output": "Pas du tout, pourquoi une blague ?"
-  },
-  {
-    "input": "Pas du tout, pourquoi une blague ?",
-    "output": "Etienne ?"
-  },
-  {
-    "input": "Etienne ?",
-    "output": "Pardon ?"
-  },
-  {
-    "input": "Pardon ?",
-    "output": "Arrête tes conneries, Etienne, je t'ai reconnu."
-  },
-  {
-    "input": "Arrête tes conneries, Etienne, je t'ai reconnu.",
-    "output": "Vous faites erreur, monsieur Leblanc, je ne suis pas Etienne du tout, je suis\nproducteur et j'arrive de Bruxelles."
-  },
-  {
-    "input": "Vous faites erreur, monsieur Leblanc, je ne suis pas Etienne du tout, je suis\nproducteur et j'arrive de Bruxelles.",
-    "output": "Quelle production ?"
-  },
-  {
-    "input": "Quelle production ?",
-    "output": "Pardon ?"
-  },
-  {
-    "input": "Pardon ?",
-    "output": "Votre maison de production, c'est quoi ?"
-  },
-  {
-    "input": "Votre maison de production, c'est quoi ?",
-    "output": "Les Films du Plat Pays."
-  },
-  {
-    "input": "Les Films du Plat Pays.",
-    "output": "Les Films du Plat Pays ?"
-  },
-  {
-    "input": "Les Films du Plat Pays ?",
-    "output": "C'est ça, c'est une maison de production jeune, mais dynamique, monsieur\nLeblanc."
-  },
-  {
-    "input": "C'est ça, c'est une maison de production jeune, mais dynamique, monsieur\nLeblanc.",
-    "output": "Et vous êtes intéressé par mon roman ?"
-  },
-  {
-    "input": "Et vous êtes intéressé par mon roman ?",
-    "output": "Absolument, très intéressé, oui."
-  },
-  {
-    "input": "Absolument, très intéressé, oui.",
-    "output": "C'est pour le cinéma ou la télé ?"
-  },
-  {
-    "input": "C'est pour le cinéma ou la télé ?",
-    "output": "Pour le cinéma, monsieur Leblanc, pour le grand écran, pas pour la petite\nlucarne !"
-  },
-  {
-    "input": "Pour le cinéma, monsieur Leblanc, pour le grand écran, pas pour la petite\nlucarne !",
-    "output": "Je dois vous prévenir que j'aimerais faire l'adaptation moi-même."
-  },
-  {
-    "input": "Je dois vous prévenir que j'aimerais faire l'adaptation moi-même.",
-    "output": "Ça ne paraît pas poser de problèmes, monsieur Leblanc, mais vous devez\nseulement savoir que nous ne sommes pas une grosse production et que nous\nn'avons pas d'énormes moyens, mais si vous n'êtes pas trop gourmand...LEBLANC"
-  },
-  {
-    "input": "Ça ne paraît pas poser de problèmes, monsieur Leblanc, mais vous devez\nseulement savoir que nous ne sommes pas une grosse production et que nous\nn'avons pas d'énormes moyens, mais si vous n'êtes pas trop gourmand...LEBLANC",
-    "output": "On réglera les questions d'argent plus tard, quand puis-je vous rencontrer,\nmonsieur... monsieur ?"
-  },
-  {
-    "input": "On réglera les questions d'argent plus tard, quand puis-je vous rencontrer,\nmonsieur... monsieur ?",
-    "output": "Van Brueghel. Alors écoutez, je vous appelle chez vous demain et on prend\nrendez-vous, une fois."
-  },
-  {
-    "input": "Van Brueghel. Alors écoutez, je vous appelle chez vous demain et on prend\nrendez-vous, une fois.",
-    "output": "Entendu, à demain !"
-  },
-  {
-    "input": "Entendu, à demain !",
-    "output": "À demain, monsieur Leblanc.\nEt voilà ! On a les droits ! Et pour pas cher, sûrement !\nIl a marché, il a marché à fond !"
-  },
-  {
-    "input": "À demain, monsieur Leblanc.\nEt voilà ! On a les droits ! Et pour pas cher, sûrement !\nIl a marché, il a marché à fond !",
-    "output": "Et ma femme ?"
-  },
-  {
-    "input": "Et ma femme ?",
-    "output": "Quoi ?"
-  },
-  {
-    "input": "Quoi ?",
-    "output": "Il a oublié ma femme ! Il fait le clown pendant cinq minutes, et il oublie ma\nfemme!"
-  },
-  {
-    "input": "Il a oublié ma femme ! Il fait le clown pendant cinq minutes, et il oublie ma\nfemme!",
-    "output": "Ah, la boulette !"
-  },
-  {
-    "input": "Ah, la boulette !",
-    "output": "Ça dépasse tout ce que j'ai pu imaginer."
-  },
-  {
-    "input": "Ça dépasse tout ce que j'ai pu imaginer.",
-    "output": "Ah ! oui, j'ai fait la boulette."
-  },
-  {
-    "input": "Ah ! oui, j'ai fait la boulette.",
-    "output": "On a repoussé les limites, là."
-  },
-  {
-    "input": "On a repoussé les limites, là.",
-    "output": "Je le rappelle."
-  },
-  {
-    "input": "Je le rappelle.",
-    "output": "Donnez-moi ce téléphone !"
-  },
-  {
-    "input": "Donnez-moi ce téléphone !",
-    "output": "Je le rappelle. Je lui dis: « À propos, monsieur Leblanc, j'ai oublié de vous\ndemander où je pouvais joindre votre collaboratrice, Christine Le Guirrec », c'est\ntout simple !"
-  },
-  {
-    "input": "Je le rappelle. Je lui dis: « À propos, monsieur Leblanc, j'ai oublié de vous\ndemander où je pouvais joindre votre collaboratrice, Christine Le Guirrec », c'est\ntout simple !",
-    "output": "Rendez-moi ce téléphone."
-  },
-  {
-    "input": "Rendez-moi ce téléphone.",
-    "output": "C'est dommage, on allait être fixé."
-  },
-  {
-    "input": "C'est dommage, on allait être fixé.",
-    "output": "(Il le regarde un petit instant, de nouveau torturé.)\nVous ne lui direz rien de plus que: « À propos, j'ai oublié de vous demander où je\npouvais joindre votre collaboratrice, Christine Le Guirrec » ?"
-  },
-  {
-    "input": "(Il le regarde un petit instant, de nouveau torturé.)\nVous ne lui direz rien de plus que: « À propos, j'ai oublié de vous demander où je\npouvais joindre votre collaboratrice, Christine Le Guirrec » ?",
-    "output": "Pas un mot de plus."
-  },
-  {
-    "input": "Pas un mot de plus.",
-    "output": "Non, un type avec un accent impossible. Van Brueghel. Sa maison de production\nc’est Les films du Plat Pays. Non, moi non plus ça ne me dit rien. Attends, on\nm’appelle sur l’autre ligne. Bouge pas. Allô ?"
-  },
-  {
-    "input": "Non, un type avec un accent impossible. Van Brueghel. Sa maison de production\nc’est Les films du Plat Pays. Non, moi non plus ça ne me dit rien. Attends, on\nm’appelle sur l’autre ligne. Bouge pas. Allô ?",
-    "output": "Allô, Monsieur Leblanc, pardon de vous déranger, c'est encore monsieur Van Brueghel à l'appareil..."
-  },
-  {
-    "input": "Allô, Monsieur Leblanc, pardon de vous déranger, c'est encore monsieur Van Brueghel à l'appareil...",
-    "output": "Excusez-moi, je suis sur l'autre ligne avec mon agent, je vous appelle dans une minute, quel est votre numéro ?"
-  },
-  {
-    "input": "Excusez-moi, je suis sur l'autre ligne avec mon agent, je vous appelle dans une minute, quel est votre numéro ?",
-    "output": "Zéro un, quarante-cinq, nonente, cinquante-six, zéro trois. (0145905603)"
-  },
-  {
-    "input": "Zéro un, quarante-cinq, nonente, cinquante-six, zéro trois. (0145905603)",
-    "output": "Oh, nom de Dieu ! (Il coupe la communication.)"
-  },
-  {
-    "input": "Oh, nom de Dieu ! (Il coupe la communication.)",
-    "output": "Allô ?... Allô ?... Il a coupé."
-  },
-  {
-    "input": "Allô ?... Allô ?... Il a coupé.",
-    "output": "Mais non, c'est moi, abruti !"
-  },
-  {
-    "input": "Mais non, c'est moi, abruti !",
-    "output": "Commet ça, abruti?"
-  },
-  {
-    "input": "Commet ça, abruti?",
-    "output": "Vous lui avez donné mon numéro de téléphone !"
-  },
-  {
-    "input": "Vous lui avez donné mon numéro de téléphone !",
-    "output": "Eh bien, oui, il me demande où il peut me rappeler !"
-  },
-  {
-    "input": "Eh bien, oui, il me demande où il peut me rappeler !",
-    "output": "Vous ne vous reposez jamais, vous, hein ?"
-  },
-  {
-    "input": "Bonjour.",
-    "output": "Bonjour."
-  },
-  {
-    "input": "Bonjour.",
-    "output": "Comment ça va ?"
-  },
-  {
-    "input": "Comment ça va ?",
-    "output": "Ça va très bien, merci. Et toi ?"
-  },
-  {
-    "input": "Ça va très bien, merci. Et toi ?",
-    "output": "Ça va, merci. "
-  },
-  {
-    "input": "Ça va, merci. ",
-    "output": "Comment tu t'appelles?"
-  },
-  {
-    "input": "Comment tu t'appelles?",
-    "output": "Je m'appelle Aiko."
-  },
-  {
-    "input": "Je m'appelle Aiko.",
-    "output": "Je m'appelle Aiko, et toi ? "
-  },
-  {
-    "input": "Je m'appelle Aiko, et toi ? ",
-    "output": "Enchanté(e), Aiko."
-  },
-  {
-    "input": "Enchanté(e), Aiko.",
-    "output": "Enchanté(e)."
-  },
-  {
-    "input": "Enchanté(e).",
-    "output": "Et tu viens d'où?"
-  },
-  {
-    "input": "Et tu viens d'où?",
-    "output": "Je viens de France. Je suis français(e)."
-  },
-  {
-    "input": "Je viens de France. Je suis français(e).",
-    "output": "Ah, tu es français(e). Je viens des États-Unis. Je suis américain(e)."
-  },
-  {
-    "input": "Ah, tu es français(e). Je viens des États-Unis. Je suis américain(e).",
-    "output": "Ah, tu es américain(e). Tu viens d'où exactement ? "
-  },
-  {
-    "input": "Ah, tu es américain(e). Tu viens d'où exactement ? ",
-    "output": "Je viens de Boston. Je suis étudiant(e)."
-  },
-  {
-    "input": "Je viens de Boston. Je suis étudiant(e).",
-    "output": "Ah, tu es étudiant(e). Moi, je suis professeur, professeur d'anglais.\t"
-  },
-  {
-    "input": "Ah, tu es étudiant(e). Moi, je suis professeur, professeur d'anglais.\t",
-    "output": "Ah, tu es professeur d'anglais ? Tu parles anglais ?\t"
-  },
-  {
-    "input": "Ah, tu es professeur d'anglais ? Tu parles anglais ?\t",
-    "output": "Oui. Et tu parles français ?"
-  },
-  {
-    "input": "Oui. Et tu parles français ?",
-    "output": "Oui. Un petit peu."
-  },
-  {
-    "input": "Oui. Un petit peu.",
-    "output": "OK. Je vais chez moi maintenant."
-  },
-  {
-    "input": "OK. Je vais chez moi maintenant.",
-    "output": "OK. Moi aussi. Au revoir. Bonne journée."
-  },
-  {
-    "input": "OK. Moi aussi. Au revoir. Bonne journée.",
-    "output": "Au revoir. Bonne journée."
-  },
-  {
-    "input": "Donc je suis avec Mina. Mina, tu es étudiante et en même temps, tu travailles comme équipière polyvalente à Burger King. Est-ce que tu peux nous dire un peu comment tu le vis, s’il te plaît?",
-    "output": "Bah, déjà, je le vis très bien, parce que c’est… Il y a une part de responsabilité. Je me sens autonome pour travailler et payer mes études en même temps. Je dépends pas de ma famille."
-  },
-  {
-    "input": "Bah, déjà, je le vis très bien, parce que c’est… Il y a une part de responsabilité. Je me sens autonome pour travailler et payer mes études en même temps. Je dépends pas de ma famille.",
-    "output": "D’accord."
-  },
-  {
-    "input": "D’accord.",
-    "output": "Et… Voilà."
-  },
-  {
-    "input": "Et… Voilà.",
-    "output": "Et du coup, tu fais des études dans quoi?"
-  },
-  {
-    "input": "Et du coup, tu fais des études dans quoi?",
-    "output": "Là, je fais une licence d’anglais mais mon objectif, c’est de devenir hôtesse de l’air."
-  },
-  {
-    "input": "Là, je fais une licence d’anglais mais mon objectif, c’est de devenir hôtesse de l’air.",
-    "output": "D’accord, donc tu fais des études, tu fais une licence d’anglais et en même temps, tu aimerais faire une licence hôtesse de l’air."
-  },
-  {
-    "input": "D’accord, donc tu fais des études, tu fais une licence d’anglais et en même temps, tu aimerais faire une licence hôtesse de l’air.",
-    "output": "Exactement!"
-  },
-  {
-    "input": "Exactement!",
-    "output": "Qu’est-ce qui te passionne le plus ? Enfin, qu’est-ce qui te pousse à vouloir faire hôtesse de l’air?"
-  },
-  {
-    "input": "Qu’est-ce qui te passionne le plus ? Enfin, qu’est-ce qui te pousse à vouloir faire hôtesse de l’air?",
-    "output": "J’ai toujours trouvé ce monde un peu classe et… Comment dire ? Pour moi, c’est…  "
-  },
-  {
-    "input": "J’ai toujours trouvé ce monde un peu classe et… Comment dire ? Pour moi, c’est…  ",
-    "output": "Passionnant ?"
-  },
-  {
-    "input": "Passionnant ?",
-    "output": "… attirant!"
-  },
-  {
-    "input": "… attirant!",
-    "output": "D’accord! Tu aimes bien voyager?"
-  },
-  {
-    "input": "D’accord! Tu aimes bien voyager?",
-    "output": "Exactement, j’aime bien voyager, j’aime bien servir les gens, j’aime bien rencontrer des nouveaux…"
-  },
-  {
-    "input": "Exactement, j’aime bien voyager, j’aime bien servir les gens, j’aime bien rencontrer des nouveaux…",
-    "output": "Des nouvelles personnes."
-  },
-  {
-    "input": "Des nouvelles personnes.",
-    "output": "Des nouvelles personnes. J’aime bien découvrir en fait !"
-  },
-  {
-    "input": "Des nouvelles personnes. J’aime bien découvrir en fait !",
-    "output": "OK, tu aimes t’élargir."
-  },
-  {
-    "input": "OK, tu aimes t’élargir.",
-    "output": "Oui."
-  },
-  {
-    "input": "Oui.",
-    "output": "Tu es passionnée d’histoire, Mina?"
-  },
-  {
-    "input": "Tu es passionnée d’histoire, Mina?",
-    "output": "Non!"
-  },
-  {
-    "input": "Non!",
-    "output": "Tu aimes pas beaucoup l’histoire, mais tu aimes voyager."
-  },
-  {
-    "input": "Tu aimes pas beaucoup l’histoire, mais tu aimes voyager.",
-    "output": "J’aime voyager mais j’aime pas l’histoire."
-  },
-  {
-    "input": "J’aime voyager mais j’aime pas l’histoire.",
-    "output": "D’accord, OK. Et du coup, tu fais une licence d’anglais aussi, tu nous as dis?"
-  },
-  {
-    "input": "D’accord, OK. Et du coup, tu fais une licence d’anglais aussi, tu nous as dis?",
-    "output": "Oui, c’est ça."
-  },
-  {
-    "input": "Oui, c’est ça.",
-    "output": "Tu aimes bien parler anglais ? Tu as déjà voyagé dans des pays anglophones?"
-  },
-  {
-    "input": "Tu aimes bien parler anglais ? Tu as déjà voyagé dans des pays anglophones?",
-    "output": "Oui, j’ai été une fois à Londres, je suis restée environ trois mois. J’ai bien aimé. Et après ça, j’ai été en Italie vite fait mais on parlait anglais entre nous, juste pour se… pour s’améliorer."
-  },
-  {
-    "input": "Oui, j’ai été une fois à Londres, je suis restée environ trois mois. J’ai bien aimé. Et après ça, j’ai été en Italie vite fait mais on parlait anglais entre nous, juste pour se… pour s’améliorer.",
-    "output": "D’accord! Bon bah écoute, je te remercie beaucoup et je te souhaite une bonne continuation."
-  },
-  {
-    "input": "D’accord! Bon bah écoute, je te remercie beaucoup et je te souhaite une bonne continuation.",
-    "output": "De rien, merci!"
-  },
-  {
     "input": "Vous êtes d’où ?",
     "output": "Je suis de Bordeaux."
   },
@@ -2506,6 +3990,30 @@
   {
     "input": "Vous n’avez pas l’intention d’y retourner pour y habiter ?",
     "output": "Non, je n’y ai  jamais  vécu, mais comme toute ma famille est là-bas, j’aime bien y passer quelques jours.\n"
+  },
+  {
+    "input": "Tu as fait quoi hier ? ",
+    "output": "Hier ? Ben, je suis restée chez moi. "
+  },
+  {
+    "input": "Hier ? Ben, je suis restée chez moi. ",
+    "output": "Tu n’es pas allée à la soirée de Bastien ? "
+  },
+  {
+    "input": "Tu n’es pas allée à la soirée de Bastien ? ",
+    "output": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? "
+  },
+  {
+    "input": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? ",
+    "output": "Non, je voulais bosser pour le concours."
+  },
+  {
+    "input": "Non, je voulais bosser pour le concours.",
+    "output": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps."
+  },
+  {
+    "input": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps.",
+    "output": "Je sais mais si je vais chez Bastien, après je mets une semaine à m’en remettre… Et je ne peux pas me permettre d’échouer encore une fois."
   },
   {
     "input": "Vous êtes ici pour combien de temps ?",
@@ -2556,38 +4064,6 @@
     "output": "Exactement !\n"
   },
   {
-    "input": "Qu’est-ce que vous avez fait pendant les vacances ? ",
-    "output": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? "
-  },
-  {
-    "input": "Rien de spécial. Je suis resté chez moi, j’ai beaucoup lu et j’ai fait un peu de rangement. Et vous ? ",
-    "output": "Moi, je suis allée en Tunisie avec mon mari."
-  },
-  {
-    "input": "Moi, je suis allée en Tunisie avec mon mari.",
-    "output": "Vous étiez où en Tunisie ? "
-  },
-  {
-    "input": "Vous étiez où en Tunisie ? ",
-    "output": "On était à Djerba pendant une semaine, c’était magnifique."
-  },
-  {
-    "input": "On était à Djerba pendant une semaine, c’était magnifique.",
-    "output": "Vous êtes restés tout le temps à Djerba ? "
-  },
-  {
-    "input": "Vous êtes restés tout le temps à Djerba ? ",
-    "output": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. "
-  },
-  {
-    "input": "Non, on a bougé un peu. On est allés dans le désert pour regarder le coucher de soleil. C’était très romantique. Et puis, comme mon mari est passionné d’histoire, on est allés visiter des vestiges romains. ",
-    "output": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? "
-  },
-  {
-    "input": "J’ai très envie d’y aller un jour. Ce n’est pas trop difficile pour la communication ? ",
-    "output": "Non non, les gens sont très accueillants et dans les lieux touristiques, tout le monde parle français.\n"
-  },
-  {
     "input": "Tu as bougé pendant les vacances ?",
     "output": "Oui, un peu. Je suis allée faire de la randonnée dans le Vercors."
   },
@@ -2610,29 +4086,5 @@
   {
     "input": "Tu as bien mangé ? ",
     "output": "Oui, j’ai surtout trop bu ! Mais bon, c’était bien sympa. Et puis, je suis allé faire un peu de camping en Dordogne comme chaque année. Bref, rien d’extraordinaire, mais les enfants étaient contents. Ils ont vu leurs cousins et ils sont allés à la pêche."
-  },
-  {
-    "input": "Tu as fait quoi hier ? ",
-    "output": "Hier ? Ben, je suis restée chez moi. "
-  },
-  {
-    "input": "Hier ? Ben, je suis restée chez moi. ",
-    "output": "Tu n’es pas allée à la soirée de Bastien ? "
-  },
-  {
-    "input": "Tu n’es pas allée à la soirée de Bastien ? ",
-    "output": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? "
-  },
-  {
-    "input": "Non, je me sentais fatiguée, j’ai préféré me coucher avec un bon bouquin. Et toi ? Tu y es allé ? ",
-    "output": "Non, je voulais bosser pour le concours."
-  },
-  {
-    "input": "Non, je voulais bosser pour le concours.",
-    "output": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps."
-  },
-  {
-    "input": "C’est dans deux mois, tu pourrais te changer les idées de temps en temps.",
-    "output": "Je sais mais si je vais chez Bastien, après je mets une semaine à m’en remettre… Et je ne peux pas me permettre d’échouer encore une fois."
   }
 ]
