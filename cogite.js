@@ -140,12 +140,12 @@ module.exports = {
 	   	if(mutes[0]==1){
 			let data = Array(...mesDonnees);
 
-			while( nonFinFichier && nbAmelio<30 ){
+			while( nonFinFichier && nbAmelio<100 ){
 				let nbAlea = getRandomInt(reste);
 				let msgAlea = data[nbAlea].input;
 
 				let hbis = correspondance(msg, msgAlea);
-				if (hbis>=0.4){
+				if (hbis>=0.5){
 					if(hbis>h){
 						h = hbis;
 						reponse = mesDonnees[nbAlea].output;
