@@ -29,9 +29,9 @@ module.exports = {
 			if(word == '?'){ res++; }
 		});
 
-		if(res>10){
-			message.reply("** DANS 10 MINUUUUUUTES !!!**");
-		}
+		// if(res>10){
+			// message.reply("** DANS 10 MINUUUUUUTES !!!**");
+		// }
 	   
 		const taggedUser = message.mentions.users.first();
 
