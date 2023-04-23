@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Krysthalia/Aiko-proto#readme",
   "dependencies": {
-    "cleverbot.js": "^1.0.0",
+    "cleverbot.js": "^1.0.1",
     "discord.js": "^11.3.2",
     "jsonfile": "^4.0.0",
     "text-2-json": "^1.0.4"
